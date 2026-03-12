@@ -6,6 +6,7 @@
   // ==================== CONFIG ====================
   const CONFIG = {
     dataPath: 'data/',
+    teamsAPI: 'https://api.npoint.io/bee59cd9fbe9a9291022',
     defaultSalaryCap: 50000,
     defaultGolfersPerTeam: 4,
     missedCutPenalty: 10,
@@ -154,15 +155,42 @@
     return standings;
   }
 
+  // ==================== CLOUD TEAMS API ====================
+  async function fetchCloudTeams() {
+    try {
+      const resp = await fetch(CONFIG.teamsAPI + CONFIG.cacheBuster());
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const data = await resp.json();
+      return data.teams || [];
+    } catch (e) {
+      console.warn('Failed to load cloud teams:', e);
+      return [];
+    }
+  }
+
+  async function saveCloudTeams(teams) {
+    const resp = await fetch(CONFIG.teamsAPI, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ teams })
+    });
+    if (!resp.ok) throw new Error(`Save failed: HTTP ${resp.status}`);
+    return await resp.json();
+  }
+
   // ==================== DATA LOADING ====================
   async function loadAllData() {
-    const [lb, teams] = await Promise.all([
+    const [lb, localTeams, cloudTeams] = await Promise.all([
       fetchJSON('leaderboard.json'),
-      fetchJSON('teams.json')
+      fetchJSON('teams.json'),
+      fetchCloudTeams()
     ]);
 
     leaderboardData = lb;
-    teamsData = teams;
+
+    // Use settings from local teams.json, but teams from cloud
+    teamsData = localTeams || { settings: {}, teams: [] };
+    teamsData.teams = cloudTeams;
 
     // Load saved state from localStorage
     const savedPicks = localStorage.getItem('fg_selected_golfers');
@@ -534,39 +562,79 @@
   }
 
   function initSubmitPicks() {
-    // Submit button
-    document.getElementById('submit-picks-btn')?.addEventListener('click', () => {
+    // Submit button - saves team to cloud
+    document.getElementById('submit-picks-btn')?.addEventListener('click', async () => {
       const name = document.getElementById('player-name')?.value?.trim();
       if (!name) {
         showToast('Please enter your name first');
         return;
       }
 
-      const players = leaderboardData?.players || [];
-      const lines = selectedGolfers.map(g => {
-        const p = players.find(pl => pl.name.toLowerCase() === g.toLowerCase());
-        return `  ${g} (${formatMoney(p?.salary || 0)})`;
-      });
+      const submitBtn = document.getElementById('submit-picks-btn');
+      const originalText = submitBtn.textContent;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting...';
 
-      const totalSalary = selectedGolfers.reduce((sum, g) => {
-        const p = players.find(pl => pl.name.toLowerCase() === g.toLowerCase());
-        return sum + (p?.salary || 0);
-      }, 0);
+      try {
+        // Fetch current cloud teams
+        const currentTeams = await fetchCloudTeams();
 
-      const output = `Team: ${name}\nGolfers:\n${lines.join('\n')}\nTotal Salary: ${formatMoney(totalSalary)}/${formatMoney(getSettings().salary_cap)}`;
+        // Build team object
+        const newTeam = {
+          name: name,
+          golfers: [...selectedGolfers],
+          submitted: new Date().toISOString()
+        };
 
-      document.getElementById('picks-output').textContent = output;
-      document.getElementById('submit-modal').classList.add('show');
-    });
+        // Check for existing team with same name (case-insensitive) and update it
+        const existingIdx = currentTeams.findIndex(t => t.name.toLowerCase() === name.toLowerCase());
+        if (existingIdx >= 0) {
+          currentTeams[existingIdx] = newTeam;
+        } else {
+          currentTeams.push(newTeam);
+        }
 
-    // Copy button
-    document.getElementById('copy-picks-btn')?.addEventListener('click', () => {
-      const text = document.getElementById('picks-output').textContent;
-      navigator.clipboard.writeText(text).then(() => {
-        showToast('Picks copied to clipboard!');
-      }).catch(() => {
-        showToast('Failed to copy - try selecting text manually');
-      });
+        // Save to cloud
+        await saveCloudTeams(currentTeams);
+
+        // Update local state
+        teamsData.teams = currentTeams;
+
+        // Show success in modal
+        const players = leaderboardData?.players || [];
+        const lines = selectedGolfers.map(g => {
+          const p = players.find(pl => pl.name.toLowerCase() === g.toLowerCase());
+          return `  ${g} (${formatMoney(p?.salary || 0)})`;
+        });
+        const totalSalary = selectedGolfers.reduce((sum, g) => {
+          const p = players.find(pl => pl.name.toLowerCase() === g.toLowerCase());
+          return sum + (p?.salary || 0);
+        }, 0);
+
+        const output = `Team: ${name}\nGolfers:\n${lines.join('\n')}\nTotal Salary: ${formatMoney(totalSalary)}/${formatMoney(getSettings().salary_cap)}`;
+
+        document.getElementById('picks-output').textContent = output;
+        document.getElementById('submit-modal-title').textContent = 'Team Submitted!';
+        document.getElementById('submit-modal-desc').textContent = existingIdx >= 0
+          ? 'Your team has been updated. Everyone can see your picks on the Standings page.'
+          : 'Your team is registered! Everyone can see your picks on the Standings page.';
+        document.getElementById('submit-modal').classList.add('show');
+
+        // Re-render teams tab
+        renderAllTeams();
+
+        showToast(existingIdx >= 0 ? 'Team updated!' : 'Team submitted!');
+      } catch (e) {
+        console.error('Submit failed:', e);
+        document.getElementById('picks-output').textContent = 'Error: ' + e.message;
+        document.getElementById('submit-modal-title').textContent = 'Submission Failed';
+        document.getElementById('submit-modal-desc').textContent = 'There was a problem saving your team. Please try again.';
+        document.getElementById('submit-modal').classList.add('show');
+        showToast('Failed to submit picks - please try again');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+      }
     });
 
     // Close modal
