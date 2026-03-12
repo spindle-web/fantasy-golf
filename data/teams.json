@@ -1,0 +1,9 @@
+{
+    "settings": {
+          "golfers_per_team": 4,
+          "salary_cap": 50000,
+          "missed_cut_penalty": 10,
+          "tournament_id": "011"
+    },
+    "teams": []
+}
