@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picks - Fantasy Golf League</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9971;</text></svg>">
+</head>
+<body data-page="picks">
+
+  <header class="top-header">
+    <div class="header-content">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12a4 4 0 0 1 8 0"/><line x1="12" y1="2" x2="12" y2="6"/></svg>
+        Fantasy Golf
+      </a>
+      <nav class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="fantasy.html">Standings</a>
+        <a href="picks.html" class="active">Picks</a>
+        <a href="leaderboard.html">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="tabs" id="picks-tabs">
+      <button class="tab active" data-tab="builder">Team Builder</button>
+      <button class="tab" data-tab="teams">All Teams</button>
+    </div>
+
+    <!-- Team Builder Tab -->
+    <div id="tab-builder">
+      <div class="builder-layout">
+        <div class="builder-main">
+          <div class="card">
+            <div class="card-header">
+              <h2>Available Golfers</h2>
+              <span class="section-subtitle" id="golfer-count">-- golfers</span>
+            </div>
+            <div class="card-body" style="padding: 12px 16px;">
+              <div class="search-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <input type="text" class="search-bar" id="golfer-search" placeholder="Search golfers...">
+              </div>
+              <div class="filter-pills" id="tier-filters">
+                <button class="filter-pill active" data-tier="all">All</button>
+                <button class="filter-pill" data-tier="1">Tier 1</button>
+                <button class="filter-pill" data-tier="2">Tier 2</button>
+                <button class="filter-pill" data-tier="3">Tier 3</button>
+                <button class="filter-pill" data-tier="4">Tier 4</button>
+                <button class="filter-pill" data-tier="5">Tier 5</button>
+              </div>
+            </div>
+            <div id="golfer-list">
+              <div class="loading"><div class="spinner"></div>Loading golfers...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="builder-panel">
+          <div class="salary-tracker" id="salary-tracker">
+            <div class="salary-tracker-label">Remaining Cap</div>
+            <div class="salary-tracker-amount" id="remaining-cap">$50,000</div>
+            <div class="salary-bar">
+              <div class="salary-bar-fill ok" id="salary-bar-fill" style="width: 0%"></div>
+            </div>
+            <div class="picks-count" id="picks-dots"></div>
+            <div class="selected-golfers" id="selected-golfers"></div>
+            <div class="builder-actions">
+              <button class="btn btn-accent btn-block" id="submit-picks-btn" disabled>Submit Picks</button>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top: 12px;">
+            <div class="card-body">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" class="form-input" id="player-name" placeholder="Enter your name">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- All Teams Tab -->
+    <div id="tab-teams" style="display:none;">
+      <div id="all-teams-display">
+        <div class="loading"><div class="spinner"></div>Loading teams...</div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Submit Modal -->
+  <div class="modal-overlay" id="submit-modal">
+    <div class="modal">
+      <h3>Your Picks</h3>
+      <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 16px;">
+        Copy the text below and send it to the commissioner to register your team.
+      </p>
+      <div class="copy-area" id="picks-output"></div>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" id="close-modal-btn">Close</button>
+        <button class="btn btn-primary" id="copy-picks-btn">Copy to Clipboard</button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="mobile-nav">
+    <a href="index.html" class="nav-item" data-page="home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="fantasy.html" class="nav-item" data-page="fantasy">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span>Standings</span>
+    </a>
+    <a href="picks.html" class="nav-item active" data-page="picks">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      <span>Picks</span>
+    </a>
+    <a href="leaderboard.html" class="nav-item" data-page="leaderboard">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+      <span>Board</span>
+    </a>
+  </nav>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
