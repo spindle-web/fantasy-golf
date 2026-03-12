@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fantasy Standings - Fantasy Golf League</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9971;</text></svg>">
+</head>
+<body data-page="fantasy">
+
+  <header class="top-header">
+    <div class="header-content">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12a4 4 0 0 1 8 0"/><line x1="12" y1="2" x2="12" y2="6"/></svg>
+        Fantasy Golf
+      </a>
+      <nav class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="fantasy.html" class="active">Standings</a>
+        <a href="picks.html">Picks</a>
+        <a href="leaderboard.html">Leaderboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="section-header">
+      <div>
+        <h1 class="section-title">Fantasy Standings</h1>
+        <p class="section-subtitle" id="fantasy-tournament-name">Loading tournament...</p>
+      </div>
+      <span class="badge badge-live" id="fantasy-status-badge">Live</span>
+    </div>
+
+    <div class="rules-box" style="margin-bottom: 16px;">
+      <strong>Scoring:</strong> Total strokes relative to par. Missed cut = +10 per weekend round.
+      Lower is better.
+    </div>
+
+    <div id="fantasy-standings">
+      <div class="loading"><div class="spinner"></div>Calculating standings...</div>
+    </div>
+  </main>
+
+  <nav class="mobile-nav">
+    <a href="index.html" class="nav-item" data-page="home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="fantasy.html" class="nav-item active" data-page="fantasy">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span>Standings</span>
+    </a>
+    <a href="picks.html" class="nav-item" data-page="picks">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      <span>Picks</span>
+    </a>
+    <a href="leaderboard.html" class="nav-item" data-page="leaderboard">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+      <span>Board</span>
+    </a>
+  </nav>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
