@@ -1,0 +1,43 @@
+name: Update Leaderboard
+
+on:
+  schedule:
+    - cron: '*/15 11-23 * * 4,5'
+    - cron: '*/15 0-0 * * 5,6'
+    - cron: '*/15 11-23 * * 6,0'
+    - cron: '*/15 0-0 * * 0,1'
+  workflow_dispatch:
+    inputs:
+      tournament_id:
+        description: 'PGA Tour Tournament ID'
+        required: false
+        default: '011'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run update script
+        env:
+          TOURNAMENT_ID: ${{ github.event.inputs.tournament_id || '011' }}
+        run: python scripts/update_leaderboard.py
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+      - name: Commit and push changes
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "Fantasy Golf Bot"
+          git config user.email "bot@fantasy-golf.local"
+          git add data/
+          git commit -m "Update leaderboard $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
