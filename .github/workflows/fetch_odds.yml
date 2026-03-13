@@ -1,0 +1,60 @@
+name: Fetch Pre-Tournament Odds
+
+on:
+  # Run Tuesday and Wednesday before tournament week
+  # Odds are typically available a few days before the event
+  schedule:
+    - cron: '0 14 * * 2'    # Tuesday 10am ET
+    - cron: '0 14 * * 3'    # Wednesday 10am ET
+
+  # Manual trigger for on-demand odds fetching
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force re-fetch even if odds already locked (true/false)'
+        required: false
+        default: 'false'
+      event_key:
+        description: 'Override golf event key (e.g., golf_pga_players_championship_winner)'
+        required: false
+        default: ''
+
+jobs:
+  fetch-odds:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch odds from The Odds API
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          GOLF_EVENT_KEY: ${{ github.event.inputs.event_key || '' }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="--force"
+          fi
+          python scripts/fetch_odds.py $ARGS
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet data/odds.json 2>/dev/null && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push odds data
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "Fantasy Golf Bot"
+          git config user.email "bot@fantasy-golf.local"
+          git add data/odds.json
+          git commit -m "Fetch pre-tournament odds $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
