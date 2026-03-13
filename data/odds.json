@@ -1,0 +1,931 @@
+{
+  "event_key": "golf_pga_championship_winner",
+  "event_name": "PGA Championship Winner",
+  "fetched_at": "2026-03-13T23:56:04.150058+00:00",
+  "locked": true,
+  "salary_range": {
+    "min": 5000,
+    "max": 18500,
+    "step": 500
+  },
+  "total_players": 131,
+  "players": {
+    "Scottie Scheffler": {
+      "fair_probability": 0.028015,
+      "implied_probability_pct": 2.801,
+      "avg_american_odds": 371,
+      "num_books": 9,
+      "salary": 18500
+    },
+    "David Puig": {
+      "fair_probability": 0.026819,
+      "implied_probability_pct": 2.682,
+      "avg_american_odds": 8000,
+      "num_books": 5,
+      "salary": 18500
+    },
+    "Rasmus Neergaard-Petersen": {
+      "fair_probability": 0.026664,
+      "implied_probability_pct": 2.666,
+      "avg_american_odds": 11000,
+      "num_books": 5,
+      "salary": 18500
+    },
+    "Thorbjorn Olesen": {
+      "fair_probability": 0.026448,
+      "implied_probability_pct": 2.645,
+      "avg_american_odds": 15000,
+      "num_books": 5,
+      "salary": 18500
+    },
+    "Dean Burmester": {
+      "fair_probability": 0.022386,
+      "implied_probability_pct": 2.239,
+      "avg_american_odds": 10333,
+      "num_books": 6,
+      "salary": 18000
+    },
+    "Sergio Garcia": {
+      "fair_probability": 0.022361,
+      "implied_probability_pct": 2.236,
+      "avg_american_odds": 10667,
+      "num_books": 6,
+      "salary": 18000
+    },
+    "Gary Woodland": {
+      "fair_probability": 0.022279,
+      "implied_probability_pct": 2.228,
+      "avg_american_odds": 12500,
+      "num_books": 6,
+      "salary": 18000
+    },
+    "Stephan Jaeger": {
+      "fair_probability": 0.022243,
+      "implied_probability_pct": 2.224,
+      "avg_american_odds": 13333,
+      "num_books": 6,
+      "salary": 18000
+    },
+    "Tiger Woods": {
+      "fair_probability": 0.022041,
+      "implied_probability_pct": 2.204,
+      "avg_american_odds": 22500,
+      "num_books": 6,
+      "salary": 18000
+    },
+    "Byeong Hun An": {
+      "fair_probability": 0.019331,
+      "implied_probability_pct": 1.933,
+      "avg_american_odds": 11000,
+      "num_books": 7,
+      "salary": 17500
+    },
+    "Thomas Detry": {
+      "fair_probability": 0.019258,
+      "implied_probability_pct": 1.926,
+      "avg_american_odds": 12143,
+      "num_books": 7,
+      "salary": 17500
+    },
+    "Ryan Fox": {
+      "fair_probability": 0.019246,
+      "implied_probability_pct": 1.925,
+      "avg_american_odds": 12143,
+      "num_books": 7,
+      "salary": 17500
+    },
+    "Collin Morikawa": {
+      "fair_probability": 0.01906,
+      "implied_probability_pct": 1.906,
+      "avg_american_odds": 1044,
+      "num_books": 9,
+      "salary": 17500
+    },
+    "Justin Rose": {
+      "fair_probability": 0.017417,
+      "implied_probability_pct": 1.742,
+      "avg_american_odds": 2389,
+      "num_books": 9,
+      "salary": 17500
+    },
+    "Brooks Koepka": {
+      "fair_probability": 0.0172,
+      "implied_probability_pct": 1.72,
+      "avg_american_odds": 2633,
+      "num_books": 9,
+      "salary": 17500
+    },
+    "Hideki Matsuyama": {
+      "fair_probability": 0.017155,
+      "implied_probability_pct": 1.715,
+      "avg_american_odds": 2611,
+      "num_books": 9,
+      "salary": 17500
+    },
+    "Patrick Cantlay": {
+      "fair_probability": 0.017134,
+      "implied_probability_pct": 1.713,
+      "avg_american_odds": 2789,
+      "num_books": 9,
+      "salary": 17500
+    },
+    "Davis Thompson": {
+      "fair_probability": 0.017053,
+      "implied_probability_pct": 1.705,
+      "avg_american_odds": 10875,
+      "num_books": 8,
+      "salary": 17500
+    },
+    "Nicolai Hojgaard": {
+      "fair_probability": 0.016997,
+      "implied_probability_pct": 1.7,
+      "avg_american_odds": 12188,
+      "num_books": 8,
+      "salary": 17000
+    },
+    "Mackenzie Hughes": {
+      "fair_probability": 0.016818,
+      "implied_probability_pct": 1.682,
+      "avg_american_odds": 16875,
+      "num_books": 8,
+      "salary": 17000
+    },
+    "Sepp Straka": {
+      "fair_probability": 0.016522,
+      "implied_probability_pct": 1.652,
+      "avg_american_odds": 3856,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Matthew Fitzpatrick": {
+      "fair_probability": 0.016518,
+      "implied_probability_pct": 1.652,
+      "avg_american_odds": 3944,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Russell Henley": {
+      "fair_probability": 0.016436,
+      "implied_probability_pct": 1.644,
+      "avg_american_odds": 4078,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Si Woo Kim": {
+      "fair_probability": 0.016282,
+      "implied_probability_pct": 1.628,
+      "avg_american_odds": 4567,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Robert Macintyre": {
+      "fair_probability": 0.016172,
+      "implied_probability_pct": 1.617,
+      "avg_american_odds": 4800,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Min Woo Lee": {
+      "fair_probability": 0.015937,
+      "implied_probability_pct": 1.594,
+      "avg_american_odds": 5678,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Rory McIlroy": {
+      "fair_probability": 0.015925,
+      "implied_probability_pct": 1.592,
+      "avg_american_odds": 738,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Jason Day": {
+      "fair_probability": 0.015907,
+      "implied_probability_pct": 1.591,
+      "avg_american_odds": 5844,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Harris English": {
+      "fair_probability": 0.015897,
+      "implied_probability_pct": 1.59,
+      "avg_american_odds": 6067,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Maverick Mcnealy": {
+      "fair_probability": 0.015874,
+      "implied_probability_pct": 1.587,
+      "avg_american_odds": 5956,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "J. J. Spaun": {
+      "fair_probability": 0.015846,
+      "implied_probability_pct": 1.585,
+      "avg_american_odds": 6111,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Sungjae Im": {
+      "fair_probability": 0.015818,
+      "implied_probability_pct": 1.582,
+      "avg_american_odds": 6622,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Tony Finau": {
+      "fair_probability": 0.015786,
+      "implied_probability_pct": 1.579,
+      "avg_american_odds": 7189,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Wyndham Clark": {
+      "fair_probability": 0.015729,
+      "implied_probability_pct": 1.573,
+      "avg_american_odds": 7000,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Max Homa": {
+      "fair_probability": 0.015703,
+      "implied_probability_pct": 1.57,
+      "avg_american_odds": 7222,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Will Zalatoris": {
+      "fair_probability": 0.015522,
+      "implied_probability_pct": 1.552,
+      "avg_american_odds": 8722,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Rickie Fowler": {
+      "fair_probability": 0.015475,
+      "implied_probability_pct": 1.548,
+      "avg_american_odds": 9333,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Adam Scott": {
+      "fair_probability": 0.015465,
+      "implied_probability_pct": 1.547,
+      "avg_american_odds": 8889,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Sahith Theegala": {
+      "fair_probability": 0.015453,
+      "implied_probability_pct": 1.545,
+      "avg_american_odds": 8944,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Aaron Rai": {
+      "fair_probability": 0.015424,
+      "implied_probability_pct": 1.542,
+      "avg_american_odds": 9222,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Joohyung Kim": {
+      "fair_probability": 0.015383,
+      "implied_probability_pct": 1.538,
+      "avg_american_odds": 10556,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Denny McCarthy": {
+      "fair_probability": 0.015344,
+      "implied_probability_pct": 1.534,
+      "avg_american_odds": 10556,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Brian Harman": {
+      "fair_probability": 0.015323,
+      "implied_probability_pct": 1.532,
+      "avg_american_odds": 11111,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Taylor Pendrith": {
+      "fair_probability": 0.01528,
+      "implied_probability_pct": 1.528,
+      "avg_american_odds": 10889,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Keith Mitchell": {
+      "fair_probability": 0.015227,
+      "implied_probability_pct": 1.523,
+      "avg_american_odds": 13056,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Rasmus Hojgaard": {
+      "fair_probability": 0.015196,
+      "implied_probability_pct": 1.52,
+      "avg_american_odds": 12500,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "J.T. Poston": {
+      "fair_probability": 0.015164,
+      "implied_probability_pct": 1.516,
+      "avg_american_odds": 13333,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Andrew Novak": {
+      "fair_probability": 0.015131,
+      "implied_probability_pct": 1.513,
+      "avg_american_odds": 13667,
+      "num_books": 9,
+      "salary": 17000
+    },
+    "Bryson DeChambeau": {
+      "fair_probability": 0.011492,
+      "implied_probability_pct": 1.149,
+      "avg_american_odds": 1094,
+      "num_books": 9,
+      "salary": 16500
+    },
+    "Jon Rahm": {
+      "fair_probability": 0.008922,
+      "implied_probability_pct": 0.892,
+      "avg_american_odds": 1378,
+      "num_books": 9,
+      "salary": 15500
+    },
+    "Xander Schauffele": {
+      "fair_probability": 0.007254,
+      "implied_probability_pct": 0.725,
+      "avg_american_odds": 1711,
+      "num_books": 9,
+      "salary": 15000
+    },
+    "Cameron Young": {
+      "fair_probability": 0.006538,
+      "implied_probability_pct": 0.654,
+      "avg_american_odds": 3700,
+      "num_books": 9,
+      "salary": 15000
+    },
+    "Ludvig Aberg": {
+      "fair_probability": 0.005882,
+      "implied_probability_pct": 0.588,
+      "avg_american_odds": 2139,
+      "num_books": 9,
+      "salary": 14500
+    },
+    "Corey Conners": {
+      "fair_probability": 0.005598,
+      "implied_probability_pct": 0.56,
+      "avg_american_odds": 5311,
+      "num_books": 9,
+      "salary": 14500
+    },
+    "Tommy Fleetwood": {
+      "fair_probability": 0.005352,
+      "implied_probability_pct": 0.535,
+      "avg_american_odds": 2400,
+      "num_books": 9,
+      "salary": 14500
+    },
+    "Sam Burns": {
+      "fair_probability": 0.005293,
+      "implied_probability_pct": 0.529,
+      "avg_american_odds": 6378,
+      "num_books": 9,
+      "salary": 14500
+    },
+    "Daniel Berger": {
+      "fair_probability": 0.005168,
+      "implied_probability_pct": 0.517,
+      "avg_american_odds": 6822,
+      "num_books": 9,
+      "salary": 14000
+    },
+    "Justin Thomas": {
+      "fair_probability": 0.005,
+      "implied_probability_pct": 0.5,
+      "avg_american_odds": 2856,
+      "num_books": 9,
+      "salary": 14000
+    },
+    "Cameron Smith": {
+      "fair_probability": 0.004949,
+      "implied_probability_pct": 0.495,
+      "avg_american_odds": 8156,
+      "num_books": 9,
+      "salary": 14000
+    },
+    "Keegan Bradley": {
+      "fair_probability": 0.004833,
+      "implied_probability_pct": 0.483,
+      "avg_american_odds": 8700,
+      "num_books": 9,
+      "salary": 14000
+    },
+    "Dustin Johnson": {
+      "fair_probability": 0.00474,
+      "implied_probability_pct": 0.474,
+      "avg_american_odds": 10700,
+      "num_books": 9,
+      "salary": 14000
+    },
+    "Viktor Hovland": {
+      "fair_probability": 0.004046,
+      "implied_probability_pct": 0.405,
+      "avg_american_odds": 3167,
+      "num_books": 9,
+      "salary": 13500
+    },
+    "Christopher Gotterup": {
+      "fair_probability": 0.003359,
+      "implied_probability_pct": 0.336,
+      "avg_american_odds": 3900,
+      "num_books": 8,
+      "salary": 13000
+    },
+    "Joaquin Niemann": {
+      "fair_probability": 0.00327,
+      "implied_probability_pct": 0.327,
+      "avg_american_odds": 4133,
+      "num_books": 9,
+      "salary": 13000
+    },
+    "Tyrrell Hatton": {
+      "fair_probability": 0.003209,
+      "implied_probability_pct": 0.321,
+      "avg_american_odds": 4200,
+      "num_books": 9,
+      "salary": 13000
+    },
+    "Shane Lowry": {
+      "fair_probability": 0.002836,
+      "implied_probability_pct": 0.284,
+      "avg_american_odds": 5156,
+      "num_books": 9,
+      "salary": 12500
+    },
+    "Patrick Reed": {
+      "fair_probability": 0.002742,
+      "implied_probability_pct": 0.274,
+      "avg_american_odds": 4922,
+      "num_books": 9,
+      "salary": 12500
+    },
+    "Jordan Spieth": {
+      "fair_probability": 0.002621,
+      "implied_probability_pct": 0.262,
+      "avg_american_odds": 4989,
+      "num_books": 9,
+      "salary": 12500
+    },
+    "Ben Griffin": {
+      "fair_probability": 0.002208,
+      "implied_probability_pct": 0.221,
+      "avg_american_odds": 6000,
+      "num_books": 4,
+      "salary": 12000
+    },
+    "Akshay Bhatia": {
+      "fair_probability": 0.001878,
+      "implied_probability_pct": 0.188,
+      "avg_american_odds": 7356,
+      "num_books": 9,
+      "salary": 11500
+    },
+    "Jacob Bridgeman": {
+      "fair_probability": 0.001607,
+      "implied_probability_pct": 0.161,
+      "avg_american_odds": 8214,
+      "num_books": 7,
+      "salary": 11500
+    },
+    "Marco Penge": {
+      "fair_probability": 0.001569,
+      "implied_probability_pct": 0.157,
+      "avg_american_odds": 8525,
+      "num_books": 4,
+      "salary": 11000
+    },
+    "Jake Knapp": {
+      "fair_probability": 0.001483,
+      "implied_probability_pct": 0.148,
+      "avg_american_odds": 8800,
+      "num_books": 5,
+      "salary": 11000
+    },
+    "Michael Brennan": {
+      "fair_probability": 0.001298,
+      "implied_probability_pct": 0.13,
+      "avg_american_odds": 10000,
+      "num_books": 1,
+      "salary": 11000
+    },
+    "Alexander Noren": {
+      "fair_probability": 0.001154,
+      "implied_probability_pct": 0.115,
+      "avg_american_odds": 11667,
+      "num_books": 3,
+      "salary": 10500
+    },
+    "Ryan Gerard": {
+      "fair_probability": 0.001035,
+      "implied_probability_pct": 0.104,
+      "avg_american_odds": 12800,
+      "num_books": 5,
+      "salary": 10000
+    },
+    "Kurt Kitayama": {
+      "fair_probability": 0.000975,
+      "implied_probability_pct": 0.098,
+      "avg_american_odds": 13750,
+      "num_books": 4,
+      "salary": 10000
+    },
+    "Michael Thorbjornsen": {
+      "fair_probability": 0.000925,
+      "implied_probability_pct": 0.093,
+      "avg_american_odds": 14167,
+      "num_books": 3,
+      "salary": 10000
+    },
+    "Aldrich Potgieter": {
+      "fair_probability": 0.000868,
+      "implied_probability_pct": 0.087,
+      "avg_american_odds": 15000,
+      "num_books": 1,
+      "salary": 10000
+    },
+    "Sami V\u00e4lim\u00e4ki": {
+      "fair_probability": 0.000868,
+      "implied_probability_pct": 0.087,
+      "avg_american_odds": 15000,
+      "num_books": 1,
+      "salary": 10000
+    },
+    "Harry Hall": {
+      "fair_probability": 0.000868,
+      "implied_probability_pct": 0.087,
+      "avg_american_odds": 15000,
+      "num_books": 2,
+      "salary": 10000
+    },
+    "Nick Taylor": {
+      "fair_probability": 0.000792,
+      "implied_probability_pct": 0.079,
+      "avg_american_odds": 18750,
+      "num_books": 4,
+      "salary": 9500
+    },
+    "Michael Kim": {
+      "fair_probability": 0.000782,
+      "implied_probability_pct": 0.078,
+      "avg_american_odds": 17000,
+      "num_books": 5,
+      "salary": 9500
+    },
+    "Max Greyserman": {
+      "fair_probability": 0.000775,
+      "implied_probability_pct": 0.078,
+      "avg_american_odds": 17000,
+      "num_books": 5,
+      "salary": 9500
+    },
+    "Bud Cauley": {
+      "fair_probability": 0.00076,
+      "implied_probability_pct": 0.076,
+      "avg_american_odds": 17500,
+      "num_books": 2,
+      "salary": 9500
+    },
+    "Nico Echavarria": {
+      "fair_probability": 0.000753,
+      "implied_probability_pct": 0.075,
+      "avg_american_odds": 18333,
+      "num_books": 3,
+      "salary": 9500
+    },
+    "Lucas Glover": {
+      "fair_probability": 0.000683,
+      "implied_probability_pct": 0.068,
+      "avg_american_odds": 19167,
+      "num_books": 3,
+      "salary": 9000
+    },
+    "Davis Riley": {
+      "fair_probability": 0.000675,
+      "implied_probability_pct": 0.068,
+      "avg_american_odds": 19375,
+      "num_books": 4,
+      "salary": 9000
+    },
+    "William Mouw": {
+      "fair_probability": 0.000652,
+      "implied_probability_pct": 0.065,
+      "avg_american_odds": 20000,
+      "num_books": 1,
+      "salary": 9000
+    },
+    "Sam Stevens": {
+      "fair_probability": 0.000652,
+      "implied_probability_pct": 0.065,
+      "avg_american_odds": 20000,
+      "num_books": 2,
+      "salary": 9000
+    },
+    "Billy Horschel": {
+      "fair_probability": 0.000652,
+      "implied_probability_pct": 0.065,
+      "avg_american_odds": 20000,
+      "num_books": 1,
+      "salary": 9000
+    },
+    "Taylor Moore": {
+      "fair_probability": 0.000652,
+      "implied_probability_pct": 0.065,
+      "avg_american_odds": 20000,
+      "num_books": 1,
+      "salary": 9000
+    },
+    "Tom McKibbin": {
+      "fair_probability": 0.000633,
+      "implied_probability_pct": 0.063,
+      "avg_american_odds": 21250,
+      "num_books": 2,
+      "salary": 9000
+    },
+    "Garrick Higgo": {
+      "fair_probability": 0.000621,
+      "implied_probability_pct": 0.062,
+      "avg_american_odds": 25000,
+      "num_books": 2,
+      "salary": 9000
+    },
+    "Matt McCarty": {
+      "fair_probability": 0.000616,
+      "implied_probability_pct": 0.062,
+      "avg_american_odds": 25000,
+      "num_books": 3,
+      "salary": 9000
+    },
+    "Cameron Davis": {
+      "fair_probability": 0.000587,
+      "implied_probability_pct": 0.059,
+      "avg_american_odds": 22500,
+      "num_books": 2,
+      "salary": 9000
+    },
+    "Jhonattan Vegas": {
+      "fair_probability": 0.00058,
+      "implied_probability_pct": 0.058,
+      "avg_american_odds": 23333,
+      "num_books": 3,
+      "salary": 8500
+    },
+    "Tom Hoge": {
+      "fair_probability": 0.000565,
+      "implied_probability_pct": 0.057,
+      "avg_american_odds": 23333,
+      "num_books": 3,
+      "salary": 8500
+    },
+    "Patrick Rodgers": {
+      "fair_probability": 0.000544,
+      "implied_probability_pct": 0.054,
+      "avg_american_odds": 25000,
+      "num_books": 2,
+      "salary": 8500
+    },
+    "Adam Schenk": {
+      "fair_probability": 0.000522,
+      "implied_probability_pct": 0.052,
+      "avg_american_odds": 25000,
+      "num_books": 1,
+      "salary": 8500
+    },
+    "Ben Campbell": {
+      "fair_probability": 0.000522,
+      "implied_probability_pct": 0.052,
+      "avg_american_odds": 25000,
+      "num_books": 1,
+      "salary": 8500
+    },
+    "Joe Highsmith": {
+      "fair_probability": 0.000522,
+      "implied_probability_pct": 0.052,
+      "avg_american_odds": 25000,
+      "num_books": 2,
+      "salary": 8500
+    },
+    "Erik van Rooyen": {
+      "fair_probability": 0.000522,
+      "implied_probability_pct": 0.052,
+      "avg_american_odds": 25000,
+      "num_books": 2,
+      "salary": 8500
+    },
+    "Eugenio Lopez Chacarra": {
+      "fair_probability": 0.000522,
+      "implied_probability_pct": 0.052,
+      "avg_american_odds": 25000,
+      "num_books": 1,
+      "salary": 8500
+    },
+    "Rico Hoey": {
+      "fair_probability": 0.000522,
+      "implied_probability_pct": 0.052,
+      "avg_american_odds": 25000,
+      "num_books": 1,
+      "salary": 8500
+    },
+    "Victor Perez": {
+      "fair_probability": 0.000522,
+      "implied_probability_pct": 0.052,
+      "avg_american_odds": 25000,
+      "num_books": 1,
+      "salary": 8500
+    },
+    "Seamus Power": {
+      "fair_probability": 0.000522,
+      "implied_probability_pct": 0.052,
+      "avg_american_odds": 25000,
+      "num_books": 1,
+      "salary": 8500
+    },
+    "Chris Kirk": {
+      "fair_probability": 0.000479,
+      "implied_probability_pct": 0.048,
+      "avg_american_odds": 27500,
+      "num_books": 2,
+      "salary": 8500
+    },
+    "Eric Cole": {
+      "fair_probability": 0.000479,
+      "implied_probability_pct": 0.048,
+      "avg_american_odds": 27500,
+      "num_books": 2,
+      "salary": 8500
+    },
+    "Ryo Hisatsune": {
+      "fair_probability": 0.000471,
+      "implied_probability_pct": 0.047,
+      "avg_american_odds": 32500,
+      "num_books": 2,
+      "salary": 8000
+    },
+    "Lee Hodges": {
+      "fair_probability": 0.000448,
+      "implied_probability_pct": 0.045,
+      "avg_american_odds": 30000,
+      "num_books": 2,
+      "salary": 8000
+    },
+    "Christiaan Bezuidenhout": {
+      "fair_probability": 0.000443,
+      "implied_probability_pct": 0.044,
+      "avg_american_odds": 30500,
+      "num_books": 2,
+      "salary": 8000
+    },
+    "Adam Hadwin": {
+      "fair_probability": 0.000435,
+      "implied_probability_pct": 0.044,
+      "avg_american_odds": 30000,
+      "num_books": 1,
+      "salary": 8000
+    },
+    "Nicholas Dunlap": {
+      "fair_probability": 0.000435,
+      "implied_probability_pct": 0.044,
+      "avg_american_odds": 30000,
+      "num_books": 1,
+      "salary": 8000
+    },
+    "Kevin Yu": {
+      "fair_probability": 0.000435,
+      "implied_probability_pct": 0.044,
+      "avg_american_odds": 30000,
+      "num_books": 1,
+      "salary": 8000
+    },
+    "Austin Eckroat": {
+      "fair_probability": 0.000424,
+      "implied_probability_pct": 0.042,
+      "avg_american_odds": 32500,
+      "num_books": 2,
+      "salary": 8000
+    },
+    "Matt Wallace": {
+      "fair_probability": 0.000424,
+      "implied_probability_pct": 0.042,
+      "avg_american_odds": 32500,
+      "num_books": 2,
+      "salary": 8000
+    },
+    "Phil Mickelson": {
+      "fair_probability": 0.000414,
+      "implied_probability_pct": 0.041,
+      "avg_american_odds": 34000,
+      "num_books": 5,
+      "salary": 8000
+    },
+    "Laurie Canter": {
+      "fair_probability": 0.000373,
+      "implied_probability_pct": 0.037,
+      "avg_american_odds": 35000,
+      "num_books": 1,
+      "salary": 7500
+    },
+    "Karl Vilips": {
+      "fair_probability": 0.000373,
+      "implied_probability_pct": 0.037,
+      "avg_american_odds": 35000,
+      "num_books": 1,
+      "salary": 7500
+    },
+    "Matthieu Pavon": {
+      "fair_probability": 0.000349,
+      "implied_probability_pct": 0.035,
+      "avg_american_odds": 40000,
+      "num_books": 2,
+      "salary": 7500
+    },
+    "Nicolas Echavarria": {
+      "fair_probability": 0.000327,
+      "implied_probability_pct": 0.033,
+      "avg_american_odds": 40000,
+      "num_books": 1,
+      "salary": 7500
+    },
+    "Elvis Smylie": {
+      "fair_probability": 0.000327,
+      "implied_probability_pct": 0.033,
+      "avg_american_odds": 40000,
+      "num_books": 1,
+      "salary": 7500
+    },
+    "Beau Hossler": {
+      "fair_probability": 0.000309,
+      "implied_probability_pct": 0.031,
+      "avg_american_odds": 42500,
+      "num_books": 2,
+      "salary": 7000
+    },
+    "Martin Kaymer": {
+      "fair_probability": 0.000305,
+      "implied_probability_pct": 0.03,
+      "avg_american_odds": 58333,
+      "num_books": 3,
+      "salary": 7000
+    },
+    "Angel Cabrera": {
+      "fair_probability": 0.000262,
+      "implied_probability_pct": 0.026,
+      "avg_american_odds": 50000,
+      "num_books": 1,
+      "salary": 6500
+    },
+    "Padraig Harrington": {
+      "fair_probability": 0.000189,
+      "implied_probability_pct": 0.019,
+      "avg_american_odds": 75000,
+      "num_books": 3,
+      "salary": 6000
+    },
+    "Vijay Singh": {
+      "fair_probability": 0.000175,
+      "implied_probability_pct": 0.017,
+      "avg_american_odds": 80000,
+      "num_books": 2,
+      "salary": 5500
+    },
+    "Jimmy Walker": {
+      "fair_probability": 0.000174,
+      "implied_probability_pct": 0.017,
+      "avg_american_odds": 83333,
+      "num_books": 3,
+      "salary": 5500
+    },
+    "Jason Dufner": {
+      "fair_probability": 0.00016,
+      "implied_probability_pct": 0.016,
+      "avg_american_odds": 86667,
+      "num_books": 3,
+      "salary": 5500
+    },
+    "Michael Block": {
+      "fair_probability": 0.000131,
+      "implied_probability_pct": 0.013,
+      "avg_american_odds": 100000,
+      "num_books": 1,
+      "salary": 5000
+    }
+  }
+}
