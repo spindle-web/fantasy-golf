@@ -533,8 +533,8 @@ def main():
     result = None
 
     # Try ESPN Scoreboard first (primary - most reliable, richest data)
-    print("
-[1/3] Trying ESPN Scoreboard API...")
+    print()
+    print("[1/3] Trying ESPN Scoreboard API...")
     data = fetch_url(ESPN_SCOREBOARD_URL)
     if data:
         result = parse_espn_scoreboard(data)
@@ -543,8 +543,8 @@ def main():
 
     # Fallback to PGA Tour endpoints
     if not result or len(result[1]) == 0:
-        print("
-[2/3] Trying PGA Tour leaderboard-v2mini...")
+        print()
+        print("[2/3] Trying PGA Tour leaderboard-v2mini...")
         data = fetch_url(PGA_LEADERBOARD_MINI)
         if data:
             result = parse_pga_leaderboard(data)
@@ -552,8 +552,8 @@ def main():
                 print(f"  Success: {len(result[1])} players from PGA v2mini")
 
     if not result or len(result[1]) == 0:
-        print("
-[3/3] Trying PGA Tour leaderboard-v2...")
+        print()
+        print("[3/3] Trying PGA Tour leaderboard-v2...")
         data = fetch_url(PGA_LEADERBOARD_FULL)
         if data:
             result = parse_pga_leaderboard(data)
@@ -561,20 +561,20 @@ def main():
                 print(f"  Success: {len(result[1])} players from PGA v2")
 
     if not result or len(result[1]) == 0:
-        print("
-ERROR: Could not fetch leaderboard data from any source.")
+        print()
+        print("ERROR: Could not fetch leaderboard data from any source.")
         print("The data files were not updated.")
         sys.exit(1)
 
     tournament_info, players = result
-    print(f"
-Tournament: {tournament_info['name']}")
+    print()
+    print(f"Tournament: {tournament_info['name']}")
     print(f"Players found: {len(players)}")
     print(f"Raw status: {tournament_info['status']}")
 
     # Enrich data (tie positions, cut detection)
-    print("
-Enriching player data...")
+    print()
+    print("Enriching player data...")
     tournament_info, players = enrich_player_data(tournament_info, players)
 
     # Sort by total score
@@ -621,8 +621,8 @@ Enriching player data...")
     with open(output_path, 'w') as f:
         json.dump(output, f, indent=2)
 
-    print(f"
-Data saved to: {output_path}")
+    print()
+    print(f"Data saved to: {output_path}")
     print(f"Total players: {len(players)}")
 
     # Stats
@@ -632,8 +632,8 @@ Data saved to: {output_path}")
     print(f"Active: {len(active)}, Cut: {len(cut)}, WD: {len(wd)}")
 
     # Print top 10
-    print(f"
-Top 10:")
+    print()
+    print("Top 10:")
     for p in active[:10]:
         score_str = f"{'+' if p['total'] and p['total'] > 0 else ''}{p['total']}" if p['total'] is not None else '--'
         if p.get('total') == 0:
@@ -641,10 +641,11 @@ Top 10:")
         today_str = f"{'+' if p.get('today') and p['today'] > 0 else ''}{p.get('today', '--')}" if p.get('today') is not None else '--'
         if p.get('today') == 0:
             today_str = 'E'
-        print(f"  {p.get('position', '--'):>5} {p['name']:<25} {score_str:>5}  Today: {today_str:>4}  Thru: {p.get('thru', '--'):<3}  ${p.get('salary', 0):>6,}")
+        salary_str = "$" + f"{p.get('salary', 0):>6,}"
+        print(f"  {p.get('position', '--'):>5} {p['name']:<25} {score_str:>5}  Today: {today_str:>4}  Thru: {p.get('thru', '--'):<3}  {salary_str}")
 
-    print("
-Update complete!")
+    print()
+    print("Update complete!")
 
 
 if __name__ == '__main__':
