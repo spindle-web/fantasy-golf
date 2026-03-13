@@ -197,6 +197,7 @@ a:hover { color: var(--primary-light); }
   color: #fff; position: relative; overflow: hidden;
   box-shadow: var(--shadow-lg), inset 0 1px 0 rgba(255,255,255,0.06);
 }
+/* Decorative circles */
 .hero::before {
   content: ''; position: absolute; top: -80px; right: -60px; width: 280px; height: 280px;
   background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
@@ -268,6 +269,7 @@ a:hover { color: var(--primary-light); }
   box-shadow: var(--shadow-md);
   transform: translateY(-1px);
 }
+/* Accent top border */
 .stat-card::before {
   content: ''; position: absolute; top: 0; left: 16px; right: 16px; height: 2px;
   background: linear-gradient(90deg, var(--primary-light), var(--accent));
@@ -305,6 +307,7 @@ tbody td {
 }
 tbody tr { transition: background 0.15s; }
 tbody tr:hover { background: var(--primary-surface); }
+/* Alternating row color */
 tbody tr:nth-child(even) { background: rgba(248,250,249,0.5); }
 tbody tr:nth-child(even):hover { background: var(--primary-surface); }
 
@@ -336,6 +339,7 @@ tbody tr:nth-child(even):hover { background: var(--primary-surface); }
   background: #f3f4f6; padding: 3px 10px; border-radius: var(--radius-pill);
 }
 
+/* Player star indicator */
 .col-name .star-indicator { color: var(--accent); font-size: 0.75rem; }
 
 /* ==================== FANTASY TEAM CARDS ==================== */
@@ -406,6 +410,7 @@ tbody tr:nth-child(even):hover { background: var(--primary-surface); }
   margin-bottom: 16px; position: relative; overflow: hidden;
   box-shadow: var(--shadow-lg);
 }
+/* Decorative elements */
 .salary-tracker::before {
   content: ''; position: absolute; top: -30px; right: -30px; width: 120px; height: 120px;
   background: radial-gradient(circle, rgba(212,168,67,0.1) 0%, transparent 70%);
@@ -804,3 +809,63 @@ tbody tr:nth-child(even):hover { background: var(--primary-surface); }
 
 /* ==================== SELECTION STYLING ==================== */
 ::selection { background: var(--primary-glow); color: var(--primary-dark); }
+
+/* ==================== LAST UPDATED MARKER ==================== */
+.section-header-right {
+  display: flex; align-items: center; gap: 10px;
+}
+.last-updated-container {
+  display: inline-flex; align-items: center;
+}
+.last-updated-text {
+  font-size: 0.72rem; color: var(--text-muted); font-weight: 500;
+  padding: 3px 10px; background: var(--bg-pattern); border-radius: var(--radius-pill);
+  border: 1px solid var(--border-light); cursor: default;
+  transition: color 0.2s;
+}
+.last-updated-text:hover { color: var(--text-secondary); }
+
+/* ==================== BETWEEN ROUNDS BADGE ==================== */
+.badge-between {
+  background: #fef3c7; color: #92400e; border: 1px solid #fcd34d;
+}
+
+/* ==================== CUT STYLING ==================== */
+.status-cut {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 1px 6px; border-radius: 3px; font-size: 0.62rem; font-weight: 800;
+  background: #fef2f2; color: #dc2626; border: 1px solid #fecaca;
+  text-transform: uppercase; letter-spacing: 0.03em;
+}
+.status-wd {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 1px 6px; border-radius: 3px; font-size: 0.62rem; font-weight: 800;
+  background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa;
+  text-transform: uppercase; letter-spacing: 0.03em;
+}
+.status-cut-inline {
+  font-size: 0.6rem; font-weight: 700; color: #dc2626;
+  margin-left: 4px; opacity: 0.8;
+}
+.status-cut-sm {
+  display: inline-flex; align-items: center; padding: 0px 5px;
+  border-radius: 3px; font-size: 0.58rem; font-weight: 800;
+  background: #fef2f2; color: #dc2626; border: 1px solid #fecaca;
+  text-transform: uppercase; letter-spacing: 0.03em;
+  vertical-align: middle;
+}
+.cut-row {
+  opacity: 0.55;
+}
+.cut-row:hover { opacity: 0.8; }
+.cut-line-row td {
+  padding: 4px 12px !important; background: #fef9c3 !important;
+}
+.cut-indicator {
+  font-size: 0.72rem; font-weight: 700; color: #92400e;
+  text-transform: uppercase; letter-spacing: 0.05em;
+}
+.golfer-cut { opacity: 0.65; }
+.golfer-cut-item { opacity: 0.55; }
+.selected-golfer-cut { border-left: 3px solid #dc2626 !important; }
+.team-card-golfer-cut { opacity: 0.6; }
