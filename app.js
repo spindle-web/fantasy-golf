@@ -7,7 +7,7 @@
   const CONFIG = {
     dataPath: 'data/',
     teamsAPI: 'https://api.npoint.io/bee59cd9fbe9a9291022',
-    defaultSalaryCap: 50000,
+    defaultSalaryCap: 50000
     defaultGolfersPerTeam: 4,
     missedCutPenalty: 10,
     cacheBuster: () => '?t=' + Math.floor(Date.now() / 60000) // 1-min cache
@@ -170,7 +170,7 @@
 
   async function saveCloudTeams(teams) {
     const resp = await fetch(CONFIG.teamsAPI, {
-      method: 'PATCH',
+      method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ teams })
     });
