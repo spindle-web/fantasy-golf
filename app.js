@@ -10,6 +10,7 @@
     defaultSalaryCap: 50000,
     defaultGolfersPerTeam: 4,
     missedCutPenalty: 10,
+    par: 72,  // Standard course par
     cacheBuster: () => '?t=' + Math.floor(Date.now() / 60000) // 1-min cache
   };
 
@@ -60,6 +61,23 @@
     } catch { return iso; }
   }
 
+  function formatTimeAgo(iso) {
+    if (!iso) return '';
+    try {
+      const d = new Date(iso);
+      const now = new Date();
+      const diffMs = now - d;
+      const diffMins = Math.floor(diffMs / 60000);
+      const diffHours = Math.floor(diffMins / 60);
+      const diffDays = Math.floor(diffHours / 24);
+
+      if (diffMins < 1) return 'just now';
+      if (diffMins < 60) return `${diffMins}m ago`;
+      if (diffHours < 24) return `${diffHours}h ${diffMins % 60}m ago`;
+      return `${diffDays}d ago`;
+    } catch { return ''; }
+  }
+
   function showToast(msg) {
     const toast = document.getElementById('toast');
     if (!toast) return;
@@ -83,6 +101,144 @@
     return teamsData.settings;
   }
 
+  function isValidRoundScore(score) {
+    return score !== null && score !== undefined && score >= 55 && score <= 95;
+  }
+
+  // ==================== CLIENT-SIDE DATA ENRICHMENT ====================
+  function enrichLeaderboardData() {
+    if (!leaderboardData || !leaderboardData.players) return;
+
+    const players = leaderboardData.players;
+    const tournament = leaderboardData.tournament || {};
+
+    // 1. Detect current round from round data
+    const roundCounts = [0, 0, 0, 0];
+    const activeCount = players.filter(p => p.status !== 'cut' && p.status !== 'wd' && p.status !== 'dq').length;
+
+    players.forEach(p => {
+      const rounds = p.rounds || [];
+      rounds.forEach((r, i) => {
+        if (isValidRoundScore(r)) roundCounts[i]++;
+      });
+    });
+
+    let currentRound = 1;
+    for (let i = 0; i < 4; i++) {
+      if (roundCounts[i] > activeCount * 0.3) {
+        currentRound = i + 1;
+      }
+    }
+    tournament.current_round = currentRound;
+
+    // 2. Detect if between rounds (most players have completed current round)
+    const currentRoundComplete = roundCounts[currentRound - 1] > activeCount * 0.7;
+    const anyMidRound = players.some(p => {
+      const thru = String(p.thru || '');
+      if (thru === 'F' || thru === '--' || thru === '18' || thru === '') return false;
+      const h = parseInt(thru);
+      return !isNaN(h) && h >= 1 && h <= 17;
+    });
+
+    const betweenRounds = currentRoundComplete && !anyMidRound;
+
+    // 3. Determine tournament status
+    if (tournament.status === 'completed' || tournament.status === 'Official') {
+      // Keep as-is
+    } else if (betweenRounds) {
+      tournament.status = 'between_rounds';
+    } else if (anyMidRound) {
+      tournament.status = 'in_progress';
+    }
+
+    // 4. Compute positions if most are missing
+    const missingPos = players.filter(p => !p.position || p.position === '--').length;
+    if (missingPos > players.length * 0.5) {
+      computePositions(players);
+    }
+
+    // 5. Compute today/thru if missing
+    const missingToday = players.filter(p => p.today === null || p.today === undefined).length;
+    if (missingToday > players.length * 0.3) {
+      computeTodayAndThru(players, currentRound, betweenRounds);
+    }
+
+    // 6. Sort players: active by total, then cut/wd
+    players.sort((a, b) => {
+      const aActive = a.status === 'active' ? 0 : 1;
+      const bActive = b.status === 'active' ? 0 : 1;
+      if (aActive !== bActive) return aActive - bActive;
+      const aTotal = a.total !== null && a.total !== undefined ? a.total : 999;
+      const bTotal = b.total !== null && b.total !== undefined ? b.total : 999;
+      return aTotal - bTotal;
+    });
+
+    leaderboardData.tournament = tournament;
+  }
+
+  function computePositions(players) {
+    // Only compute for active players with scores
+    const active = players.filter(p => p.status === 'active' && p.total !== null && p.total !== undefined);
+    active.sort((a, b) => a.total - b.total);
+
+    // Assign positions with tie handling
+    for (let i = 0; i < active.length; i++) {
+      if (i > 0 && active[i].total === active[i - 1].total) {
+        active[i]._rawPos = active[i - 1]._rawPos;
+      } else {
+        active[i]._rawPos = i + 1;
+      }
+    }
+
+    // Count players at each position to determine ties
+    const posCounts = {};
+    active.forEach(p => {
+      posCounts[p._rawPos] = (posCounts[p._rawPos] || 0) + 1;
+    });
+
+    // Assign display positions with T prefix for ties
+    active.forEach(p => {
+      const prefix = posCounts[p._rawPos] > 1 ? 'T' : '';
+      p.position = prefix + p._rawPos;
+      delete p._rawPos;
+    });
+  }
+
+  function computeTodayAndThru(players, currentRound, betweenRounds) {
+    players.forEach(p => {
+      // Skip if already has valid data
+      if (p.today !== null && p.today !== undefined && p.thru && p.thru !== '--') return;
+
+      if (p.status === 'cut' || p.status === 'wd' || p.status === 'dq') {
+        p.today = null;
+        p.thru = '--';
+        return;
+      }
+
+      const rounds = p.rounds || [];
+      const currentRdScore = rounds[currentRound - 1];
+
+      if (isValidRoundScore(currentRdScore)) {
+        // Round complete
+        p.today = currentRdScore - CONFIG.par;
+        p.thru = 'F';
+      } else if (p.total !== null && p.total !== undefined) {
+        // Mid-round or no round score: derive today from total minus previous rounds
+        let prevTotal = 0;
+        for (let i = 0; i < currentRound - 1; i++) {
+          if (isValidRoundScore(rounds[i])) {
+            prevTotal += (rounds[i] - CONFIG.par);
+          }
+        }
+        p.today = p.total - prevTotal;
+        // If between rounds and no current round score, set thru to F for last completed round
+        if (betweenRounds) {
+          p.thru = 'F';
+        }
+      }
+    });
+  }
+
   // ==================== FANTASY SCORING ====================
   function calculateFantasyScore(golferName) {
     if (!leaderboardData || !leaderboardData.players) return { score: null, status: 'unknown', position: '--' };
@@ -98,7 +254,7 @@
 
     if (player.status === 'cut' || player.status === 'CUT') {
       // Add missed cut penalty for weekend rounds
-      const roundsPlayed = (player.rounds || []).filter(r => r !== null && r !== 0).length;
+      const roundsPlayed = (player.rounds || []).filter(r => isValidRoundScore(r)).length;
       const weekendRoundsMissed = Math.max(0, 4 - roundsPlayed);
       score = (score || 0) + (weekendRoundsMissed * settings.missed_cut_penalty);
     }
@@ -155,6 +311,50 @@
     return standings;
   }
 
+  // ==================== STATUS BADGE LOGIC ====================
+  function getStatusBadge(tournament) {
+    const status = tournament?.status || 'unknown';
+
+    if (status === 'completed' || status === 'Official') {
+      return { className: 'badge badge-completed', text: 'Final' };
+    }
+    if (status === 'in_progress' || status === 'In Progress') {
+      return { className: 'badge badge-live', text: 'Live' };
+    }
+    if (status === 'between_rounds') {
+      const round = tournament.current_round || 1;
+      return { className: 'badge badge-between', text: `R${round} Complete` };
+    }
+    if (status === 'upcoming') {
+      return { className: 'badge badge-upcoming', text: 'Upcoming' };
+    }
+    return { className: 'badge badge-upcoming', text: status };
+  }
+
+  function applyStatusBadge(badgeEl, tournament) {
+    if (!badgeEl) return;
+    const badge = getStatusBadge(tournament);
+    badgeEl.className = badge.className;
+    badgeEl.textContent = badge.text;
+  }
+
+  // ==================== LAST UPDATED DISPLAY ====================
+  function renderLastUpdated(containerId) {
+    const el = document.getElementById(containerId);
+    if (!el || !leaderboardData?.last_updated) return;
+
+    const timeAgo = formatTimeAgo(leaderboardData.last_updated);
+    const fullTime = formatTime(leaderboardData.last_updated);
+
+    el.innerHTML = `<span class="last-updated-text" title="${fullTime}">Updated ${timeAgo}</span>`;
+
+    // Update every 30 seconds
+    setInterval(() => {
+      const newTimeAgo = formatTimeAgo(leaderboardData.last_updated);
+      el.innerHTML = `<span class="last-updated-text" title="${fullTime}">Updated ${newTimeAgo}</span>`;
+    }, 30000);
+  }
+
   // ==================== CLOUD TEAMS API ====================
   async function fetchCloudTeams() {
     try {
@@ -192,6 +392,9 @@
     teamsData = localTeams || { settings: {}, teams: [] };
     teamsData.teams = cloudTeams;
 
+    // Client-side data enrichment (fills in missing positions, today, thru)
+    enrichLeaderboardData();
+
     // Load saved state from localStorage
     const savedPicks = localStorage.getItem('fg_selected_golfers');
     const savedName = localStorage.getItem('fg_player_name');
@@ -215,7 +418,7 @@
     document.getElementById('tournament-name').textContent = t.name || 'Tournament';
     document.getElementById('tournament-course').textContent = t.course || '';
     document.getElementById('tournament-round').textContent = t.current_round ? `Round ${t.current_round}` : '--';
-    document.getElementById('last-update').textContent = formatTime(leaderboardData.last_updated);
+    document.getElementById('last-update').textContent = formatTimeAgo(leaderboardData.last_updated);
 
     const teamCount = teamsData?.teams?.length || 0;
     document.getElementById('team-count').textContent = `${teamCount} team${teamCount !== 1 ? 's' : ''}`;
@@ -264,7 +467,7 @@
     }
 
     // Quick PGA leaderboard
-    const players = (leaderboardData.players || []).slice(0, 8);
+    const players = (leaderboardData.players || []).filter(p => p.status === 'active').slice(0, 8);
     if (players.length === 0) {
       document.getElementById('quick-leaderboard-body').innerHTML = '<div class="empty-state"><h3>No Leaderboard Data</h3><p>Waiting for tournament to begin...</p></div>';
     } else {
@@ -288,19 +491,10 @@
     const badgeEl = document.getElementById('fantasy-status-badge');
 
     if (nameEl) nameEl.textContent = t.name || 'No Tournament Data';
-    if (badgeEl) {
-      const status = t.status || 'unknown';
-      if (status === 'completed' || status === 'Official') {
-        badgeEl.className = 'badge badge-completed';
-        badgeEl.textContent = 'Final';
-      } else if (status === 'in_progress' || status === 'In Progress') {
-        badgeEl.className = 'badge badge-live';
-        badgeEl.textContent = 'Live';
-      } else {
-        badgeEl.className = 'badge badge-upcoming';
-        badgeEl.textContent = status;
-      }
-    }
+    applyStatusBadge(badgeEl, t);
+
+    // Last updated
+    renderLastUpdated('fantasy-last-updated');
 
     const container = document.getElementById('fantasy-standings');
     const standings = getFantasyStandings();
@@ -313,13 +507,15 @@
     container.innerHTML = standings.map((team, i) => {
       const rankClass = i < 3 ? `rank-${i + 1}` : 'rank-other';
       const golfersHTML = team.golferScores.map(g => {
-        const statusTag = g.status === 'cut' || g.status === 'CUT'
+        const isCut = g.status === 'cut' || g.status === 'CUT';
+        const isWD = g.status === 'wd' || g.status === 'WD';
+        const statusTag = isCut
           ? '<span class="status-cut">CUT</span>'
-          : g.status === 'wd' || g.status === 'WD'
+          : isWD
             ? '<span class="status-wd">WD</span>'
             : '';
         return `
-          <div class="golfer-row">
+          <div class="golfer-row${isCut ? ' golfer-cut' : ''}">
             <div>
               <span class="golfer-name">${g.name}</span>
               ${statusTag}
@@ -355,19 +551,10 @@
     const badgeEl = document.getElementById('lb-status-badge');
 
     if (nameEl) nameEl.textContent = t.name || 'No Tournament Data';
-    if (badgeEl) {
-      const status = t.status || 'unknown';
-      if (status === 'completed' || status === 'Official') {
-        badgeEl.className = 'badge badge-completed';
-        badgeEl.textContent = 'Final';
-      } else if (status === 'in_progress' || status === 'In Progress') {
-        badgeEl.className = 'badge badge-live';
-        badgeEl.textContent = 'Live';
-      } else {
-        badgeEl.className = 'badge badge-upcoming';
-        badgeEl.textContent = status;
-      }
-    }
+    applyStatusBadge(badgeEl, t);
+
+    // Last updated marker
+    renderLastUpdated('lb-last-updated');
 
     const tbody = document.getElementById('leaderboard-body');
     const players = leaderboardData?.players || [];
@@ -388,7 +575,7 @@
 
       // Insert cut line separator
       const cutLine = (cutIdx > 0 && i === cutIdx)
-        ? `<tr><td colspan="9" style="padding:4px 12px;background:#fef9c3;"><span class="cut-indicator">Projected Cut</span></td></tr>`
+        ? `<tr class="cut-line-row"><td colspan="9"><span class="cut-indicator">Projected Cut</span></td></tr>`
         : '';
 
       // Check if this golfer is on any fantasy team
@@ -396,17 +583,33 @@
         team.golfers?.some(g => g.toLowerCase() === p.name.toLowerCase())
       );
 
+      // Position display with CUT/WD badges
+      let posDisplay;
+      if (isCut) {
+        posDisplay = '<span class="status-cut">CUT</span>';
+      } else if (isWD) {
+        posDisplay = '<span class="status-wd">WD</span>';
+      } else {
+        posDisplay = p.position || '--';
+      }
+
+      // Only show round scores that are valid golf scores
+      const r1 = isValidRoundScore(rounds[0]) ? rounds[0] : '--';
+      const r2 = isValidRoundScore(rounds[1]) ? rounds[1] : '--';
+      const r3 = isValidRoundScore(rounds[2]) ? rounds[2] : '--';
+      const r4 = isValidRoundScore(rounds[3]) ? rounds[3] : '--';
+
       return cutLine + `
         <tr class="${rowClass}">
-          <td class="col-rank">${isCut ? '<span class="status-cut">CUT</span>' : isWD ? '<span class="status-wd">WD</span>' : p.position}</td>
-          <td class="col-name">${p.name}${isRostered ? ' <span style="color:var(--accent);font-size:0.7rem;">&#9733;</span>' : ''}</td>
+          <td class="col-rank">${posDisplay}</td>
+          <td class="col-name">${p.name}${isRostered ? ' <span style="color:var(--accent);font-size:0.7rem;">&#9733;</span>' : ''}${isCut ? ' <span class="status-cut-inline">MC</span>' : ''}</td>
           <td class="col-score ${scoreClass(p.total)}">${formatScore(p.total)}</td>
           <td class="col-score ${scoreClass(p.today)}">${formatScore(p.today)}</td>
           <td class="col-thru">${p.thru || '--'}</td>
-          <td class="col-round hide-mobile">${rounds[0] || '--'}</td>
-          <td class="col-round hide-mobile">${rounds[1] || '--'}</td>
-          <td class="col-round hide-mobile">${rounds[2] || '--'}</td>
-          <td class="col-round hide-mobile">${rounds[3] || '--'}</td>
+          <td class="col-round hide-mobile">${r1}</td>
+          <td class="col-round hide-mobile">${r2}</td>
+          <td class="col-round hide-mobile">${r3}</td>
+          <td class="col-round hide-mobile">${r4}</td>
         </tr>
       `;
     }).join('');
@@ -475,11 +678,12 @@
       const teamFull = selectedGolfers.length >= settings.golfers_per_team;
       const disabled = !isSelected && (teamFull || !canAfford);
       const tierNum = getTier(p.salary || 0);
+      const isCut = p.status === 'cut' || p.status === 'CUT';
 
       return `
-        <div class="golfer-list-item ${isSelected ? 'selected' : ''} ${disabled ? 'disabled' : ''}" data-name="${p.name}">
+        <div class="golfer-list-item ${isSelected ? 'selected' : ''} ${disabled ? 'disabled' : ''} ${isCut ? 'golfer-cut-item' : ''}" data-name="${p.name}">
           <div class="golfer-list-info">
-            <div class="golfer-list-name">${p.name} <span class="tier-badge tier-${tierNum}">T${tierNum}</span></div>
+            <div class="golfer-list-name">${p.name} <span class="tier-badge tier-${tierNum}">T${tierNum}</span>${isCut ? ' <span class="status-cut-sm">CUT</span>' : ''}</div>
             <div class="golfer-list-meta">${p.position || '--'} | ${formatScore(p.total)}</div>
           </div>
           <span class="golfer-list-salary">${formatMoney(p.salary || 0)}</span>
@@ -519,10 +723,12 @@
     // Selected golfers list
     const selectedHTML = selectedGolfers.map(name => {
       const player = players.find(p => p.name.toLowerCase() === name.toLowerCase());
+      const isCut = player?.status === 'cut';
       return `
-        <div class="selected-golfer">
+        <div class="selected-golfer${isCut ? ' selected-golfer-cut' : ''}">
           <div>
             <span>${name}</span>
+            ${isCut ? '<span class="status-cut-sm" style="margin-left:6px;">CUT</span>' : ''}
             <span style="opacity:0.7;margin-left:8px;font-size:0.82rem;">${formatMoney(player?.salary || 0)}</span>
           </div>
           <button class="remove-btn" onclick="window._removeGolfer('${name.replace(/'/g, "\\'")}')">X</button>
@@ -533,7 +739,6 @@
 
     // Submit button state
     const submitBtn = document.getElementById('submit-picks-btn');
-    const nameInput = document.getElementById('player-name');
     submitBtn.disabled = selectedGolfers.length !== settings.golfers_per_team;
   }
 
@@ -708,9 +913,10 @@
       const golfersHTML = (team.golfers || []).map(name => {
         const p = players.find(pl => pl.name.toLowerCase() === name.toLowerCase());
         const result = calculateFantasyScore(name);
+        const isCut = result.status === 'cut';
         return `
-          <div class="team-card-golfer">
-            <span>${name}</span>
+          <div class="team-card-golfer${isCut ? ' team-card-golfer-cut' : ''}">
+            <span>${name}${isCut ? ' <span class="status-cut-sm">CUT</span>' : ''}</span>
             <div>
               <span class="${scoreClass(result.score)}" style="font-family:var(--font-mono);font-weight:600;">${formatScore(result.score)}</span>
               <span style="color:var(--text-muted);font-size:0.8rem;margin-left:8px;">${formatMoney(p?.salary || 0)}</span>
