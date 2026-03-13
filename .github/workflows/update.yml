@@ -26,6 +26,10 @@ on:
         description: 'PGA Tour Tournament ID (e.g., 011 for The Players)'
         required: false
         default: '011'
+      fetch_odds:
+        description: 'Force re-fetch odds (true/false)'
+        required: false
+        default: 'false'
 
 jobs:
   update:
@@ -41,6 +45,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Fetch pre-tournament odds
+        if: >
+          github.event.inputs.fetch_odds == 'true' ||
+          (github.event_name == 'schedule' && !hashFiles('data/odds.json'))
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          echo "Checking for pre-tournament odds..."
+          python scripts/fetch_odds.py
+        continue-on-error: true
 
       - name: Run update script
         env:
