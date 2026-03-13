@@ -1,15 +1,29 @@
 name: Update Leaderboard
 
 on:
+  # Tournament round hours only (Thu-Sun)
+  # PGA events typically: first tee ~7am ET, last groups finish ~6-7pm ET
+  # We run from 7am-8pm ET (11:00-00:00 UTC) on tournament days
+  # Every 10 minutes during active play for near-live data
   schedule:
-    - cron: '*/15 11-23 * * 4,5'
-    - cron: '*/15 0-0 * * 5,6'
-    - cron: '*/15 11-23 * * 6,0'
-    - cron: '*/15 0-0 * * 0,1'
+    # Thursday-Friday: 7am-8pm ET (11:00-00:00 UTC next day)
+    - cron: '*/10 11-23 * * 4'    # Thursday
+    - cron: '*/10 0-0 * * 5'      # Thursday night spillover
+    - cron: '*/10 11-23 * * 5'    # Friday
+    - cron: '*/10 0-0 * * 6'      # Friday night spillover
+    # Saturday-Sunday: 7am-8pm ET
+    - cron: '*/10 11-23 * * 6'    # Saturday
+    - cron: '*/10 0-0 * * 0'      # Saturday night spillover
+    - cron: '*/10 11-23 * * 0'    # Sunday
+    - cron: '*/10 0-0 * * 1'      # Sunday night spillover
+    # Between-rounds check: one update at 6am ET to catch overnight changes
+    - cron: '0 10 * * 5,6,0'      # Fri/Sat/Sun 6am ET
+
+  # Allow manual trigger
   workflow_dispatch:
     inputs:
       tournament_id:
-        description: 'PGA Tour Tournament ID'
+        description: 'PGA Tour Tournament ID (e.g., 011 for The Players)'
         required: false
         default: '011'
 
@@ -18,21 +32,26 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: Run update script
         env:
           TOURNAMENT_ID: ${{ github.event.inputs.tournament_id || '011' }}
         run: python scripts/update_leaderboard.py
+
       - name: Check for changes
         id: check
         run: |
           git diff --quiet data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
       - name: Commit and push changes
         if: steps.check.outputs.changed == 'true'
         run: |
