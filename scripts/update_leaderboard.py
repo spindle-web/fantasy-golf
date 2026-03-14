@@ -9,22 +9,24 @@ Data Sources (tried in order):
 3. PGA Tour statdata leaderboard-v2 (fallback)
 
 ESPN API field mapping (site.api.espn.com/.../golf/pga/scoreboard):
-  competitor.order          → leaderboard position (integer)
-  competitor.score          → total score relative to par (string: "-10", "E", "+3")
-  competitor.linescores[]   → array of round objects
-    .value                  → total strokes for round (e.g. 69)
-    .displayValue           → score relative to par for round (e.g. "-3")
-    .period                 → round number (1-4)
-    .linescores[]           → array of hole-by-hole scores
-      .value                → strokes on that hole
-      .period               → hole number (1-18)
-      .scoreType.displayValue → relative to par ("-1", "E", "+1")
+  competitor.order          â leaderboard position (integer)
+  competitor.score          â total score relative to par (string: "-10", "E", "+3")
+  competitor.linescores[]   â array of round objects
+    .value                  â total strokes for round (e.g. 69)
+    .displayValue           â score relative to par for round (e.g. "-3")
+    .period                 â round number (1-4)
+    .linescores[]           â array of hole-by-hole scores
+      .value                â strokes on that hole
+      .period               â hole number (1-18)
+      .scoreType.displayValue â relative to par ("-1", "E", "+1")
 
-  Thru = len(current_round.linescores)  →  0=not started, 1-17=playing, 18=done
-  Today = current_round.displayValue    →  "-3", "E", "+2" (relative to par)
+  Thru = len(current_round.linescores)  â  0=not started, 1-17=playing, 18=done
+  Today = current_round.displayValue    â  "-3", "E", "+2" (relative to par)
 
 Salary Assignment:
-- Based on field position/ranking, normalized to fit salary cap constraints
+- Primary: Pre-tournament betting odds from The Odds API (data/odds.json)
+  Fair implied probabilities â log-scale mapping â $5,000-$18,500 range
+- Fallback: Position-based exponential decay formula if no odds data available
 """
 
 import json
@@ -47,6 +49,7 @@ PGA_LEADERBOARD_MINI = f'https://statdata.pgatour.com/r/{TOURNAMENT_ID}/leaderbo
 PGA_LEADERBOARD_FULL = f'https://statdata.pgatour.com/r/{TOURNAMENT_ID}/leaderboard-v2.json'
 
 PAR = 72  # Standard par, could be made configurable per tournament
+MIN_SALARY_FALLBACK = 5000  # Salary for players not found in odds data
 
 
 def fetch_url(url, timeout=15):
@@ -72,12 +75,125 @@ def fetch_url(url, timeout=15):
         return None
 
 
+def load_odds_data():
+    """Load pre-tournament odds data from odds.json if available."""
+    odds_path = os.path.join(DATA_DIR, 'odds.json')
+    if not os.path.exists(odds_path):
+        return None
+    try:
+        with open(odds_path, 'r') as f:
+            data = json.load(f)
+        players = data.get('players', {})
+        if not players:
+            return None
+        print(f"  Loaded odds for {len(players)} players from {data.get('event_name', 'unknown event')}")
+        print(f"  Odds fetched at: {data.get('fetched_at', 'unknown')}")
+        return players
+    except Exception as e:
+        print(f"  Warning: Could not load odds data: {e}")
+        return None
+
+
+def normalize_name(name):
+    """Normalize player name for matching (handle spelling differences)."""
+    # Lowercase, strip extra whitespace
+    n = ' '.join(name.lower().strip().split())
+    # Remove common suffixes
+    for suffix in [' jr', ' jr.', ' sr', ' sr.', ' ii', ' iii', ' iv']:
+        if n.endswith(suffix):
+            n = n[:-len(suffix)].strip()
+    return n
+
+
+def match_player_to_odds(player_name, odds_players):
+    """
+    Try to match a player name from ESPN to an odds player name.
+    Handles slight differences in name formatting between sources.
+
+    Returns (odds_name, odds_data) or (None, None) if no match.
+    """
+    # Direct match
+    if player_name in odds_players:
+        return player_name, odds_players[player_name]
+
+    # Case-insensitive match
+    name_lower = player_name.lower()
+    for odds_name, odds_data in odds_players.items():
+        if odds_name.lower() == name_lower:
+            return odds_name, odds_data
+
+    # Normalized match
+    norm_name = normalize_name(player_name)
+    for odds_name, odds_data in odds_players.items():
+        if normalize_name(odds_name) == norm_name:
+            return odds_name, odds_data
+
+    # Last name match (for cases like "Rory McIlroy" vs "R. McIlroy")
+    parts = player_name.split()
+    if len(parts) >= 2:
+        last_name = parts[-1].lower()
+        first_initial = parts[0][0].lower() if parts[0] else ''
+        matches = []
+        for odds_name, odds_data in odds_players.items():
+            odds_parts = odds_name.split()
+            if len(odds_parts) >= 2:
+                odds_last = odds_parts[-1].lower()
+                odds_first_initial = odds_parts[0][0].lower() if odds_parts[0] else ''
+                if odds_last == last_name and odds_first_initial == first_initial:
+                    matches.append((odds_name, odds_data))
+        if len(matches) == 1:
+            return matches[0]
+
+    return None, None
+
+
 def assign_salaries(players):
-    """Assign salaries based on field position (index in sorted list)."""
+    """
+    Assign salaries based on pre-tournament betting odds (primary)
+    or field position (fallback).
+
+    Odds-based: Uses fair implied probabilities from The Odds API,
+    converted via log-scale to $5,000-$18,500 salary range.
+
+    Position-based fallback: Exponential decay formula based on
+    sorted field position.
+    """
     n = len(players)
     if n == 0:
         return players
 
+    # Try odds-based salary assignment first
+    odds_data = load_odds_data()
+
+    if odds_data:
+        matched = 0
+        unmatched = []
+
+        for player in players:
+            odds_name, player_odds = match_player_to_odds(player['name'], odds_data)
+            if player_odds:
+                player['salary'] = player_odds['salary']
+                matched += 1
+            else:
+                unmatched.append(player['name'])
+
+        print(f"  Odds-based salaries: {matched}/{n} players matched")
+
+        if unmatched:
+            # For players not in odds data (late additions, alternates),
+            # assign minimum salary
+            if len(unmatched) <= 20:
+                print(f"  Unmatched players (assigned ${MIN_SALARY_FALLBACK:,}): {', '.join(unmatched[:10])}")
+                if len(unmatched) > 10:
+                    print(f"    ... and {len(unmatched) - 10} more")
+            for player in players:
+                if 'salary' not in player:
+                    player['salary'] = MIN_SALARY_FALLBACK
+
+        return players
+
+    # Fallback: position-based salary assignment
+    print("  No odds data available - using position-based salaries")
     for i, player in enumerate(players):
         pct = i / max(n - 1, 1)
         min_salary = 5000
