@@ -4,21 +4,21 @@
     "id": "011",
     "course": "",
     "current_round": 3,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-03-14T22:57:23.784143+00:00",
+  "last_updated": "2026-03-14T23:55:14.561101+00:00",
   "players": [
     {
       "id": "4375972",
       "name": "Ludvig \u00c5berg",
       "position": "1",
-      "total": -14,
-      "today": -2,
-      "thru": "17",
+      "total": -13,
+      "today": -1,
+      "thru": "F",
       "rounds": [
         69,
         63,
-        66,
+        71,
         null
       ],
       "status": "active",
