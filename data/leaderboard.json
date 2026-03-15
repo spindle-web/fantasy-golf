@@ -4,41 +4,41 @@
     "id": "011",
     "course": "",
     "current_round": 4,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-03-15T21:54:56.421428+00:00",
+  "last_updated": "2026-03-15T22:59:56.900585+00:00",
   "players": [
-    {
-      "id": "9037",
-      "name": "Matt Fitzpatrick",
-      "position": "1",
-      "total": -13,
-      "today": -5,
-      "thru": "17",
-      "rounds": [
-        70,
-        69,
-        69,
-        63
-      ],
-      "status": "active",
-      "salary": 14000
-    },
     {
       "id": "4425906",
       "name": "Cameron Young",
-      "position": "2",
+      "position": "1",
       "total": -13,
       "today": -4,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         68,
         67,
         72,
-        64
+        68
       ],
       "status": "active",
       "salary": 12500
+    },
+    {
+      "id": "9037",
+      "name": "Matt Fitzpatrick",
+      "position": "2",
+      "total": -12,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        70,
+        69,
+        69,
+        68
+      ],
+      "status": "active",
+      "salary": 14000
     },
     {
       "id": "10140",
@@ -110,12 +110,12 @@
       "position": "7",
       "total": -9,
       "today": 4,
-      "thru": "16",
+      "thru": "F",
       "rounds": [
         69,
         63,
         71,
-        69
+        76
       ],
       "status": "active",
       "salary": 18500
@@ -201,25 +201,9 @@
       "salary": 7500
     },
     {
-      "id": "4425904",
-      "name": "Michael Thorbjornsen",
-      "position": "13",
-      "total": -7,
-      "today": 3,
-      "thru": "16",
-      "rounds": [
-        74,
-        65,
-        67,
-        68
-      ],
-      "status": "active",
-      "salary": 9000
-    },
-    {
       "id": "9938",
       "name": "Sam Burns",
-      "position": "14",
+      "position": "13",
       "total": -6,
       "today": -3,
       "thru": "F",
@@ -235,7 +219,7 @@
     {
       "id": "4419142",
       "name": "Akshay Bhatia",
-      "position": "15",
+      "position": "14",
       "total": -6,
       "today": -2,
       "thru": "F",
@@ -251,7 +235,7 @@
     {
       "id": "6798",
       "name": "Brooks Koepka",
-      "position": "16",
+      "position": "15",
       "total": -6,
       "today": -1,
       "thru": "F",
@@ -267,7 +251,7 @@
     {
       "id": "4858572",
       "name": "Ryo Hisatsune",
-      "position": "17",
+      "position": "16",
       "total": -6,
       "today": 0,
       "thru": "F",
@@ -283,7 +267,7 @@
     {
       "id": "569",
       "name": "Justin Rose",
-      "position": "18",
+      "position": "17",
       "total": -6,
       "today": 0,
       "thru": "F",
@@ -299,7 +283,7 @@
     {
       "id": "5409",
       "name": "Russell Henley",
-      "position": "19",
+      "position": "18",
       "total": -6,
       "today": 0,
       "thru": "F",
@@ -315,7 +299,7 @@
     {
       "id": "11056",
       "name": "Austin Smotherman",
-      "position": "20",
+      "position": "19",
       "total": -6,
       "today": 1,
       "thru": "F",
@@ -331,7 +315,7 @@
     {
       "id": "4364873",
       "name": "Viktor Hovland",
-      "position": "21",
+      "position": "20",
       "total": -6,
       "today": 2,
       "thru": "F",
@@ -347,7 +331,7 @@
     {
       "id": "9126",
       "name": "Corey Conners",
-      "position": "22",
+      "position": "21",
       "total": -6,
       "today": 2,
       "thru": "F",
@@ -363,7 +347,7 @@
     {
       "id": "9478",
       "name": "Scottie Scheffler",
-      "position": "23",
+      "position": "22",
       "total": -5,
       "today": -1,
       "thru": "F",
@@ -375,6 +359,22 @@
       ],
       "status": "active",
       "salary": 18500
+    },
+    {
+      "id": "4425904",
+      "name": "Michael Thorbjornsen",
+      "position": "23",
+      "total": -5,
+      "today": 5,
+      "thru": "F",
+      "rounds": [
+        74,
+        65,
+        67,
+        77
+      ],
+      "status": "active",
+      "salary": 9000
     },
     {
       "id": "10166",
