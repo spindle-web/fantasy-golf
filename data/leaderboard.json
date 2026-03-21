@@ -6,19 +6,19 @@
     "current_round": 3,
     "status": "in_progress"
   },
-  "last_updated": "2026-03-21T21:50:01.825100+00:00",
+  "last_updated": "2026-03-21T22:53:45.403418+00:00",
   "players": [
     {
       "id": "11382",
       "name": "Sungjae Im",
       "position": "1",
-      "total": -10,
-      "today": -1,
-      "thru": "17",
+      "total": -11,
+      "today": -2,
+      "thru": "F",
       "rounds": [
         64,
         69,
-        66,
+        69,
         null
       ],
       "status": "active",
@@ -46,11 +46,11 @@
       "position": "3",
       "total": -9,
       "today": -1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         69,
         65,
-        66,
+        70,
         null
       ],
       "status": "active",
