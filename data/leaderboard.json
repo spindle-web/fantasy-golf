@@ -6,7 +6,7 @@
     "current_round": 4,
     "status": "in_progress"
   },
-  "last_updated": "2026-03-22T21:52:22.737601+00:00",
+  "last_updated": "2026-03-22T22:56:40.430308+00:00",
   "players": [
     {
       "id": "9037",
@@ -94,12 +94,12 @@
       "position": "6",
       "total": -8,
       "today": 3,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         64,
         69,
         69,
-        70
+        74
       ],
       "status": "active",
       "salary": 14000
@@ -398,12 +398,12 @@
       "position": "25",
       "total": -4,
       "today": 5,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         65,
         72,
         67,
-        72
+        76
       ],
       "status": "active",
       "salary": 5000
