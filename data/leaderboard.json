@@ -3,10 +3,10 @@
     "name": "Valspar Championship",
     "id": "011",
     "course": "",
-    "current_round": 3,
+    "current_round": 4,
     "status": "in_progress"
   },
-  "last_updated": "2026-03-22T11:46:35.898562+00:00",
+  "last_updated": "2026-03-22T12:00:16.178290+00:00",
   "players": [
     {
       "id": "11382",
@@ -1129,44 +1129,28 @@
       "salary": 12000
     },
     {
-      "id": "11253",
-      "name": "Rasmus H\u00f8jgaard",
+      "id": "4408315",
+      "name": "Vince Whaley",
       "position": "71",
-      "total": 3,
-      "today": 3,
-      "thru": "F",
-      "rounds": [
-        71,
-        71,
-        74,
-        null
-      ],
-      "status": "active",
-      "salary": 9000
-    },
-    {
-      "id": "5338",
-      "name": "Bud Cauley",
-      "position": "72",
       "total": 4,
-      "today": 3,
-      "thru": "F",
+      "today": -1,
+      "thru": "1",
       "rounds": [
         69,
         74,
-        74,
+        75,
         null
       ],
       "status": "active",
-      "salary": 10500
+      "salary": 8000
     },
     {
       "id": "5150294",
       "name": "David Ford",
-      "position": "73",
+      "position": "72",
       "total": 4,
-      "today": 7,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         69,
         70,
@@ -1175,6 +1159,22 @@
       ],
       "status": "active",
       "salary": 6000
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus H\u00f8jgaard",
+      "position": "73",
+      "total": 4,
+      "today": 1,
+      "thru": "1",
+      "rounds": [
+        71,
+        71,
+        74,
+        null
+      ],
+      "status": "active",
+      "salary": 9000
     },
     {
       "id": "9525",
@@ -1193,20 +1193,20 @@
       "salary": 5500
     },
     {
-      "id": "4408315",
-      "name": "Vince Whaley",
+      "id": "5338",
+      "name": "Bud Cauley",
       "position": "74",
       "total": 5,
-      "today": 4,
-      "thru": "F",
+      "today": 1,
+      "thru": "1",
       "rounds": [
         69,
         74,
-        75,
+        74,
         null
       ],
       "status": "active",
-      "salary": 8000
+      "salary": 10500
     },
     {
       "id": "4348470",
