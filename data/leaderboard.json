@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 3,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-03-28T21:57:39.288880+00:00",
+  "last_updated": "2026-03-28T23:02:16.796777+00:00",
   "players": [
     {
       "id": "3550",
@@ -270,11 +270,11 @@
       "position": "17",
       "total": -8,
       "today": 2,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         63,
-        68,
+        72,
         null
       ],
       "status": "active",
