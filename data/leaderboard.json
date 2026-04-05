@@ -6,7 +6,7 @@
     "current_round": 4,
     "status": "in_progress"
   },
-  "last_updated": "2026-04-05T22:00:21.297358+00:00",
+  "last_updated": "2026-04-05T23:52:09.656397+00:00",
   "players": [
     {
       "id": "10166",
@@ -62,12 +62,12 @@
       "position": "4",
       "total": -16,
       "today": -2,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         66,
         64,
         72,
-        65
+        70
       ],
       "status": "active",
       "salary": 17000
@@ -89,9 +89,25 @@
       "salary": 7500
     },
     {
+      "id": "4375972",
+      "name": "Ludvig \u00c5berg",
+      "position": "6",
+      "total": -15,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        67,
+        67,
+        69,
+        70
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "4349547",
       "name": "Kevin Yu",
-      "position": "6",
+      "position": "7",
       "total": -14,
       "today": -3,
       "thru": "F",
@@ -103,22 +119,6 @@
       ],
       "status": "active",
       "salary": 8500
-    },
-    {
-      "id": "4375972",
-      "name": "Ludvig \u00c5berg",
-      "position": "7",
-      "total": -14,
-      "today": -1,
-      "thru": "17",
-      "rounds": [
-        67,
-        67,
-        69,
-        66
-      ],
-      "status": "active",
-      "salary": 5000
     },
     {
       "id": "4587989",
@@ -329,25 +329,9 @@
       "salary": 7000
     },
     {
-      "id": "5338",
-      "name": "Bud Cauley",
-      "position": "21",
-      "total": -10,
-      "today": -1,
-      "thru": "17",
-      "rounds": [
-        69,
-        66,
-        72,
-        66
-      ],
-      "status": "active",
-      "salary": 9500
-    },
-    {
       "id": "10505",
       "name": "J.T. Poston",
-      "position": "22",
+      "position": "21",
       "total": -9,
       "today": -4,
       "thru": "F",
@@ -363,7 +347,7 @@
     {
       "id": "4698579",
       "name": "S.H. Kim",
-      "position": "23",
+      "position": "22",
       "total": -9,
       "today": -2,
       "thru": "F",
@@ -379,7 +363,7 @@
     {
       "id": "5860",
       "name": "Hideki Matsuyama",
-      "position": "24",
+      "position": "23",
       "total": -9,
       "today": -2,
       "thru": "F",
@@ -395,7 +379,7 @@
     {
       "id": "9530",
       "name": "Maverick McNealy",
-      "position": "25",
+      "position": "24",
       "total": -9,
       "today": -1,
       "thru": "F",
@@ -407,6 +391,22 @@
       ],
       "status": "active",
       "salary": 17000
+    },
+    {
+      "id": "5338",
+      "name": "Bud Cauley",
+      "position": "25",
+      "total": -9,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        69,
+        66,
+        72,
+        72
+      ],
+      "status": "active",
+      "salary": 9500
     },
     {
       "id": "4585549",
@@ -558,12 +558,12 @@
       "position": "35",
       "total": -7,
       "today": 0,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         68,
         74,
-        67
+        72
       ],
       "status": "active",
       "salary": 7000
@@ -777,25 +777,9 @@
       "salary": 5000
     },
     {
-      "id": "2230",
-      "name": "Tony Finau",
-      "position": "49",
-      "total": -5,
-      "today": 5,
-      "thru": "17",
-      "rounds": [
-        66,
-        69,
-        71,
-        72
-      ],
-      "status": "active",
-      "salary": 14500
-    },
-    {
       "id": "11395",
       "name": "Christo Lamprecht",
-      "position": "50",
+      "position": "49",
       "total": -4,
       "today": -2,
       "thru": "F",
@@ -811,7 +795,7 @@
     {
       "id": "6011",
       "name": "Beau Hossler",
-      "position": "51",
+      "position": "50",
       "total": -4,
       "today": 1,
       "thru": "F",
@@ -827,7 +811,7 @@
     {
       "id": "5076011",
       "name": "Adrien Dumont de Chassart",
-      "position": "52",
+      "position": "51",
       "total": -4,
       "today": 1,
       "thru": "F",
@@ -843,18 +827,34 @@
     {
       "id": "5140",
       "name": "Thorbj\u00f8rn Olesen",
-      "position": "53",
+      "position": "52",
       "total": -4,
       "today": 2,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         69,
         66,
         75,
-        69
+        74
       ],
       "status": "active",
       "salary": 5000
+    },
+    {
+      "id": "2230",
+      "name": "Tony Finau",
+      "position": "53",
+      "total": -4,
+      "today": 6,
+      "thru": "F",
+      "rounds": [
+        66,
+        69,
+        71,
+        78
+      ],
+      "status": "active",
+      "salary": 14500
     },
     {
       "id": "1626",
