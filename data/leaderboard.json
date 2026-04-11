@@ -6,7 +6,7 @@
     "current_round": 3,
     "status": "in_progress"
   },
-  "last_updated": "2026-04-11T22:15:09.052492+00:00",
+  "last_updated": "2026-04-11T22:54:11.703934+00:00",
   "players": [
     {
       "id": "4425906",
@@ -30,11 +30,11 @@
       "position": "2",
       "total": -11,
       "today": 1,
-      "thru": "14",
+      "thru": "17",
       "rounds": [
         67,
         65,
-        57,
+        69,
         null
       ],
       "status": "active",
@@ -46,11 +46,11 @@
       "position": "3",
       "total": -10,
       "today": -4,
-      "thru": "14",
+      "thru": "17",
       "rounds": [
         67,
         71,
-        null,
+        64,
         null
       ],
       "status": "active",
@@ -62,11 +62,11 @@
       "position": "4",
       "total": -9,
       "today": -4,
-      "thru": "16",
+      "thru": "F",
       "rounds": [
         70,
         69,
-        60,
+        68,
         null
       ],
       "status": "active",
@@ -89,32 +89,16 @@
       "salary": 17000
     },
     {
-      "id": "9221",
-      "name": "Haotong Li",
-      "position": "6",
-      "total": -8,
-      "today": -4,
-      "thru": "17",
-      "rounds": [
-        71,
-        69,
-        64,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "569",
       "name": "Justin Rose",
-      "position": "7",
+      "position": "6",
       "total": -8,
       "today": -3,
-      "thru": "14",
+      "thru": "17",
       "rounds": [
         70,
         69,
-        null,
+        65,
         null
       ],
       "status": "active",
@@ -123,7 +107,7 @@
     {
       "id": "9478",
       "name": "Scottie Scheffler",
-      "position": "8",
+      "position": "7",
       "total": -7,
       "today": -7,
       "thru": "F",
@@ -137,16 +121,32 @@
       "salary": 18500
     },
     {
+      "id": "9221",
+      "name": "Haotong Li",
+      "position": "8",
+      "total": -7,
+      "today": -3,
+      "thru": "F",
+      "rounds": [
+        71,
+        69,
+        69,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "5579",
       "name": "Patrick Reed",
       "position": "9",
       "total": -7,
       "today": -1,
-      "thru": "15",
+      "thru": "17",
       "rounds": [
         69,
         69,
-        60,
+        67,
         null
       ],
       "status": "active",
@@ -185,25 +185,9 @@
       "salary": 17000
     },
     {
-      "id": "11119",
-      "name": "Wyndham Clark",
-      "position": "12",
-      "total": -6,
-      "today": -2,
-      "thru": "16",
-      "rounds": [
-        72,
-        68,
-        62,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
       "id": "10592",
       "name": "Collin Morikawa",
-      "position": "13",
+      "position": "12",
       "total": -5,
       "today": -4,
       "thru": "F",
@@ -219,7 +203,7 @@
     {
       "id": "9843",
       "name": "Jake Knapp",
-      "position": "14",
+      "position": "13",
       "total": -5,
       "today": -3,
       "thru": "F",
@@ -235,7 +219,7 @@
     {
       "id": "4404992",
       "name": "Ben Griffin",
-      "position": "15",
+      "position": "14",
       "total": -5,
       "today": -2,
       "thru": "F",
@@ -251,7 +235,7 @@
     {
       "id": "5076021",
       "name": "Ryan Gerard",
-      "position": "16",
+      "position": "15",
       "total": -4,
       "today": -4,
       "thru": "F",
@@ -267,7 +251,7 @@
     {
       "id": "10140",
       "name": "Xander Schauffele",
-      "position": "17",
+      "position": "16",
       "total": -4,
       "today": -2,
       "thru": "F",
@@ -283,7 +267,7 @@
     {
       "id": "6798",
       "name": "Brooks Koepka",
-      "position": "18",
+      "position": "17",
       "total": -4,
       "today": -1,
       "thru": "F",
@@ -299,18 +283,34 @@
     {
       "id": "5553",
       "name": "Tyrrell Hatton",
-      "position": "19",
+      "position": "18",
       "total": -4,
       "today": 0,
-      "thru": "16",
+      "thru": "F",
       "rounds": [
         74,
         66,
-        64,
+        72,
         null
       ],
       "status": "active",
       "salary": 13000
+    },
+    {
+      "id": "11119",
+      "name": "Wyndham Clark",
+      "position": "19",
+      "total": -4,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        72,
+        68,
+        72,
+        null
+      ],
+      "status": "active",
+      "salary": 17000
     },
     {
       "id": "5539",
@@ -318,11 +318,11 @@
       "position": "20",
       "total": -4,
       "today": 1,
-      "thru": "16",
+      "thru": "F",
       "rounds": [
         71,
         68,
-        65,
+        73,
         null
       ],
       "status": "active",
