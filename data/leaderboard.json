@@ -3,11 +3,107 @@
     "name": "Masters Tournament",
     "id": "011",
     "course": "",
-    "current_round": 2,
-    "status": "between_rounds"
+    "current_round": 3,
+    "status": "in_progress"
   },
-  "last_updated": "2026-04-11T11:57:49.882071+00:00",
+  "last_updated": "2026-04-11T14:06:38.375647+00:00",
   "players": [
+    {
+      "id": "9780",
+      "name": "Jon Rahm",
+      "position": "45",
+      "total": 3,
+      "today": -1,
+      "thru": "1",
+      "rounds": [
+        78,
+        70,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 15500
+    },
+    {
+      "id": "3832",
+      "name": "Alex Noren",
+      "position": "48",
+      "total": 4,
+      "today": 0,
+      "thru": "2",
+      "rounds": [
+        77,
+        71,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 10500
+    },
+    {
+      "id": "7081",
+      "name": "Si Woo Kim",
+      "position": "49",
+      "total": 4,
+      "today": 0,
+      "thru": "1",
+      "rounds": [
+        75,
+        73,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 17000
+    },
+    {
+      "id": "10364",
+      "name": "Kurt Kitayama",
+      "position": "52",
+      "total": 5,
+      "today": 1,
+      "thru": "2",
+      "rounds": [
+        69,
+        79,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 10000
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus H\u00f8jgaard",
+      "position": "53",
+      "total": 5,
+      "today": 1,
+      "thru": "1",
+      "rounds": [
+        78,
+        70,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "1097",
+      "name": "Charl Schwartzel",
+      "position": "54",
+      "total": 5,
+      "today": 1,
+      "thru": "1",
+      "rounds": [
+        75,
+        73,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
     {
       "id": "3470",
       "name": "Rory McIlroy",
@@ -21,7 +117,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -37,7 +133,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 12500
     },
     {
@@ -53,7 +149,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 14500
     },
     {
@@ -69,7 +165,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 14500
     },
     {
@@ -85,7 +181,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17500
     },
     {
@@ -101,7 +197,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 12500
     },
     {
@@ -117,7 +213,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 13000
     },
     {
@@ -133,7 +229,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 15000
     },
     {
@@ -149,7 +245,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -165,7 +261,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 9000
     },
     {
@@ -181,7 +277,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -197,7 +293,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -213,7 +309,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 13000
     },
     {
@@ -229,7 +325,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17500
     },
     {
@@ -245,7 +341,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 12000
     },
     {
@@ -261,7 +357,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 11000
     },
     {
@@ -277,7 +373,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -293,7 +389,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17500
     },
     {
@@ -309,7 +405,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 15000
     },
     {
@@ -325,7 +421,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -341,7 +437,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17500
     },
     {
@@ -357,7 +453,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 11000
     },
     {
@@ -373,7 +469,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 9500
     },
     {
@@ -389,7 +485,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17500
     },
     {
@@ -405,7 +501,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -421,7 +517,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -437,7 +533,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 14000
     },
     {
@@ -453,7 +549,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -469,7 +565,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 10000
     },
     {
@@ -485,7 +581,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 8500
     },
     {
@@ -501,7 +597,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 18500
     },
     {
@@ -517,7 +613,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -533,7 +629,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 7000
     },
     {
@@ -549,7 +645,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -565,7 +661,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 12500
     },
     {
@@ -581,7 +677,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 9000
     },
     {
@@ -597,7 +693,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -613,7 +709,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 11500
     },
     {
@@ -629,7 +725,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 13500
     },
     {
@@ -645,7 +741,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 9000
     },
     {
@@ -661,7 +757,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -677,7 +773,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 14000
     },
     {
@@ -693,7 +789,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 14000
     },
     {
@@ -709,13 +805,13 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 18000
     },
     {
       "id": "9530",
       "name": "Maverick McNealy",
-      "position": "45",
+      "position": "46",
       "total": 3,
       "today": -2,
       "thru": "F",
@@ -725,13 +821,13 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
       "id": "158",
       "name": "Sergio Garc\u00eda",
-      "position": "46",
+      "position": "47",
       "total": 3,
       "today": 3,
       "thru": "F",
@@ -741,13 +837,13 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
       "id": "1225",
       "name": "Brian Harman",
-      "position": "47",
+      "position": "50",
       "total": 4,
       "today": -3,
       "thru": "F",
@@ -757,56 +853,8 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
-    },
-    {
-      "id": "9780",
-      "name": "Jon Rahm",
-      "position": "48",
-      "total": 4,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        78,
-        70,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 15500
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus H\u00f8jgaard",
-      "position": "49",
-      "total": 4,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        78,
-        70,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "3832",
-      "name": "Alex Noren",
-      "position": "50",
-      "total": 4,
-      "today": -1,
-      "thru": "F",
-      "rounds": [
-        77,
-        71,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 10500
     },
     {
       "id": "9126",
@@ -821,56 +869,8 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 14500
-    },
-    {
-      "id": "7081",
-      "name": "Si Woo Kim",
-      "position": "52",
-      "total": 4,
-      "today": 1,
-      "thru": "F",
-      "rounds": [
-        75,
-        73,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
-      "id": "1097",
-      "name": "Charl Schwartzel",
-      "position": "53",
-      "total": 4,
-      "today": 1,
-      "thru": "F",
-      "rounds": [
-        75,
-        73,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "10364",
-      "name": "Kurt Kitayama",
-      "position": "54",
-      "total": 4,
-      "today": 7,
-      "thru": "F",
-      "rounds": [
-        69,
-        79,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 10000
     },
     {
       "id": "4589438",
@@ -885,7 +885,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 10000
     },
     {
@@ -901,7 +901,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17500
     },
     {
@@ -917,7 +917,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -933,7 +933,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -949,7 +949,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -965,7 +965,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -981,7 +981,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 16500
     },
     {
@@ -997,7 +997,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1013,7 +1013,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 11500
     },
     {
@@ -1029,7 +1029,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -1045,7 +1045,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 18500
     },
     {
@@ -1061,7 +1061,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 17000
     },
     {
@@ -1077,7 +1077,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 9000
     },
     {
@@ -1093,7 +1093,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 14000
     },
     {
