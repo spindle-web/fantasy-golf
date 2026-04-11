@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 3,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-04-11T22:54:11.703934+00:00",
+  "last_updated": "2026-04-11T23:30:31.349679+00:00",
   "players": [
     {
       "id": "4425906",
@@ -30,11 +30,11 @@
       "position": "2",
       "total": -11,
       "today": 1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         65,
-        69,
+        73,
         null
       ],
       "status": "active",
@@ -46,11 +46,11 @@
       "position": "3",
       "total": -10,
       "today": -4,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         71,
-        64,
+        68,
         null
       ],
       "status": "active",
@@ -94,11 +94,11 @@
       "position": "6",
       "total": -8,
       "today": -3,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         70,
         69,
-        65,
+        69,
         null
       ],
       "status": "active",
@@ -137,25 +137,9 @@
       "salary": 5000
     },
     {
-      "id": "5579",
-      "name": "Patrick Reed",
-      "position": "9",
-      "total": -7,
-      "today": -1,
-      "thru": "17",
-      "rounds": [
-        69,
-        69,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 12500
-    },
-    {
       "id": "6007",
       "name": "Patrick Cantlay",
-      "position": "10",
+      "position": "9",
       "total": -6,
       "today": -6,
       "thru": "F",
@@ -171,7 +155,7 @@
     {
       "id": "5409",
       "name": "Russell Henley",
-      "position": "11",
+      "position": "10",
       "total": -6,
       "today": -6,
       "thru": "F",
@@ -183,6 +167,22 @@
       ],
       "status": "active",
       "salary": 17000
+    },
+    {
+      "id": "5579",
+      "name": "Patrick Reed",
+      "position": "11",
+      "total": -6,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        69,
+        69,
+        72,
+        null
+      ],
+      "status": "active",
+      "salary": 12500
     },
     {
       "id": "10592",
