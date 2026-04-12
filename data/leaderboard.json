@@ -3,10 +3,10 @@
     "name": "Masters Tournament",
     "id": "011",
     "course": "",
-    "current_round": 3,
-    "status": "between_rounds"
+    "current_round": 4,
+    "status": "in_progress"
   },
-  "last_updated": "2026-04-12T12:01:43.293984+00:00",
+  "last_updated": "2026-04-12T13:22:44.742970+00:00",
   "players": [
     {
       "id": "4425906",
@@ -825,9 +825,25 @@
       "salary": 18000
     },
     {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "position": "52",
+      "total": 7,
+      "today": 0,
+      "thru": "1",
+      "rounds": [
+        71,
+        74,
+        78,
+        null
+      ],
+      "status": "active",
+      "salary": 17000
+    },
+    {
       "id": "10364",
       "name": "Kurt Kitayama",
-      "position": "52",
+      "position": "53",
       "total": 7,
       "today": 3,
       "thru": "F",
@@ -841,28 +857,12 @@
       "salary": 10000
     },
     {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "position": "53",
-      "total": 7,
-      "today": 6,
-      "thru": "F",
-      "rounds": [
-        71,
-        74,
-        78,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
       "id": "1097",
       "name": "Charl Schwartzel",
       "position": "54",
       "total": 9,
-      "today": 5,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         75,
         73,
