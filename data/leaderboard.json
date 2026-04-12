@@ -6,7 +6,7 @@
     "current_round": 4,
     "status": "in_progress"
   },
-  "last_updated": "2026-04-12T13:22:44.742970+00:00",
+  "last_updated": "2026-04-12T14:07:54.521982+00:00",
   "players": [
     {
       "id": "4425906",
@@ -697,28 +697,28 @@
       "salary": 9000
     },
     {
-      "id": "9126",
-      "name": "Corey Conners",
+      "id": "7081",
+      "name": "Si Woo Kim",
       "position": "44",
       "total": 3,
       "today": -1,
-      "thru": "F",
+      "thru": "1",
       "rounds": [
         75,
         73,
-        71,
+        72,
         null
       ],
       "status": "active",
-      "salary": 14500
+      "salary": 17000
     },
     {
       "id": "4513",
       "name": "Keegan Bradley",
       "position": "45",
       "total": 3,
-      "today": 1,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         72,
         74,
@@ -733,8 +733,8 @@
       "name": "Dustin Johnson",
       "position": "46",
       "total": 3,
-      "today": 3,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         73,
         71,
@@ -745,44 +745,28 @@
       "salary": 14000
     },
     {
-      "id": "7081",
-      "name": "Si Woo Kim",
+      "id": "9126",
+      "name": "Corey Conners",
       "position": "47",
-      "total": 4,
-      "today": 0,
+      "total": 3,
+      "today": -1,
       "thru": "F",
       "rounds": [
         75,
         73,
-        72,
+        71,
         null
       ],
       "status": "active",
-      "salary": 17000
-    },
-    {
-      "id": "11253",
-      "name": "Rasmus H\u00f8jgaard",
-      "position": "48",
-      "total": 5,
-      "today": 1,
-      "thru": "F",
-      "rounds": [
-        78,
-        70,
-        73,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
+      "salary": 14500
     },
     {
       "id": "9780",
       "name": "Jon Rahm",
-      "position": "49",
-      "total": 5,
-      "today": 1,
-      "thru": "F",
+      "position": "48",
+      "total": 4,
+      "today": -1,
+      "thru": "2",
       "rounds": [
         78,
         70,
@@ -793,28 +777,12 @@
       "salary": 15500
     },
     {
-      "id": "158",
-      "name": "Sergio Garc\u00eda",
-      "position": "50",
-      "total": 5,
-      "today": 2,
-      "thru": "F",
-      "rounds": [
-        72,
-        75,
-        74,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "3550",
       "name": "Gary Woodland",
-      "position": "51",
-      "total": 6,
-      "today": 4,
-      "thru": "F",
+      "position": "49",
+      "total": 5,
+      "today": -1,
+      "thru": "3",
       "rounds": [
         71,
         75,
@@ -825,28 +793,12 @@
       "salary": 18000
     },
     {
-      "id": "10906",
-      "name": "Aaron Rai",
-      "position": "52",
-      "total": 7,
-      "today": 0,
-      "thru": "1",
-      "rounds": [
-        71,
-        74,
-        78,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
       "id": "10364",
       "name": "Kurt Kitayama",
-      "position": "53",
-      "total": 7,
-      "today": 3,
-      "thru": "F",
+      "position": "50",
+      "total": 6,
+      "today": -1,
+      "thru": "3",
       "rounds": [
         69,
         79,
@@ -857,12 +809,60 @@
       "salary": 10000
     },
     {
+      "id": "158",
+      "name": "Sergio Garc\u00eda",
+      "position": "51",
+      "total": 6,
+      "today": 1,
+      "thru": "2",
+      "rounds": [
+        72,
+        75,
+        74,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus H\u00f8jgaard",
+      "position": "52",
+      "total": 6,
+      "today": 1,
+      "thru": "1",
+      "rounds": [
+        78,
+        70,
+        73,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "10906",
+      "name": "Aaron Rai",
+      "position": "53",
+      "total": 8,
+      "today": 1,
+      "thru": "4",
+      "rounds": [
+        71,
+        74,
+        78,
+        null
+      ],
+      "status": "active",
+      "salary": 17000
+    },
+    {
       "id": "1097",
       "name": "Charl Schwartzel",
       "position": "54",
-      "total": 9,
-      "today": 0,
-      "thru": "1",
+      "total": 13,
+      "today": 4,
+      "thru": "4",
       "rounds": [
         75,
         73,
