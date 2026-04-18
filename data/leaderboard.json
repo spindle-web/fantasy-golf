@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 3,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-04-18T21:31:56.829187+00:00",
+  "last_updated": "2026-04-18T22:02:39.978225+00:00",
   "players": [
     {
       "id": "9037",
@@ -14,11 +14,11 @@
       "position": "1",
       "total": -17,
       "today": -3,
-      "thru": "15",
+      "thru": "F",
       "rounds": [
         65,
         63,
-        57,
+        68,
         null
       ],
       "status": "active",
@@ -73,41 +73,25 @@
       "salary": 17000
     },
     {
-      "id": "4375972",
-      "name": "Ludvig \u00c5berg",
+      "id": "8961",
+      "name": "Sepp Straka",
       "position": "5",
       "total": -13,
       "today": -4,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
-        63,
-        70,
-        63,
+        66,
+        67,
+        67,
         null
       ],
       "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "6007",
-      "name": "Patrick Cantlay",
-      "position": "6",
-      "total": -13,
-      "today": -4,
-      "thru": "16",
-      "rounds": [
-        69,
-        64,
-        60,
-        null
-      ],
-      "status": "active",
-      "salary": 17500
+      "salary": 17000
     },
     {
       "id": "11332",
       "name": "Andrew Novak",
-      "position": "7",
+      "position": "6",
       "total": -12,
       "today": -6,
       "thru": "F",
@@ -123,7 +107,7 @@
     {
       "id": "3550",
       "name": "Gary Woodland",
-      "position": "8",
+      "position": "7",
       "total": -12,
       "today": -5,
       "thru": "F",
@@ -139,7 +123,7 @@
     {
       "id": "5080439",
       "name": "Aldrich Potgieter",
-      "position": "9",
+      "position": "8",
       "total": -12,
       "today": -4,
       "thru": "F",
@@ -153,41 +137,41 @@
       "salary": 10000
     },
     {
-      "id": "8961",
-      "name": "Sepp Straka",
+      "id": "6007",
+      "name": "Patrick Cantlay",
+      "position": "9",
+      "total": -12,
+      "today": -3,
+      "thru": "F",
+      "rounds": [
+        69,
+        64,
+        68,
+        null
+      ],
+      "status": "active",
+      "salary": 17500
+    },
+    {
+      "id": "4375972",
+      "name": "Ludvig \u00c5berg",
       "position": "10",
       "total": -12,
       "today": -3,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
-        66,
-        67,
-        64,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
-      "id": "5408",
-      "name": "Harris English",
-      "position": "11",
-      "total": -12,
-      "today": -2,
-      "thru": "16",
-      "rounds": [
-        64,
+        63,
+        70,
         68,
-        62,
         null
       ],
       "status": "active",
-      "salary": 17000
+      "salary": 5000
     },
     {
       "id": "4837368",
       "name": "Pierceson Coody",
-      "position": "12",
+      "position": "11",
       "total": -11,
       "today": -6,
       "thru": "F",
@@ -203,7 +187,7 @@
     {
       "id": "5338",
       "name": "Bud Cauley",
-      "position": "13",
+      "position": "12",
       "total": -11,
       "today": -6,
       "thru": "F",
@@ -219,7 +203,7 @@
     {
       "id": "10364",
       "name": "Kurt Kitayama",
-      "position": "14",
+      "position": "13",
       "total": -11,
       "today": -3,
       "thru": "F",
@@ -233,16 +217,32 @@
       "salary": 10000
     },
     {
+      "id": "5408",
+      "name": "Harris English",
+      "position": "14",
+      "total": -11,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        64,
+        68,
+        70,
+        null
+      ],
+      "status": "active",
+      "salary": 17000
+    },
+    {
       "id": "4364873",
       "name": "Viktor Hovland",
       "position": "15",
       "total": -11,
       "today": 2,
-      "thru": "15",
+      "thru": "F",
       "rounds": [
         64,
         65,
-        62,
+        73,
         null
       ],
       "status": "active",
