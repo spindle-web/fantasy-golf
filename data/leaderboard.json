@@ -4,22 +4,22 @@
     "id": "011",
     "course": "",
     "current_round": 4,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-04-19T21:49:49.910883+00:00",
+  "last_updated": "2026-04-19T22:20:05.138039+00:00",
   "players": [
     {
       "id": "9037",
       "name": "Matt Fitzpatrick",
       "position": "1",
       "total": -19,
-      "today": -2,
-      "thru": "17",
+      "today": -1,
+      "thru": "F",
       "rounds": [
         65,
         63,
         68,
-        65
+        70
       ],
       "status": "active",
       "salary": 17000
@@ -30,12 +30,12 @@
       "position": "2",
       "total": -18,
       "today": -4,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         68,
         67,
         64,
-        63
+        67
       ],
       "status": "active",
       "salary": 18500
