@@ -6,7 +6,7 @@
     "current_round": 4,
     "status": "in_progress"
   },
-  "last_updated": "2026-04-19T11:32:20.618204+00:00",
+  "last_updated": "2026-04-19T12:01:27.850502+00:00",
   "players": [
     {
       "id": "9037",
@@ -1049,9 +1049,41 @@
       "salary": 10000
     },
     {
+      "id": "9843",
+      "name": "Jake Knapp",
+      "position": "66",
+      "total": 0,
+      "today": -2,
+      "thru": "3",
+      "rounds": [
+        71,
+        75,
+        69,
+        null
+      ],
+      "status": "active",
+      "salary": 11000
+    },
+    {
+      "id": "8973",
+      "name": "Max Homa",
+      "position": "67",
+      "total": 0,
+      "today": -1,
+      "thru": "3",
+      "rounds": [
+        70,
+        70,
+        74,
+        null
+      ],
+      "status": "active",
+      "salary": 17000
+    },
+    {
       "id": "4408316",
       "name": "Nico Echavarria",
-      "position": "66",
+      "position": "68",
       "total": 0,
       "today": -3,
       "thru": "F",
@@ -1067,7 +1099,7 @@
     {
       "id": "5076025",
       "name": "William Mouw",
-      "position": "67",
+      "position": "69",
       "total": 0,
       "today": 1,
       "thru": "F",
@@ -1083,7 +1115,7 @@
     {
       "id": "11393",
       "name": "Garrick Higgo",
-      "position": "68",
+      "position": "70",
       "total": 0,
       "today": 1,
       "thru": "F",
@@ -1097,44 +1129,12 @@
       "salary": 9000
     },
     {
-      "id": "4585549",
-      "name": "Marco Penge",
-      "position": "69",
-      "total": 1,
-      "today": -3,
-      "thru": "F",
-      "rounds": [
-        73,
-        73,
-        68,
-        null
-      ],
-      "status": "active",
-      "salary": 7000
-    },
-    {
-      "id": "10054",
-      "name": "Denny McCarthy",
-      "position": "70",
-      "total": 1,
-      "today": -1,
-      "thru": "F",
-      "rounds": [
-        74,
-        70,
-        70,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
       "id": "4691931",
       "name": "Ricky Castillo",
       "position": "71",
       "total": 1,
-      "today": 1,
-      "thru": "F",
+      "today": 0,
+      "thru": "2",
       "rounds": [
         72,
         70,
@@ -1145,12 +1145,28 @@
       "salary": 5000
     },
     {
-      "id": "8974",
-      "name": "Michael Kim",
+      "id": "9525",
+      "name": "Brian Campbell",
       "position": "72",
       "total": 1,
-      "today": 1,
-      "thru": "F",
+      "today": 0,
+      "thru": "2",
+      "rounds": [
+        68,
+        72,
+        74,
+        null
+      ],
+      "status": "active",
+      "salary": 8500
+    },
+    {
+      "id": "8974",
+      "name": "Michael Kim",
+      "position": "73",
+      "total": 1,
+      "today": 0,
+      "thru": "1",
       "rounds": [
         69,
         73,
@@ -1163,50 +1179,34 @@
     {
       "id": "1680",
       "name": "Jason Day",
-      "position": "73",
-      "total": 1,
-      "today": 1,
-      "thru": "F",
-      "rounds": [
-        70,
-        72,
-        72,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
-      "id": "8973",
-      "name": "Max Homa",
       "position": "74",
       "total": 1,
-      "today": 3,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         70,
-        70,
-        74,
+        72,
+        72,
         null
       ],
       "status": "active",
       "salary": 17000
     },
     {
-      "id": "9525",
-      "name": "Brian Campbell",
+      "id": "10054",
+      "name": "Denny McCarthy",
       "position": "75",
       "total": 1,
-      "today": 3,
+      "today": -1,
       "thru": "F",
       "rounds": [
-        68,
-        72,
         74,
+        70,
+        70,
         null
       ],
       "status": "active",
-      "salary": 8500
+      "salary": 17000
     },
     {
       "id": "11056",
@@ -1214,7 +1214,7 @@
       "position": "76",
       "total": 2,
       "today": -1,
-      "thru": "1",
+      "thru": "4",
       "rounds": [
         74,
         73,
@@ -1225,12 +1225,28 @@
       "salary": 5000
     },
     {
-      "id": "1030",
-      "name": "Jhonattan Vegas",
+      "id": "4585549",
+      "name": "Marco Penge",
       "position": "77",
       "total": 2,
-      "today": 0,
+      "today": 1,
       "thru": "1",
+      "rounds": [
+        73,
+        73,
+        68,
+        null
+      ],
+      "status": "active",
+      "salary": 7000
+    },
+    {
+      "id": "1030",
+      "name": "Jhonattan Vegas",
+      "position": "78",
+      "total": 3,
+      "today": 1,
+      "thru": "4",
       "rounds": [
         77,
         69,
@@ -1241,28 +1257,12 @@
       "salary": 8500
     },
     {
-      "id": "9843",
-      "name": "Jake Knapp",
-      "position": "78",
-      "total": 2,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        71,
-        75,
-        69,
-        null
-      ],
-      "status": "active",
-      "salary": 11000
-    },
-    {
       "id": "1651",
       "name": "Billy Horschel",
       "position": "79",
-      "total": 6,
-      "today": 0,
-      "thru": "2",
+      "total": 5,
+      "today": -1,
+      "thru": "5",
       "rounds": [
         71,
         76,
@@ -1273,28 +1273,12 @@
       "salary": 9000
     },
     {
-      "id": "9658",
-      "name": "Taylor Pendrith",
+      "id": "4848",
+      "name": "Justin Thomas",
       "position": "80",
       "total": 7,
       "today": -1,
-      "thru": "3",
-      "rounds": [
-        74,
-        75,
-        72,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
-      "id": "4848",
-      "name": "Justin Thomas",
-      "position": "81",
-      "total": 8,
-      "today": 0,
-      "thru": "2",
+      "thru": "4",
       "rounds": [
         76,
         75,
@@ -1305,12 +1289,28 @@
       "salary": 14000
     },
     {
+      "id": "9658",
+      "name": "Taylor Pendrith",
+      "position": "81",
+      "total": 8,
+      "today": 0,
+      "thru": "5",
+      "rounds": [
+        74,
+        75,
+        72,
+        null
+      ],
+      "status": "active",
+      "salary": 17000
+    },
+    {
       "id": "2230",
       "name": "Tony Finau",
       "position": "82",
-      "total": 11,
-      "today": -1,
-      "thru": "3",
+      "total": 10,
+      "today": -2,
+      "thru": "5",
       "rounds": [
         75,
         75,
