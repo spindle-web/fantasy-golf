@@ -4,145 +4,33 @@
     "id": "011",
     "course": "",
     "current_round": 1,
-    "status": "upcoming"
+    "status": "in_progress"
   },
-  "last_updated": "2026-04-23T11:53:36.817196+00:00",
+  "last_updated": "2026-04-23T13:01:01.947666+00:00",
   "players": [
+    {
+      "id": "132567",
+      "name": "Unknown",
+      "position": "4",
+      "total": -3,
+      "today": -3,
+      "thru": "2",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
     {
       "id": "132545",
       "name": "Unknown",
       "position": "1",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132557",
-      "name": "Unknown",
-      "position": "2",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132583",
-      "name": "Unknown",
-      "position": "3",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "125992",
-      "name": "Unknown",
-      "position": "4",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132513",
-      "name": "Unknown",
-      "position": "5",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132515",
-      "name": "Unknown",
-      "position": "6",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132523",
-      "name": "Unknown",
-      "position": "7",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "126042",
-      "name": "Unknown",
-      "position": "8",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132516",
-      "name": "Unknown",
-      "position": "9",
-      "total": 0,
-      "today": null,
-      "thru": "--",
+      "total": -2,
+      "today": -2,
+      "thru": "2",
       "rounds": [
         null,
         null,
@@ -155,10 +43,10 @@
     {
       "id": "132551",
       "name": "Unknown",
-      "position": "10",
-      "total": 0,
-      "today": null,
-      "thru": "--",
+      "position": "2",
+      "total": -2,
+      "today": -2,
+      "thru": "3",
       "rounds": [
         null,
         null,
@@ -169,7 +57,151 @@
       "salary": 5000
     },
     {
-      "id": "132519",
+      "id": "132523",
+      "name": "Unknown",
+      "position": "3",
+      "total": -2,
+      "today": -2,
+      "thru": "3",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132530",
+      "name": "Unknown",
+      "position": "5",
+      "total": -2,
+      "today": -2,
+      "thru": "2",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "125992",
+      "name": "Unknown",
+      "position": "69",
+      "total": -2,
+      "today": -2,
+      "thru": "3",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132513",
+      "name": "Unknown",
+      "position": "6",
+      "total": -1,
+      "today": -1,
+      "thru": "3",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132517",
+      "name": "Unknown",
+      "position": "70",
+      "total": -1,
+      "today": -1,
+      "thru": "1",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132528",
+      "name": "Unknown",
+      "position": "7",
+      "total": 0,
+      "today": 0,
+      "thru": "1",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132537",
+      "name": "Unknown",
+      "position": "8",
+      "total": 0,
+      "today": 0,
+      "thru": "1",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132571",
+      "name": "Unknown",
+      "position": "9",
+      "total": 0,
+      "today": 0,
+      "thru": "1",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132515",
+      "name": "Unknown",
+      "position": "10",
+      "total": 0,
+      "today": 0,
+      "thru": "3",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132521",
       "name": "Unknown",
       "position": "11",
       "total": 0,
@@ -185,7 +217,7 @@
       "salary": 5000
     },
     {
-      "id": "132530",
+      "id": "132524",
       "name": "Unknown",
       "position": "12",
       "total": 0,
@@ -201,7 +233,7 @@
       "salary": 5000
     },
     {
-      "id": "132567",
+      "id": "132526",
       "name": "Unknown",
       "position": "13",
       "total": 0,
@@ -217,7 +249,7 @@
       "salary": 5000
     },
     {
-      "id": "132577",
+      "id": "132580",
       "name": "Unknown",
       "position": "14",
       "total": 0,
@@ -233,7 +265,7 @@
       "salary": 5000
     },
     {
-      "id": "132517",
+      "id": "132514",
       "name": "Unknown",
       "position": "15",
       "total": 0,
@@ -249,7 +281,7 @@
       "salary": 5000
     },
     {
-      "id": "132528",
+      "id": "132527",
       "name": "Unknown",
       "position": "16",
       "total": 0,
@@ -265,7 +297,7 @@
       "salary": 5000
     },
     {
-      "id": "132537",
+      "id": "132550",
       "name": "Unknown",
       "position": "17",
       "total": 0,
@@ -281,7 +313,7 @@
       "salary": 5000
     },
     {
-      "id": "132571",
+      "id": "132529",
       "name": "Unknown",
       "position": "18",
       "total": 0,
@@ -297,7 +329,7 @@
       "salary": 5000
     },
     {
-      "id": "132521",
+      "id": "132542",
       "name": "Unknown",
       "position": "19",
       "total": 0,
@@ -313,7 +345,7 @@
       "salary": 5000
     },
     {
-      "id": "132524",
+      "id": "132581",
       "name": "Unknown",
       "position": "20",
       "total": 0,
@@ -329,7 +361,7 @@
       "salary": 5000
     },
     {
-      "id": "132526",
+      "id": "132520",
       "name": "Unknown",
       "position": "21",
       "total": 0,
@@ -345,7 +377,7 @@
       "salary": 5000
     },
     {
-      "id": "132580",
+      "id": "132554",
       "name": "Unknown",
       "position": "22",
       "total": 0,
@@ -361,7 +393,7 @@
       "salary": 5000
     },
     {
-      "id": "132514",
+      "id": "132575",
       "name": "Unknown",
       "position": "23",
       "total": 0,
@@ -377,7 +409,7 @@
       "salary": 5000
     },
     {
-      "id": "132518",
+      "id": "132525",
       "name": "Unknown",
       "position": "24",
       "total": 0,
@@ -393,7 +425,7 @@
       "salary": 5000
     },
     {
-      "id": "132527",
+      "id": "132532",
       "name": "Unknown",
       "position": "25",
       "total": 0,
@@ -409,7 +441,7 @@
       "salary": 5000
     },
     {
-      "id": "132550",
+      "id": "132553",
       "name": "Unknown",
       "position": "26",
       "total": 0,
@@ -425,7 +457,7 @@
       "salary": 5000
     },
     {
-      "id": "132529",
+      "id": "132533",
       "name": "Unknown",
       "position": "27",
       "total": 0,
@@ -441,7 +473,7 @@
       "salary": 5000
     },
     {
-      "id": "132542",
+      "id": "132536",
       "name": "Unknown",
       "position": "28",
       "total": 0,
@@ -457,7 +489,7 @@
       "salary": 5000
     },
     {
-      "id": "132572",
+      "id": "132555",
       "name": "Unknown",
       "position": "29",
       "total": 0,
@@ -473,7 +505,7 @@
       "salary": 5000
     },
     {
-      "id": "132581",
+      "id": "132531",
       "name": "Unknown",
       "position": "30",
       "total": 0,
@@ -489,7 +521,7 @@
       "salary": 5000
     },
     {
-      "id": "132520",
+      "id": "132556",
       "name": "Unknown",
       "position": "31",
       "total": 0,
@@ -505,7 +537,7 @@
       "salary": 5000
     },
     {
-      "id": "132554",
+      "id": "132562",
       "name": "Unknown",
       "position": "32",
       "total": 0,
@@ -521,7 +553,7 @@
       "salary": 5000
     },
     {
-      "id": "132575",
+      "id": "132570",
       "name": "Unknown",
       "position": "33",
       "total": 0,
@@ -537,7 +569,7 @@
       "salary": 5000
     },
     {
-      "id": "132576",
+      "id": "126037",
       "name": "Unknown",
       "position": "34",
       "total": 0,
@@ -553,7 +585,7 @@
       "salary": 5000
     },
     {
-      "id": "132525",
+      "id": "132522",
       "name": "Unknown",
       "position": "35",
       "total": 0,
@@ -569,7 +601,7 @@
       "salary": 5000
     },
     {
-      "id": "132532",
+      "id": "132535",
       "name": "Unknown",
       "position": "36",
       "total": 0,
@@ -585,7 +617,7 @@
       "salary": 5000
     },
     {
-      "id": "132553",
+      "id": "132540",
       "name": "Unknown",
       "position": "37",
       "total": 0,
@@ -601,7 +633,7 @@
       "salary": 5000
     },
     {
-      "id": "132573",
+      "id": "132552",
       "name": "Unknown",
       "position": "38",
       "total": 0,
@@ -617,7 +649,7 @@
       "salary": 5000
     },
     {
-      "id": "132533",
+      "id": "132566",
       "name": "Unknown",
       "position": "39",
       "total": 0,
@@ -633,7 +665,7 @@
       "salary": 5000
     },
     {
-      "id": "132536",
+      "id": "132534",
       "name": "Unknown",
       "position": "40",
       "total": 0,
@@ -649,7 +681,7 @@
       "salary": 5000
     },
     {
-      "id": "132555",
+      "id": "132549",
       "name": "Unknown",
       "position": "41",
       "total": 0,
@@ -665,7 +697,7 @@
       "salary": 5000
     },
     {
-      "id": "132565",
+      "id": "132582",
       "name": "Unknown",
       "position": "42",
       "total": 0,
@@ -681,7 +713,7 @@
       "salary": 5000
     },
     {
-      "id": "132531",
+      "id": "126001",
       "name": "Unknown",
       "position": "43",
       "total": 0,
@@ -697,7 +729,7 @@
       "salary": 5000
     },
     {
-      "id": "132556",
+      "id": "132559",
       "name": "Unknown",
       "position": "44",
       "total": 0,
@@ -713,7 +745,7 @@
       "salary": 5000
     },
     {
-      "id": "132562",
+      "id": "132564",
       "name": "Unknown",
       "position": "45",
       "total": 0,
@@ -729,7 +761,7 @@
       "salary": 5000
     },
     {
-      "id": "132570",
+      "id": "132569",
       "name": "Unknown",
       "position": "46",
       "total": 0,
@@ -745,7 +777,7 @@
       "salary": 5000
     },
     {
-      "id": "126037",
+      "id": "132539",
       "name": "Unknown",
       "position": "47",
       "total": 0,
@@ -761,7 +793,7 @@
       "salary": 5000
     },
     {
-      "id": "132522",
+      "id": "132543",
       "name": "Unknown",
       "position": "48",
       "total": 0,
@@ -777,7 +809,7 @@
       "salary": 5000
     },
     {
-      "id": "132578",
+      "id": "132584",
       "name": "Unknown",
       "position": "49",
       "total": 0,
@@ -793,7 +825,7 @@
       "salary": 5000
     },
     {
-      "id": "132579",
+      "id": "132548",
       "name": "Unknown",
       "position": "50",
       "total": 0,
@@ -809,7 +841,7 @@
       "salary": 5000
     },
     {
-      "id": "132535",
+      "id": "132557",
       "name": "Unknown",
       "position": "51",
       "total": 0,
@@ -825,7 +857,7 @@
       "salary": 5000
     },
     {
-      "id": "132540",
+      "id": "132574",
       "name": "Unknown",
       "position": "52",
       "total": 0,
@@ -841,7 +873,7 @@
       "salary": 5000
     },
     {
-      "id": "132552",
+      "id": "132583",
       "name": "Unknown",
       "position": "53",
       "total": 0,
@@ -857,7 +889,7 @@
       "salary": 5000
     },
     {
-      "id": "132566",
+      "id": "132541",
       "name": "Unknown",
       "position": "54",
       "total": 0,
@@ -873,7 +905,7 @@
       "salary": 5000
     },
     {
-      "id": "132534",
+      "id": "132547",
       "name": "Unknown",
       "position": "55",
       "total": 0,
@@ -889,7 +921,7 @@
       "salary": 5000
     },
     {
-      "id": "132544",
+      "id": "132560",
       "name": "Unknown",
       "position": "56",
       "total": 0,
@@ -905,7 +937,7 @@
       "salary": 5000
     },
     {
-      "id": "132549",
+      "id": "132563",
       "name": "Unknown",
       "position": "57",
       "total": 0,
@@ -921,7 +953,7 @@
       "salary": 5000
     },
     {
-      "id": "132582",
+      "id": "132568",
       "name": "Unknown",
       "position": "58",
       "total": 0,
@@ -937,7 +969,7 @@
       "salary": 5000
     },
     {
-      "id": "126001",
+      "id": "132518",
       "name": "Unknown",
       "position": "59",
       "total": 0,
@@ -953,7 +985,7 @@
       "salary": 5000
     },
     {
-      "id": "132559",
+      "id": "132572",
       "name": "Unknown",
       "position": "60",
       "total": 0,
@@ -969,7 +1001,7 @@
       "salary": 5000
     },
     {
-      "id": "132564",
+      "id": "132576",
       "name": "Unknown",
       "position": "61",
       "total": 0,
@@ -985,7 +1017,7 @@
       "salary": 5000
     },
     {
-      "id": "132569",
+      "id": "132573",
       "name": "Unknown",
       "position": "62",
       "total": 0,
@@ -1001,7 +1033,7 @@
       "salary": 5000
     },
     {
-      "id": "132539",
+      "id": "132565",
       "name": "Unknown",
       "position": "63",
       "total": 0,
@@ -1017,7 +1049,7 @@
       "salary": 5000
     },
     {
-      "id": "132543",
+      "id": "132578",
       "name": "Unknown",
       "position": "64",
       "total": 0,
@@ -1033,7 +1065,7 @@
       "salary": 5000
     },
     {
-      "id": "132561",
+      "id": "132579",
       "name": "Unknown",
       "position": "65",
       "total": 0,
@@ -1049,7 +1081,7 @@
       "salary": 5000
     },
     {
-      "id": "132584",
+      "id": "132544",
       "name": "Unknown",
       "position": "66",
       "total": 0,
@@ -1065,7 +1097,7 @@
       "salary": 5000
     },
     {
-      "id": "132548",
+      "id": "132561",
       "name": "Unknown",
       "position": "67",
       "total": 0,
@@ -1081,7 +1113,7 @@
       "salary": 5000
     },
     {
-      "id": "132574",
+      "id": "132538",
       "name": "Unknown",
       "position": "68",
       "total": 0,
@@ -1097,44 +1129,12 @@
       "salary": 5000
     },
     {
-      "id": "132538",
-      "name": "Unknown",
-      "position": "69",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132541",
-      "name": "Unknown",
-      "position": "70",
-      "total": 0,
-      "today": null,
-      "thru": "--",
-      "rounds": [
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132547",
+      "id": "132519",
       "name": "Unknown",
       "position": "71",
       "total": 0,
-      "today": null,
-      "thru": "--",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         null,
         null,
@@ -1145,12 +1145,12 @@
       "salary": 5000
     },
     {
-      "id": "132560",
+      "id": "132577",
       "name": "Unknown",
       "position": "72",
       "total": 0,
-      "today": null,
-      "thru": "--",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         null,
         null,
@@ -1161,12 +1161,12 @@
       "salary": 5000
     },
     {
-      "id": "132563",
+      "id": "126042",
       "name": "Unknown",
       "position": "73",
       "total": 0,
-      "today": null,
-      "thru": "--",
+      "today": 0,
+      "thru": "2",
       "rounds": [
         null,
         null,
@@ -1177,12 +1177,12 @@
       "salary": 5000
     },
     {
-      "id": "132568",
+      "id": "132516",
       "name": "Unknown",
       "position": "74",
       "total": 0,
-      "today": null,
-      "thru": "--",
+      "today": 0,
+      "thru": "2",
       "rounds": [
         null,
         null,
