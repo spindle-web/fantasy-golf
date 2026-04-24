@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 2,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-04-24T22:37:18.468219+00:00",
+  "last_updated": "2026-04-24T23:22:40.795795+00:00",
   "players": [
     {
       "id": "132542",
@@ -713,22 +713,6 @@
       "salary": 5000
     },
     {
-      "id": "132573",
-      "name": "Unknown",
-      "position": "57",
-      "total": -9,
-      "today": 2,
-      "thru": "17",
-      "rounds": [
-        61,
-        71,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "125992",
       "name": "Unknown",
       "position": "45",
@@ -921,6 +905,22 @@
       "salary": 5000
     },
     {
+      "id": "132573",
+      "name": "Unknown",
+      "position": "57",
+      "total": -7,
+      "today": 4,
+      "thru": "F",
+      "rounds": [
+        61,
+        76,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "132559",
       "name": "Unknown",
       "position": "58",
@@ -1077,7 +1077,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1093,7 +1093,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1109,7 +1109,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1125,7 +1125,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1141,7 +1141,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1157,7 +1157,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1173,7 +1173,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1189,7 +1189,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     }
   ]
