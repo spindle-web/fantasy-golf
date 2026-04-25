@@ -3,242 +3,18 @@
     "name": "Zurich Classic of New Orleans",
     "id": "011",
     "course": "",
-    "current_round": 2,
-    "status": "between_rounds"
+    "current_round": 3,
+    "status": "in_progress"
   },
-  "last_updated": "2026-04-25T15:08:21.135565+00:00",
+  "last_updated": "2026-04-25T15:54:22.384528+00:00",
   "players": [
-    {
-      "id": "132542",
-      "name": "Unknown",
-      "position": "1",
-      "total": -16,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        58,
-        70,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132524",
-      "name": "Unknown",
-      "position": "2",
-      "total": -15,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        59,
-        70,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132550",
-      "name": "Unknown",
-      "position": "3",
-      "total": -15,
-      "today": -4,
-      "thru": "F",
-      "rounds": [
-        61,
-        68,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132535",
-      "name": "Unknown",
-      "position": "4",
-      "total": -15,
-      "today": -7,
-      "thru": "F",
-      "rounds": [
-        64,
-        65,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132513",
-      "name": "Unknown",
-      "position": "5",
-      "total": -14,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        60,
-        70,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132570",
-      "name": "Unknown",
-      "position": "6",
-      "total": -14,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        60,
-        70,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132534",
-      "name": "Unknown",
-      "position": "7",
-      "total": -14,
-      "today": -3,
-      "thru": "F",
-      "rounds": [
-        61,
-        69,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132548",
-      "name": "Unknown",
-      "position": "8",
-      "total": -14,
-      "today": -5,
-      "thru": "F",
-      "rounds": [
-        63,
-        67,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132574",
-      "name": "Unknown",
-      "position": "9",
-      "total": -14,
-      "today": -3,
-      "thru": "F",
-      "rounds": [
-        61,
-        69,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132583",
-      "name": "Unknown",
-      "position": "10",
-      "total": -14,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        60,
-        70,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132551",
-      "name": "Unknown",
-      "position": "11",
-      "total": -13,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        61,
-        70,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132581",
-      "name": "Unknown",
-      "position": "12",
-      "total": -13,
-      "today": -4,
-      "thru": "F",
-      "rounds": [
-        63,
-        68,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132531",
-      "name": "Unknown",
-      "position": "13",
-      "total": -13,
-      "today": -4,
-      "thru": "F",
-      "rounds": [
-        63,
-        68,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "126037",
-      "name": "Unknown",
-      "position": "14",
-      "total": -13,
-      "today": -4,
-      "thru": "F",
-      "rounds": [
-        63,
-        68,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
     {
       "id": "132582",
       "name": "Unknown",
-      "position": "15",
-      "total": -12,
-      "today": -2,
-      "thru": "F",
+      "position": "16",
+      "total": -13,
+      "today": -1,
+      "thru": "1",
       "rounds": [
         62,
         70,
@@ -249,76 +25,12 @@
       "salary": 5000
     },
     {
-      "id": "132517",
-      "name": "Unknown",
-      "position": "16",
-      "total": -11,
-      "today": -6,
-      "thru": "F",
-      "rounds": [
-        67,
-        66,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132526",
-      "name": "Unknown",
-      "position": "17",
-      "total": -11,
-      "today": -4,
-      "thru": "F",
-      "rounds": [
-        65,
-        68,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132529",
-      "name": "Unknown",
-      "position": "18",
-      "total": -11,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        63,
-        70,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "132522",
-      "name": "Unknown",
-      "position": "19",
-      "total": -11,
-      "today": -3,
-      "thru": "F",
-      "rounds": [
-        64,
-        69,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "132566",
       "name": "Unknown",
-      "position": "20",
-      "total": -11,
-      "today": -4,
-      "thru": "F",
+      "position": "1",
+      "total": -12,
+      "today": -1,
+      "thru": "2",
       "rounds": [
         65,
         68,
@@ -331,10 +43,10 @@
     {
       "id": "132549",
       "name": "Unknown",
-      "position": "21",
-      "total": -11,
+      "position": "17",
+      "total": -12,
       "today": -1,
-      "thru": "F",
+      "thru": "2",
       "rounds": [
         62,
         71,
@@ -345,12 +57,28 @@
       "salary": 5000
     },
     {
-      "id": "132539",
+      "id": "132547",
+      "name": "Unknown",
+      "position": "18",
+      "total": -12,
+      "today": -1,
+      "thru": "2",
+      "rounds": [
+        66,
+        67,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132522",
       "name": "Unknown",
       "position": "22",
       "total": -11,
-      "today": -3,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         64,
         69,
@@ -365,8 +93,8 @@
       "name": "Unknown",
       "position": "23",
       "total": -11,
-      "today": -3,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         64,
         69,
@@ -381,8 +109,8 @@
       "name": "Unknown",
       "position": "24",
       "total": -11,
-      "today": -3,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         64,
         69,
@@ -393,19 +121,291 @@
       "salary": 5000
     },
     {
-      "id": "132547",
+      "id": "132539",
       "name": "Unknown",
       "position": "25",
       "total": -11,
-      "today": -5,
-      "thru": "F",
+      "today": 0,
+      "thru": "2",
       "rounds": [
-        66,
-        67,
+        64,
+        69,
         null,
         null
       ],
       "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132542",
+      "name": "Unknown",
+      "position": "2",
+      "total": -16,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        58,
+        70,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132524",
+      "name": "Unknown",
+      "position": "3",
+      "total": -15,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        59,
+        70,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132550",
+      "name": "Unknown",
+      "position": "4",
+      "total": -15,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        61,
+        68,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132535",
+      "name": "Unknown",
+      "position": "5",
+      "total": -15,
+      "today": -7,
+      "thru": "F",
+      "rounds": [
+        64,
+        65,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132513",
+      "name": "Unknown",
+      "position": "6",
+      "total": -14,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        60,
+        70,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132570",
+      "name": "Unknown",
+      "position": "7",
+      "total": -14,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        60,
+        70,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132534",
+      "name": "Unknown",
+      "position": "8",
+      "total": -14,
+      "today": -3,
+      "thru": "F",
+      "rounds": [
+        61,
+        69,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132548",
+      "name": "Unknown",
+      "position": "9",
+      "total": -14,
+      "today": -5,
+      "thru": "F",
+      "rounds": [
+        63,
+        67,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132574",
+      "name": "Unknown",
+      "position": "10",
+      "total": -14,
+      "today": -3,
+      "thru": "F",
+      "rounds": [
+        61,
+        69,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132583",
+      "name": "Unknown",
+      "position": "11",
+      "total": -14,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        60,
+        70,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132551",
+      "name": "Unknown",
+      "position": "12",
+      "total": -13,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        61,
+        70,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132581",
+      "name": "Unknown",
+      "position": "13",
+      "total": -13,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        63,
+        68,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132531",
+      "name": "Unknown",
+      "position": "14",
+      "total": -13,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        63,
+        68,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "126037",
+      "name": "Unknown",
+      "position": "15",
+      "total": -13,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        63,
+        68,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132517",
+      "name": "Unknown",
+      "position": "19",
+      "total": -11,
+      "today": -6,
+      "thru": "F",
+      "rounds": [
+        67,
+        66,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132526",
+      "name": "Unknown",
+      "position": "20",
+      "total": -11,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        65,
+        68,
+        null,
+        null
+      ],
+      "status": "cut",
+      "salary": 5000
+    },
+    {
+      "id": "132529",
+      "name": "Unknown",
+      "position": "21",
+      "total": -11,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        63,
+        70,
+        null,
+        null
+      ],
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -421,7 +421,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -437,7 +437,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -453,7 +453,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -469,7 +469,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -485,7 +485,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -501,7 +501,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -517,7 +517,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -533,7 +533,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -549,7 +549,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -565,7 +565,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -581,7 +581,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -597,7 +597,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -613,7 +613,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -629,7 +629,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -645,7 +645,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -661,7 +661,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -677,7 +677,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -693,7 +693,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -709,7 +709,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -725,7 +725,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -741,7 +741,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -757,7 +757,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -773,7 +773,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -789,7 +789,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -805,7 +805,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -821,7 +821,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -837,7 +837,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -853,7 +853,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -869,7 +869,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -885,7 +885,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -901,7 +901,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -917,7 +917,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -933,7 +933,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -949,7 +949,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -965,7 +965,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -981,7 +981,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -997,7 +997,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1013,7 +1013,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1029,7 +1029,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1045,7 +1045,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
@@ -1061,7 +1061,7 @@
         null,
         null
       ],
-      "status": "active",
+      "status": "cut",
       "salary": 5000
     },
     {
