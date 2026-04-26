@@ -6,7 +6,7 @@
     "current_round": 3,
     "status": "in_progress"
   },
-  "last_updated": "2026-04-26T15:09:03.051416+00:00",
+  "last_updated": "2026-04-26T15:55:59.511325+00:00",
   "players": [
     {
       "id": "132535",
@@ -43,7 +43,7 @@
     {
       "id": "132542",
       "name": "Unknown",
-      "position": "3",
+      "position": "8",
       "total": -26,
       "today": -10,
       "thru": "F",
@@ -59,7 +59,7 @@
     {
       "id": "132574",
       "name": "Unknown",
-      "position": "4",
+      "position": "3",
       "total": -25,
       "today": -11,
       "thru": "F",
@@ -75,7 +75,7 @@
     {
       "id": "132550",
       "name": "Unknown",
-      "position": "5",
+      "position": "9",
       "total": -23,
       "today": -8,
       "thru": "F",
@@ -91,7 +91,7 @@
     {
       "id": "132531",
       "name": "Unknown",
-      "position": "6",
+      "position": "10",
       "total": -23,
       "today": -10,
       "thru": "F",
@@ -107,7 +107,7 @@
     {
       "id": "132570",
       "name": "Unknown",
-      "position": "7",
+      "position": "11",
       "total": -23,
       "today": -9,
       "thru": "F",
@@ -123,7 +123,7 @@
     {
       "id": "132534",
       "name": "Unknown",
-      "position": "8",
+      "position": "12",
       "total": -23,
       "today": -9,
       "thru": "F",
@@ -139,7 +139,7 @@
     {
       "id": "132548",
       "name": "Unknown",
-      "position": "9",
+      "position": "13",
       "total": -23,
       "today": -9,
       "thru": "F",
@@ -155,7 +155,7 @@
     {
       "id": "132513",
       "name": "Unknown",
-      "position": "10",
+      "position": "14",
       "total": -22,
       "today": -8,
       "thru": "F",
@@ -171,7 +171,7 @@
     {
       "id": "132551",
       "name": "Unknown",
-      "position": "11",
+      "position": "15",
       "total": -22,
       "today": -9,
       "thru": "F",
@@ -187,7 +187,7 @@
     {
       "id": "132519",
       "name": "Unknown",
-      "position": "12",
+      "position": "16",
       "total": -22,
       "today": -12,
       "thru": "F",
@@ -203,7 +203,7 @@
     {
       "id": "132553",
       "name": "Unknown",
-      "position": "13",
+      "position": "17",
       "total": -22,
       "today": -12,
       "thru": "F",
@@ -219,7 +219,7 @@
     {
       "id": "132583",
       "name": "Unknown",
-      "position": "14",
+      "position": "18",
       "total": -22,
       "today": -8,
       "thru": "F",
@@ -235,7 +235,7 @@
     {
       "id": "132538",
       "name": "Unknown",
-      "position": "15",
+      "position": "19",
       "total": -22,
       "today": -11,
       "thru": "F",
@@ -251,7 +251,7 @@
     {
       "id": "132580",
       "name": "Unknown",
-      "position": "16",
+      "position": "20",
       "total": -21,
       "today": -11,
       "thru": "F",
@@ -267,7 +267,7 @@
     {
       "id": "132581",
       "name": "Unknown",
-      "position": "17",
+      "position": "21",
       "total": -21,
       "today": -8,
       "thru": "F",
@@ -283,7 +283,7 @@
     {
       "id": "132566",
       "name": "Unknown",
-      "position": "18",
+      "position": "22",
       "total": -21,
       "today": -10,
       "thru": "F",
@@ -299,7 +299,7 @@
     {
       "id": "132517",
       "name": "Unknown",
-      "position": "19",
+      "position": "4",
       "total": -20,
       "today": -9,
       "thru": "F",
@@ -313,25 +313,9 @@
       "salary": 5000
     },
     {
-      "id": "132529",
-      "name": "Unknown",
-      "position": "20",
-      "total": -20,
-      "today": -9,
-      "thru": "F",
-      "rounds": [
-        63,
-        70,
-        63,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "132522",
       "name": "Unknown",
-      "position": "21",
+      "position": "5",
       "total": -20,
       "today": -9,
       "thru": "F",
@@ -347,7 +331,7 @@
     {
       "id": "132582",
       "name": "Unknown",
-      "position": "22",
+      "position": "6",
       "total": -20,
       "today": -8,
       "thru": "F",
@@ -361,15 +345,15 @@
       "salary": 5000
     },
     {
-      "id": "132567",
+      "id": "132529",
       "name": "Unknown",
       "position": "23",
-      "total": -19,
+      "total": -20,
       "today": -9,
       "thru": "F",
       "rounds": [
         63,
-        71,
+        70,
         63,
         null
       ],
@@ -379,7 +363,7 @@
     {
       "id": "132526",
       "name": "Unknown",
-      "position": "24",
+      "position": "7",
       "total": -19,
       "today": -8,
       "thru": "F",
@@ -387,6 +371,22 @@
         65,
         68,
         64,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "132567",
+      "name": "Unknown",
+      "position": "24",
+      "total": -19,
+      "today": -9,
+      "thru": "F",
+      "rounds": [
+        63,
+        71,
+        63,
         null
       ],
       "status": "active",
