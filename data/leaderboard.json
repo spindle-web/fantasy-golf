@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 3,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-05-02T21:45:13.904512+00:00",
+  "last_updated": "2026-05-02T22:23:48.843906+00:00",
   "players": [
     {
       "id": "4425906",
@@ -14,11 +14,11 @@
       "position": "1",
       "total": -15,
       "today": -2,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         64,
         67,
-        66,
+        70,
         null
       ],
       "status": "active",
@@ -73,25 +73,9 @@
       "salary": 5000
     },
     {
-      "id": "3792",
-      "name": "Nick Taylor",
-      "position": "5",
-      "total": -9,
-      "today": -1,
-      "thru": "17",
-      "rounds": [
-        66,
-        70,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 9500
-    },
-    {
       "id": "4404992",
       "name": "Ben Griffin",
-      "position": "6",
+      "position": "5",
       "total": -8,
       "today": -4,
       "thru": "F",
@@ -107,7 +91,7 @@
     {
       "id": "4901368",
       "name": "Matt McCarty",
-      "position": "7",
+      "position": "6",
       "total": -8,
       "today": -3,
       "thru": "F",
@@ -119,6 +103,22 @@
       ],
       "status": "active",
       "salary": 9000
+    },
+    {
+      "id": "3792",
+      "name": "Nick Taylor",
+      "position": "7",
+      "total": -8,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        66,
+        70,
+        72,
+        null
+      ],
+      "status": "active",
+      "salary": 9500
     },
     {
       "id": "3832",
@@ -153,32 +153,16 @@
       "salary": 11500
     },
     {
-      "id": "5467",
-      "name": "Jordan Spieth",
+      "id": "9484",
+      "name": "Alex Smalley",
       "position": "10",
       "total": -7,
       "today": 1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         65,
         71,
-        69,
-        null
-      ],
-      "status": "active",
-      "salary": 12500
-    },
-    {
-      "id": "9484",
-      "name": "Alex Smalley",
-      "position": "11",
-      "total": -7,
-      "today": 1,
-      "thru": "17",
-      "rounds": [
-        65,
-        71,
-        69,
+        73,
         null
       ],
       "status": "active",
@@ -187,7 +171,7 @@
     {
       "id": "8974",
       "name": "Michael Kim",
-      "position": "12",
+      "position": "11",
       "total": -6,
       "today": -7,
       "thru": "F",
@@ -203,7 +187,7 @@
     {
       "id": "8961",
       "name": "Sepp Straka",
-      "position": "13",
+      "position": "12",
       "total": -5,
       "today": -4,
       "thru": "F",
@@ -219,7 +203,7 @@
     {
       "id": "3702",
       "name": "Rickie Fowler",
-      "position": "14",
+      "position": "13",
       "total": -5,
       "today": 0,
       "thru": "F",
@@ -235,7 +219,7 @@
     {
       "id": "5502",
       "name": "Andrew Putnam",
-      "position": "15",
+      "position": "14",
       "total": -5,
       "today": 0,
       "thru": "F",
@@ -247,6 +231,22 @@
       ],
       "status": "active",
       "salary": 5000
+    },
+    {
+      "id": "5467",
+      "name": "Jordan Spieth",
+      "position": "15",
+      "total": -5,
+      "today": 3,
+      "thru": "F",
+      "rounds": [
+        65,
+        71,
+        75,
+        null
+      ],
+      "status": "active",
+      "salary": 12500
     },
     {
       "id": "9025",
