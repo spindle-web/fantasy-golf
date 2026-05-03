@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 4,
-    "status": "between_rounds"
+    "status": "in_progress"
   },
-  "last_updated": "2026-05-03T22:25:51.549807+00:00",
+  "last_updated": "2026-05-03T23:09:58.451522+00:00",
   "players": [
     {
       "id": "4425906",
@@ -654,12 +654,12 @@
       "position": "41",
       "total": -4,
       "today": -4,
-      "thru": "F",
+      "thru": "15",
       "rounds": [
         76,
         68,
         72,
-        68
+        56
       ],
       "status": "active",
       "salary": 14500
@@ -889,22 +889,6 @@
       "salary": 17000
     },
     {
-      "id": "4408316",
-      "name": "Nico Echavarria",
-      "position": "56",
-      "total": -1,
-      "today": -4,
-      "thru": "F",
-      "rounds": [
-        67,
-        73,
-        79,
-        68
-      ],
-      "status": "active",
-      "salary": 9500
-    },
-    {
       "id": "9506",
       "name": "Jordan Smith",
       "position": "57",
@@ -1127,6 +1111,22 @@
       ],
       "status": "active",
       "salary": 8500
+    },
+    {
+      "id": "4408316",
+      "name": "Nico Echavarria",
+      "position": "56",
+      "total": 3,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        67,
+        73,
+        79,
+        68
+      ],
+      "status": "active",
+      "salary": 9500
     },
     {
       "id": "6701",
