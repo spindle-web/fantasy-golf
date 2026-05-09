@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 3,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-05-09T22:39:29.499112+00:00",
+  "last_updated": "2026-05-09T23:29:27.817185+00:00",
   "players": [
     {
       "id": "4364865",
@@ -14,11 +14,27 @@
       "position": "1",
       "total": -14,
       "today": -7,
-      "thru": "15",
+      "thru": "F",
       "rounds": [
         67,
         68,
-        null,
+        64,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "4348470",
+      "name": "Kristoffer Reitan",
+      "position": "2",
+      "total": -13,
+      "today": -7,
+      "thru": "F",
+      "rounds": [
+        66,
+        70,
+        64,
         null
       ],
       "status": "active",
@@ -27,7 +43,7 @@
     {
       "id": "4425906",
       "name": "Cameron Young",
-      "position": "2",
+      "position": "3",
       "total": -12,
       "today": -8,
       "thru": "F",
@@ -41,32 +57,16 @@
       "salary": 15000
     },
     {
-      "id": "4348470",
-      "name": "Kristoffer Reitan",
-      "position": "3",
-      "total": -12,
-      "today": -6,
-      "thru": "16",
-      "rounds": [
-        66,
-        70,
-        58,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "11250",
       "name": "Nicolai H\u00f8jgaard",
       "position": "4",
-      "total": -11,
-      "today": -5,
-      "thru": "17",
+      "total": -10,
+      "today": -4,
+      "thru": "F",
       "rounds": [
         66,
         70,
-        62,
+        67,
         null
       ],
       "status": "active",
@@ -76,38 +76,22 @@
       "id": "11382",
       "name": "Sungjae Im",
       "position": "5",
-      "total": -11,
-      "today": -2,
-      "thru": "15",
+      "total": -10,
+      "today": -1,
+      "thru": "F",
       "rounds": [
         64,
         69,
-        58,
+        70,
         null
       ],
       "status": "active",
       "salary": 17000
     },
     {
-      "id": "4848",
-      "name": "Justin Thomas",
-      "position": "6",
-      "total": -10,
-      "today": -3,
-      "thru": "15",
-      "rounds": [
-        67,
-        68,
-        57,
-        null
-      ],
-      "status": "active",
-      "salary": 14000
-    },
-    {
       "id": "10166",
       "name": "J.J. Spaun",
-      "position": "7",
+      "position": "6",
       "total": -9,
       "today": -6,
       "thru": "F",
@@ -121,9 +105,41 @@
       "salary": 17000
     },
     {
+      "id": "4848",
+      "name": "Justin Thomas",
+      "position": "7",
+      "total": -9,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        67,
+        68,
+        69,
+        null
+      ],
+      "status": "active",
+      "salary": 14000
+    },
+    {
+      "id": "5539",
+      "name": "Tommy Fleetwood",
+      "position": "8",
+      "total": -9,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        67,
+        67,
+        70,
+        null
+      ],
+      "status": "active",
+      "salary": 14500
+    },
+    {
       "id": "10364",
       "name": "Kurt Kitayama",
-      "position": "8",
+      "position": "9",
       "total": -8,
       "today": -5,
       "thru": "F",
@@ -139,7 +155,7 @@
     {
       "id": "4901368",
       "name": "Matt McCarty",
-      "position": "9",
+      "position": "10",
       "total": -8,
       "today": -3,
       "thru": "F",
@@ -151,22 +167,6 @@
       ],
       "status": "active",
       "salary": 9000
-    },
-    {
-      "id": "5539",
-      "name": "Tommy Fleetwood",
-      "position": "10",
-      "total": -8,
-      "today": 0,
-      "thru": "15",
-      "rounds": [
-        67,
-        67,
-        60,
-        null
-      ],
-      "status": "active",
-      "salary": 14500
     },
     {
       "id": "6007",
@@ -254,11 +254,11 @@
       "position": "16",
       "total": -6,
       "today": 0,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         69,
-        67,
+        71,
         null
       ],
       "status": "active",
@@ -702,11 +702,11 @@
       "position": "44",
       "total": -1,
       "today": 4,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         70,
         67,
-        71,
+        75,
         null
       ],
       "status": "active",
