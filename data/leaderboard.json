@@ -6,28 +6,12 @@
     "current_round": 4,
     "status": "between_rounds"
   },
-  "last_updated": "2026-06-07T22:00:37.728346+00:00",
+  "last_updated": "2026-06-07T23:17:18.863141+00:00",
   "players": [
-    {
-      "id": "5076021",
-      "name": "Ryan Gerard",
-      "position": "1",
-      "total": -12,
-      "today": -4,
-      "thru": "F",
-      "rounds": [
-        67,
-        69,
-        72,
-        68
-      ],
-      "status": "active",
-      "salary": 10000
-    },
     {
       "id": "10505",
       "name": "J.T. Poston",
-      "position": "2",
+      "position": "1",
       "total": -12,
       "today": 0,
       "thru": "F",
@@ -39,6 +23,22 @@
       ],
       "status": "active",
       "salary": 17000
+    },
+    {
+      "id": "5076021",
+      "name": "Ryan Gerard",
+      "position": "2",
+      "total": -12,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        67,
+        69,
+        72,
+        68
+      ],
+      "status": "active",
+      "salary": 10000
     },
     {
       "id": "11119",
