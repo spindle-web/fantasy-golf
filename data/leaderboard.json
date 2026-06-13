@@ -4,14 +4,30 @@
     "id": "011",
     "course": "",
     "current_round": 3,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-06-13T21:44:14.325746+00:00",
+  "last_updated": "2026-06-13T22:47:01.608638+00:00",
   "players": [
+    {
+      "id": "4982182",
+      "name": "Jackson Suber",
+      "position": "1",
+      "total": -13,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        66,
+        65,
+        66,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
     {
       "id": "5338",
       "name": "Bud Cauley",
-      "position": "1",
+      "position": "2",
       "total": -12,
       "today": -4,
       "thru": "F",
@@ -23,22 +39,6 @@
       ],
       "status": "active",
       "salary": 9500
-    },
-    {
-      "id": "4982182",
-      "name": "Jackson Suber",
-      "position": "2",
-      "total": -12,
-      "today": -3,
-      "thru": "17",
-      "rounds": [
-        66,
-        65,
-        62,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
     },
     {
       "id": "11119",
@@ -94,11 +94,11 @@
       "position": "6",
       "total": -11,
       "today": -2,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         66,
         65,
-        63,
+        68,
         null
       ],
       "status": "active",
@@ -169,9 +169,25 @@
       "salary": 5000
     },
     {
+      "id": "9938",
+      "name": "Sam Burns",
+      "position": "11",
+      "total": -10,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        64,
+        67,
+        69,
+        null
+      ],
+      "status": "active",
+      "salary": 14500
+    },
+    {
       "id": "5054388",
       "name": "Jacob Bridgeman",
-      "position": "11",
+      "position": "12",
       "total": -9,
       "today": -6,
       "thru": "F",
@@ -187,7 +203,7 @@
     {
       "id": "4364873",
       "name": "Viktor Hovland",
-      "position": "12",
+      "position": "13",
       "total": -9,
       "today": -6,
       "thru": "F",
@@ -203,7 +219,7 @@
     {
       "id": "3257",
       "name": "David Skinns",
-      "position": "13",
+      "position": "14",
       "total": -9,
       "today": -5,
       "thru": "F",
@@ -219,7 +235,7 @@
     {
       "id": "9037",
       "name": "Matt Fitzpatrick",
-      "position": "14",
+      "position": "15",
       "total": -9,
       "today": -4,
       "thru": "F",
@@ -235,7 +251,7 @@
     {
       "id": "11378",
       "name": "Robert MacIntyre",
-      "position": "15",
+      "position": "16",
       "total": -9,
       "today": -3,
       "thru": "F",
@@ -251,7 +267,7 @@
     {
       "id": "4587",
       "name": "Shane Lowry",
-      "position": "16",
+      "position": "17",
       "total": -9,
       "today": -3,
       "thru": "F",
@@ -267,7 +283,7 @@
     {
       "id": "10980",
       "name": "Sahith Theegala",
-      "position": "17",
+      "position": "18",
       "total": -9,
       "today": -2,
       "thru": "F",
@@ -279,22 +295,6 @@
       ],
       "status": "active",
       "salary": 17000
-    },
-    {
-      "id": "9938",
-      "name": "Sam Burns",
-      "position": "18",
-      "total": -9,
-      "today": 0,
-      "thru": "17",
-      "rounds": [
-        64,
-        67,
-        65,
-        null
-      ],
-      "status": "active",
-      "salary": 14500
     },
     {
       "id": "5215039",
@@ -494,11 +494,11 @@
       "position": "31",
       "total": -7,
       "today": 2,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         64,
-        67,
+        72,
         null
       ],
       "status": "active",
@@ -1006,11 +1006,11 @@
       "position": "63",
       "total": -2,
       "today": 8,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         63,
-        73,
+        78,
         null
       ],
       "status": "active",
@@ -1049,25 +1049,9 @@
       "salary": 5000
     },
     {
-      "id": "9221",
-      "name": "Haotong Li",
-      "position": "66",
-      "total": -1,
-      "today": 8,
-      "thru": "17",
-      "rounds": [
-        67,
-        64,
-        73,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "4868733",
       "name": "Joe Highsmith",
-      "position": "67",
+      "position": "66",
       "total": 0,
       "today": 2,
       "thru": "F",
@@ -1083,7 +1067,7 @@
     {
       "id": "4364735",
       "name": "Joey Savoie",
-      "position": "68",
+      "position": "67",
       "total": 0,
       "today": 2,
       "thru": "F",
@@ -1099,7 +1083,7 @@
     {
       "id": "9600",
       "name": "Paul Peterson",
-      "position": "69",
+      "position": "68",
       "total": 0,
       "today": 3,
       "thru": "F",
@@ -1107,6 +1091,22 @@
         67,
         70,
         73,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "9221",
+      "name": "Haotong Li",
+      "position": "69",
+      "total": 0,
+      "today": 9,
+      "thru": "F",
+      "rounds": [
+        67,
+        64,
+        79,
         null
       ],
       "status": "active",
