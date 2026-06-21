@@ -6,7 +6,7 @@
     "current_round": 4,
     "status": "in_progress"
   },
-  "last_updated": "2026-06-21T12:02:49.754362+00:00",
+  "last_updated": "2026-06-21T13:02:42.634560+00:00",
   "players": [
     {
       "id": "11119",
@@ -889,9 +889,41 @@
       "salary": 17000
     },
     {
+      "id": "4408316",
+      "name": "Nico Echavarria",
+      "position": "55",
+      "total": 8,
+      "today": -1,
+      "thru": "2",
+      "rounds": [
+        71,
+        73,
+        75,
+        null
+      ],
+      "status": "active",
+      "salary": 9500
+    },
+    {
+      "id": "5077389",
+      "name": "Ben James",
+      "position": "56",
+      "total": 8,
+      "today": 0,
+      "thru": "1",
+      "rounds": [
+        69,
+        72,
+        77,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "5054388",
       "name": "Jacob Bridgeman",
-      "position": "55",
+      "position": "57",
       "total": 8,
       "today": 4,
       "thru": "F",
@@ -907,7 +939,7 @@
     {
       "id": "5362518",
       "name": "Marek Fleming",
-      "position": "56",
+      "position": "58",
       "total": 8,
       "today": 4,
       "thru": "F",
@@ -923,7 +955,7 @@
     {
       "id": "10364",
       "name": "Kurt Kitayama",
-      "position": "57",
+      "position": "59",
       "total": 8,
       "today": 6,
       "thru": "F",
@@ -939,7 +971,7 @@
     {
       "id": "5203535",
       "name": "Jackson Van Paris",
-      "position": "58",
+      "position": "60",
       "total": 8,
       "today": 6,
       "thru": "F",
@@ -955,7 +987,7 @@
     {
       "id": "11101",
       "name": "Max Greyserman",
-      "position": "59",
+      "position": "61",
       "total": 8,
       "today": 6,
       "thru": "F",
@@ -971,7 +1003,7 @@
     {
       "id": "4425905",
       "name": "Spencer Tibbits",
-      "position": "60",
+      "position": "62",
       "total": 8,
       "today": 6,
       "thru": "F",
@@ -985,28 +1017,12 @@
       "salary": 5000
     },
     {
-      "id": "5077389",
-      "name": "Ben James",
-      "position": "61",
-      "total": 8,
-      "today": 7,
-      "thru": "F",
-      "rounds": [
-        69,
-        72,
-        77,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "5110034",
       "name": "Caleb Surratt",
-      "position": "62",
+      "position": "63",
       "total": 9,
-      "today": 5,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         75,
         69,
@@ -1015,34 +1031,34 @@
       ],
       "status": "active",
       "salary": 5000
-    },
-    {
-      "id": "4408316",
-      "name": "Nico Echavarria",
-      "position": "63",
-      "total": 9,
-      "today": 5,
-      "thru": "F",
-      "rounds": [
-        71,
-        73,
-        75,
-        null
-      ],
-      "status": "active",
-      "salary": 9500
     },
     {
       "id": "5076011",
       "name": "Adrien Dumont de Chassart",
       "position": "64",
-      "total": 9,
-      "today": 7,
-      "thru": "F",
+      "total": 10,
+      "today": 1,
+      "thru": "2",
       "rounds": [
         71,
         71,
         77,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "1674",
+      "name": "Peter Uihlein",
+      "position": "65",
+      "total": 11,
+      "today": -3,
+      "thru": "4",
+      "rounds": [
+        74,
+        70,
+        80,
         null
       ],
       "status": "active",
@@ -1051,10 +1067,10 @@
     {
       "id": "5860",
       "name": "Hideki Matsuyama",
-      "position": "65",
+      "position": "66",
       "total": 11,
-      "today": 7,
-      "thru": "F",
+      "today": 0,
+      "thru": "3",
       "rounds": [
         71,
         73,
@@ -1065,28 +1081,12 @@
       "salary": 17500
     },
     {
-      "id": "5209442",
-      "name": "Neal Shipley",
-      "position": "66",
-      "total": 11,
-      "today": 7,
-      "thru": "F",
-      "rounds": [
-        71,
-        73,
-        77,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "5362521",
       "name": "Eric Lee",
       "position": "67",
       "total": 12,
-      "today": 8,
-      "thru": "F",
+      "today": 0,
+      "thru": "3",
       "rounds": [
         74,
         70,
@@ -1097,28 +1097,28 @@
       "salary": 5000
     },
     {
-      "id": "6825",
-      "name": "Patrick Rodgers",
+      "id": "5209442",
+      "name": "Neal Shipley",
       "position": "68",
-      "total": 13,
-      "today": 10,
-      "thru": "F",
+      "total": 12,
+      "today": 1,
+      "thru": "3",
       "rounds": [
-        72,
         71,
-        80,
+        73,
+        77,
         null
       ],
       "status": "active",
-      "salary": 8500
+      "salary": 5000
     },
     {
       "id": "5409",
       "name": "Russell Henley",
       "position": "69",
-      "total": 13,
-      "today": 10,
-      "thru": "F",
+      "total": 14,
+      "today": 1,
+      "thru": "4",
       "rounds": [
         70,
         73,
@@ -1129,20 +1129,20 @@
       "salary": 17000
     },
     {
-      "id": "1674",
-      "name": "Peter Uihlein",
+      "id": "6825",
+      "name": "Patrick Rodgers",
       "position": "70",
       "total": 14,
-      "today": 10,
-      "thru": "F",
+      "today": 1,
+      "thru": "3",
       "rounds": [
-        74,
-        70,
+        72,
+        71,
         80,
         null
       ],
       "status": "active",
-      "salary": 5000
+      "salary": 8500
     },
     {
       "id": "4683800",
@@ -1150,7 +1150,7 @@
       "position": "71",
       "total": 15,
       "today": 0,
-      "thru": "1",
+      "thru": "5",
       "rounds": [
         71,
         72,
@@ -1166,7 +1166,7 @@
       "position": "72",
       "total": 17,
       "today": 1,
-      "thru": "1",
+      "thru": "5",
       "rounds": [
         73,
         71,
