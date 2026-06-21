@@ -6,19 +6,19 @@
     "current_round": 3,
     "status": "in_progress"
   },
-  "last_updated": "2026-06-20T23:04:39.915742+00:00",
+  "last_updated": "2026-06-21T00:18:53.331922+00:00",
   "players": [
     {
       "id": "11119",
       "name": "Wyndham Clark",
       "position": "1",
-      "total": -6,
-      "today": 1,
-      "thru": "13",
+      "total": -7,
+      "today": 0,
+      "thru": "F",
       "rounds": [
         64,
         69,
-        null,
+        70,
         null
       ],
       "status": "active",
@@ -41,16 +41,32 @@
       "salary": 18500
     },
     {
-      "id": "4602673",
-      "name": "Tom Kim",
+      "id": "10980",
+      "name": "Sahith Theegala",
       "position": "3",
       "total": -1,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        72,
+        67,
+        70,
+        null
+      ],
+      "status": "active",
+      "salary": 17000
+    },
+    {
+      "id": "4602673",
+      "name": "Tom Kim",
+      "position": "4",
+      "total": -1,
       "today": 2,
-      "thru": "14",
+      "thru": "F",
       "rounds": [
         70,
         67,
-        56,
+        72,
         null
       ],
       "status": "active",
@@ -59,14 +75,14 @@
     {
       "id": "4426181",
       "name": "Sam Stevens",
-      "position": "4",
+      "position": "5",
       "total": -1,
       "today": 2,
-      "thru": "13",
+      "thru": "F",
       "rounds": [
         68,
         69,
-        null,
+        72,
         null
       ],
       "status": "active",
@@ -75,7 +91,7 @@
     {
       "id": "5882",
       "name": "Emiliano Grillo",
-      "position": "5",
+      "position": "6",
       "total": 0,
       "today": -3,
       "thru": "F",
@@ -91,7 +107,7 @@
     {
       "id": "8906",
       "name": "Keith Mitchell",
-      "position": "6",
+      "position": "7",
       "total": 0,
       "today": 0,
       "thru": "F",
@@ -105,52 +121,36 @@
       "salary": 17000
     },
     {
-      "id": "10980",
-      "name": "Sahith Theegala",
-      "position": "7",
-      "total": 0,
-      "today": 1,
-      "thru": "16",
-      "rounds": [
-        72,
-        67,
-        64,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
       "id": "9938",
       "name": "Sam Burns",
       "position": "8",
       "total": 0,
       "today": 1,
-      "thru": "16",
+      "thru": "F",
       "rounds": [
         71,
         68,
-        64,
+        71,
         null
       ],
       "status": "active",
       "salary": 14500
     },
     {
-      "id": "9037",
-      "name": "Matt Fitzpatrick",
+      "id": "10140",
+      "name": "Xander Schauffele",
       "position": "9",
       "total": 0,
       "today": 3,
-      "thru": "13",
+      "thru": "F",
       "rounds": [
-        67,
-        70,
-        null,
+        71,
+        66,
+        73,
         null
       ],
       "status": "active",
-      "salary": 17000
+      "salary": 15000
     },
     {
       "id": "5539",
@@ -174,31 +174,31 @@
       "position": "11",
       "total": 1,
       "today": 3,
-      "thru": "14",
+      "thru": "F",
       "rounds": [
         73,
         65,
-        57,
+        73,
         null
       ],
       "status": "active",
       "salary": 17500
     },
     {
-      "id": "10140",
-      "name": "Xander Schauffele",
+      "id": "9037",
+      "name": "Matt Fitzpatrick",
       "position": "12",
       "total": 1,
       "today": 4,
-      "thru": "13",
+      "thru": "F",
       "rounds": [
-        71,
-        66,
-        null,
+        67,
+        70,
+        74,
         null
       ],
       "status": "active",
-      "salary": 15000
+      "salary": 17000
     },
     {
       "id": "4513",
@@ -254,11 +254,11 @@
       "position": "16",
       "total": 2,
       "today": 2,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         68,
         72,
-        68,
+        72,
         null
       ],
       "status": "active",
@@ -574,11 +574,11 @@
       "position": "36",
       "total": 4,
       "today": 4,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         70,
         70,
-        70,
+        74,
         null
       ],
       "status": "active",
@@ -590,11 +590,11 @@
       "position": "37",
       "total": 4,
       "today": 5,
-      "thru": "15",
+      "thru": "F",
       "rounds": [
         71,
         68,
-        63,
+        75,
         null
       ],
       "status": "active",
@@ -734,11 +734,11 @@
       "position": "46",
       "total": 6,
       "today": 7,
-      "thru": "15",
+      "thru": "F",
       "rounds": [
         71,
         68,
-        65,
+        77,
         null
       ],
       "status": "active",
