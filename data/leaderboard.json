@@ -3,10 +3,10 @@
     "name": "U.S. Open",
     "id": "011",
     "course": "",
-    "current_round": 3,
+    "current_round": 4,
     "status": "in_progress"
   },
-  "last_updated": "2026-06-21T03:26:29.385804+00:00",
+  "last_updated": "2026-06-21T12:02:49.754362+00:00",
   "players": [
     {
       "id": "11119",
@@ -1149,8 +1149,8 @@
       "name": "James Nicholas",
       "position": "71",
       "total": 15,
-      "today": 12,
-      "thru": "F",
+      "today": 0,
+      "thru": "1",
       "rounds": [
         71,
         72,
@@ -1164,9 +1164,9 @@
       "id": "4423323",
       "name": "Dylan Wu",
       "position": "72",
-      "total": 16,
-      "today": 12,
-      "thru": "F",
+      "total": 17,
+      "today": 1,
+      "thru": "1",
       "rounds": [
         73,
         71,
