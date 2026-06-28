@@ -6,12 +6,28 @@
     "current_round": 4,
     "status": "in_progress"
   },
-  "last_updated": "2026-06-28T21:44:04.509092+00:00",
+  "last_updated": "2026-06-28T22:44:49.405605+00:00",
   "players": [
+    {
+      "id": "9478",
+      "name": "Scottie Scheffler",
+      "position": "1",
+      "total": -21,
+      "today": -2,
+      "thru": "13",
+      "rounds": [
+        64,
+        60,
+        67,
+        null
+      ],
+      "status": "active",
+      "salary": 18500
+    },
     {
       "id": "10592",
       "name": "Collin Morikawa",
-      "position": "1",
+      "position": "2",
       "total": -20,
       "today": -9,
       "thru": "F",
@@ -23,22 +39,6 @@
       ],
       "status": "active",
       "salary": 17500
-    },
-    {
-      "id": "9478",
-      "name": "Scottie Scheffler",
-      "position": "2",
-      "total": -20,
-      "today": -1,
-      "thru": "12",
-      "rounds": [
-        64,
-        60,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 18500
     },
     {
       "id": "11119",
@@ -57,12 +57,28 @@
       "salary": 17000
     },
     {
+      "id": "4364873",
+      "name": "Viktor Hovland",
+      "position": "4",
+      "total": -19,
+      "today": 1,
+      "thru": "13",
+      "rounds": [
+        65,
+        61,
+        64,
+        null
+      ],
+      "status": "active",
+      "salary": 13500
+    },
+    {
       "id": "9037",
       "name": "Matt Fitzpatrick",
-      "position": "4",
+      "position": "5",
       "total": -18,
       "today": -5,
-      "thru": "14",
+      "thru": "15",
       "rounds": [
         64,
         66,
@@ -75,10 +91,10 @@
     {
       "id": "4419142",
       "name": "Akshay Bhatia",
-      "position": "5",
+      "position": "6",
       "total": -18,
       "today": -3,
-      "thru": "13",
+      "thru": "14",
       "rounds": [
         66,
         62,
@@ -87,22 +103,6 @@
       ],
       "status": "active",
       "salary": 11500
-    },
-    {
-      "id": "4364873",
-      "name": "Viktor Hovland",
-      "position": "6",
-      "total": -18,
-      "today": 2,
-      "thru": "12",
-      "rounds": [
-        65,
-        61,
-        64,
-        null
-      ],
-      "status": "active",
-      "salary": 13500
     },
     {
       "id": "9126",
@@ -174,12 +174,12 @@
       "position": "11",
       "total": -16,
       "today": -3,
-      "thru": "14",
+      "thru": "15",
       "rounds": [
         64,
         66,
         67,
-        null
+        56
       ],
       "status": "active",
       "salary": 12000
@@ -206,12 +206,12 @@
       "position": "13",
       "total": -15,
       "today": -3,
-      "thru": "16",
+      "thru": "17",
       "rounds": [
         66,
         66,
         66,
-        59
+        63
       ],
       "status": "active",
       "salary": 14500
@@ -238,12 +238,12 @@
       "position": "15",
       "total": -15,
       "today": 0,
-      "thru": "13",
+      "thru": "14",
       "rounds": [
         65,
         66,
         64,
-        null
+        55
       ],
       "status": "active",
       "salary": 17500
@@ -377,25 +377,9 @@
       "salary": 5000
     },
     {
-      "id": "569",
-      "name": "Justin Rose",
-      "position": "24",
-      "total": -13,
-      "today": -1,
-      "thru": "17",
-      "rounds": [
-        65,
-        66,
-        67,
-        65
-      ],
-      "status": "active",
-      "salary": 17500
-    },
-    {
       "id": "3792",
       "name": "Nick Taylor",
-      "position": "25",
+      "position": "24",
       "total": -12,
       "today": -5,
       "thru": "F",
@@ -411,7 +395,7 @@
     {
       "id": "9025",
       "name": "Daniel Berger",
-      "position": "26",
+      "position": "25",
       "total": -12,
       "today": -4,
       "thru": "F",
@@ -427,7 +411,7 @@
     {
       "id": "10364",
       "name": "Kurt Kitayama",
-      "position": "27",
+      "position": "26",
       "total": -12,
       "today": -3,
       "thru": "F",
@@ -443,18 +427,34 @@
     {
       "id": "1225",
       "name": "Brian Harman",
-      "position": "28",
+      "position": "27",
       "total": -12,
       "today": -1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         66,
         70,
         63,
-        65
+        69
       ],
       "status": "active",
       "salary": 17000
+    },
+    {
+      "id": "569",
+      "name": "Justin Rose",
+      "position": "28",
+      "total": -12,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        65,
+        66,
+        67,
+        70
+      ],
+      "status": "active",
+      "salary": 17500
     },
     {
       "id": "8906",
@@ -462,12 +462,12 @@
       "position": "29",
       "total": -12,
       "today": 0,
-      "thru": "15",
+      "thru": "17",
       "rounds": [
         68,
         67,
         63,
-        59
+        62
       ],
       "status": "active",
       "salary": 17000
@@ -606,12 +606,12 @@
       "position": "38",
       "total": -11,
       "today": 2,
-      "thru": "15",
+      "thru": "16",
       "rounds": [
         63,
         65,
         69,
-        61
+        64
       ],
       "status": "active",
       "salary": 8500
@@ -734,12 +734,12 @@
       "position": "46",
       "total": -9,
       "today": 3,
-      "thru": "16",
+      "thru": "17",
       "rounds": [
         69,
         64,
         65,
-        65
+        69
       ],
       "status": "active",
       "salary": 17000
