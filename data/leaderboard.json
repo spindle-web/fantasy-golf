@@ -6,7 +6,7 @@
     "current_round": 3,
     "status": "in_progress"
   },
-  "last_updated": "2026-07-04T21:39:11.712782+00:00",
+  "last_updated": "2026-07-04T22:37:59.221958+00:00",
   "players": [
     {
       "id": "9040",
@@ -14,20 +14,52 @@
       "position": "1",
       "total": -16,
       "today": -5,
-      "thru": "16",
+      "thru": "17",
       "rounds": [
         63,
         68,
-        57,
+        62,
         null
       ],
       "status": "active",
       "salary": 5000
     },
     {
+      "id": "4404991",
+      "name": "Lee Hodges",
+      "position": "2",
+      "total": -16,
+      "today": -4,
+      "thru": "17",
+      "rounds": [
+        64,
+        66,
+        63,
+        null
+      ],
+      "status": "active",
+      "salary": 8000
+    },
+    {
+      "id": "676",
+      "name": "Lucas Glover",
+      "position": "3",
+      "total": -16,
+      "today": -2,
+      "thru": "17",
+      "rounds": [
+        63,
+        65,
+        65,
+        null
+      ],
+      "status": "active",
+      "salary": 9000
+    },
+    {
       "id": "6922",
       "name": "Ben Kohles",
-      "position": "2",
+      "position": "4",
       "total": -15,
       "today": -5,
       "thru": "F",
@@ -43,7 +75,7 @@
     {
       "id": "4982182",
       "name": "Jackson Suber",
-      "position": "3",
+      "position": "5",
       "total": -15,
       "today": -5,
       "thru": "17",
@@ -55,38 +87,6 @@
       ],
       "status": "active",
       "salary": 5000
-    },
-    {
-      "id": "4404991",
-      "name": "Lee Hodges",
-      "position": "4",
-      "total": -15,
-      "today": -3,
-      "thru": "16",
-      "rounds": [
-        64,
-        66,
-        59,
-        null
-      ],
-      "status": "active",
-      "salary": 8000
-    },
-    {
-      "id": "676",
-      "name": "Lucas Glover",
-      "position": "5",
-      "total": -15,
-      "today": -1,
-      "thru": "16",
-      "rounds": [
-        63,
-        65,
-        61,
-        null
-      ],
-      "status": "active",
-      "salary": 9000
     },
     {
       "id": "11456",
@@ -174,11 +174,11 @@
       "position": "11",
       "total": -12,
       "today": -2,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         65,
-        65,
+        69,
         null
       ],
       "status": "active",
@@ -398,11 +398,11 @@
       "position": "25",
       "total": -10,
       "today": 0,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         65,
-        67,
+        71,
         null
       ],
       "status": "active",
@@ -1097,9 +1097,25 @@
       "salary": 5000
     },
     {
+      "id": "5076011",
+      "name": "Adrien Dumont de Chassart",
+      "position": "69",
+      "total": -3,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        72,
+        67,
+        71,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "4565482",
       "name": "Will Gordon",
-      "position": "69",
+      "position": "70",
       "total": -3,
       "today": 0,
       "thru": "F",
@@ -1115,7 +1131,7 @@
     {
       "id": "5364557",
       "name": "Ryan Voois",
-      "position": "70",
+      "position": "71",
       "total": -3,
       "today": 1,
       "thru": "F",
@@ -1131,7 +1147,7 @@
     {
       "id": "5139663",
       "name": "Gordon Sargent",
-      "position": "71",
+      "position": "72",
       "total": -3,
       "today": 3,
       "thru": "F",
@@ -1139,22 +1155,6 @@
         67,
         69,
         74,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "5076011",
-      "name": "Adrien Dumont de Chassart",
-      "position": "72",
-      "total": -3,
-      "today": 0,
-      "thru": "17",
-      "rounds": [
-        72,
-        67,
-        67,
         null
       ],
       "status": "active",
@@ -1211,14 +1211,14 @@
     {
       "id": "4426180",
       "name": "Michael Feagles",
-      "position": "77",
-      "total": -1,
+      "position": "76",
+      "total": 0,
       "today": 3,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         69,
         70,
-        70,
+        74,
         null
       ],
       "status": "active",
@@ -1227,7 +1227,7 @@
     {
       "id": "6999",
       "name": "Nicholas Lindheim",
-      "position": "76",
+      "position": "77",
       "total": 0,
       "today": 5,
       "thru": "F",
