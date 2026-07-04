@@ -4,37 +4,21 @@
     "id": "011",
     "course": "",
     "current_round": 3,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-07-04T22:37:59.221958+00:00",
+  "last_updated": "2026-07-04T23:41:18.988814+00:00",
   "players": [
-    {
-      "id": "9040",
-      "name": "Zac Blair",
-      "position": "1",
-      "total": -16,
-      "today": -5,
-      "thru": "17",
-      "rounds": [
-        63,
-        68,
-        62,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
     {
       "id": "4404991",
       "name": "Lee Hodges",
-      "position": "2",
+      "position": "1",
       "total": -16,
       "today": -4,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         64,
         66,
-        63,
+        67,
         null
       ],
       "status": "active",
@@ -43,18 +27,34 @@
     {
       "id": "676",
       "name": "Lucas Glover",
-      "position": "3",
+      "position": "2",
       "total": -16,
       "today": -2,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         63,
         65,
-        65,
+        69,
         null
       ],
       "status": "active",
       "salary": 9000
+    },
+    {
+      "id": "4982182",
+      "name": "Jackson Suber",
+      "position": "3",
+      "total": -15,
+      "today": -5,
+      "thru": "F",
+      "rounds": [
+        68,
+        64,
+        66,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
     },
     {
       "id": "6922",
@@ -73,16 +73,16 @@
       "salary": 5000
     },
     {
-      "id": "4982182",
-      "name": "Jackson Suber",
+      "id": "9040",
+      "name": "Zac Blair",
       "position": "5",
       "total": -15,
-      "today": -5,
-      "thru": "17",
+      "today": -4,
+      "thru": "F",
       "rounds": [
+        63,
         68,
-        64,
-        62,
+        67,
         null
       ],
       "status": "active",
@@ -286,11 +286,11 @@
       "position": "18",
       "total": -11,
       "today": -1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         66,
         66,
-        66,
+        70,
         null
       ],
       "status": "active",
@@ -414,11 +414,11 @@
       "position": "26",
       "total": -10,
       "today": 0,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         66,
         66,
-        67,
+        71,
         null
       ],
       "status": "active",
