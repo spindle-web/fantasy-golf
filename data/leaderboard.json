@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 4,
-    "status": "in_progress"
+    "status": "completed"
   },
-  "last_updated": "2026-07-12T18:34:42.976932+00:00",
+  "last_updated": "2026-07-12T19:45:02.583891+00:00",
   "players": [
     {
       "id": "4602673",
@@ -14,12 +14,12 @@
       "position": "1",
       "total": -17,
       "today": -6,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         65,
         66,
         68,
-        60
+        64
       ],
       "status": "active",
       "salary": 5000
@@ -30,12 +30,12 @@
       "position": "2",
       "total": -15,
       "today": -3,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         66,
         66,
         66,
-        63
+        67
       ],
       "status": "active",
       "salary": 17000
@@ -78,12 +78,12 @@
       "position": "5",
       "total": -13,
       "today": -1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         66,
         65,
-        65
+        69
       ],
       "status": "active",
       "salary": 17000
@@ -94,12 +94,12 @@
       "position": "6",
       "total": -13,
       "today": -1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         65,
         66,
-        65
+        69
       ],
       "status": "active",
       "salary": 17000
@@ -126,12 +126,12 @@
       "position": "8",
       "total": -12,
       "today": -1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         66,
         68,
         65,
-        65
+        69
       ],
       "status": "active",
       "salary": 10000
@@ -190,12 +190,12 @@
       "position": "12",
       "total": -10,
       "today": 1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         68,
         65,
         66,
-        67
+        71
       ],
       "status": "active",
       "salary": 13000
