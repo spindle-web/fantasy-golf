@@ -6,7 +6,7 @@
     "current_round": 3,
     "status": "in_progress"
   },
-  "last_updated": "2026-07-25T21:27:29.334640+00:00",
+  "last_updated": "2026-07-25T22:27:13.760802+00:00",
   "players": [
     {
       "id": "5215013",
@@ -25,9 +25,41 @@
       "salary": 5000
     },
     {
+      "id": "5882",
+      "name": "Emiliano Grillo",
+      "position": "2",
+      "total": -17,
+      "today": -6,
+      "thru": "F",
+      "rounds": [
+        64,
+        67,
+        65,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "6922",
+      "name": "Ben Kohles",
+      "position": "3",
+      "total": -17,
+      "today": -6,
+      "thru": "F",
+      "rounds": [
+        62,
+        69,
+        65,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "4921329",
       "name": "Michael Brennan",
-      "position": "2",
+      "position": "4",
       "total": -16,
       "today": -8,
       "thru": "F",
@@ -41,16 +73,16 @@
       "salary": 11000
     },
     {
-      "id": "6922",
-      "name": "Ben Kohles",
-      "position": "3",
+      "id": "4587989",
+      "name": "Chandler Phillips",
+      "position": "5",
       "total": -16,
       "today": -5,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
-        62,
-        69,
-        61,
+        66,
+        65,
+        66,
         null
       ],
       "status": "active",
@@ -59,7 +91,7 @@
     {
       "id": "10054",
       "name": "Denny McCarthy",
-      "position": "4",
+      "position": "6",
       "total": -15,
       "today": -7,
       "thru": "F",
@@ -75,7 +107,7 @@
     {
       "id": "1651",
       "name": "Billy Horschel",
-      "position": "5",
+      "position": "7",
       "total": -15,
       "today": -6,
       "thru": "F",
@@ -89,48 +121,16 @@
       "salary": 9000
     },
     {
-      "id": "4587989",
-      "name": "Chandler Phillips",
-      "position": "6",
-      "total": -15,
-      "today": -4,
-      "thru": "17",
-      "rounds": [
-        66,
-        65,
-        62,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "5882",
-      "name": "Emiliano Grillo",
-      "position": "7",
-      "total": -15,
-      "today": -4,
-      "thru": "17",
-      "rounds": [
-        64,
-        67,
-        62,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "8974",
       "name": "Michael Kim",
       "position": "8",
       "total": -15,
       "today": -1,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         69,
         59,
-        65,
+        70,
         null
       ],
       "status": "active",
