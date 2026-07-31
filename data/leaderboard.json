@@ -6,7 +6,7 @@
     "current_round": 1,
     "status": "between_rounds"
   },
-  "last_updated": "2026-07-30T23:42:40.342369+00:00",
+  "last_updated": "2026-07-31T01:14:55.363955+00:00",
   "players": [
     {
       "id": "5692",
@@ -1721,6 +1721,22 @@
       "salary": 5000
     },
     {
+      "id": "6825",
+      "name": "Patrick Rodgers",
+      "position": "147",
+      "total": 0,
+      "today": null,
+      "thru": "--",
+      "rounds": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 8500
+    },
+    {
       "id": "11119",
       "name": "Wyndham Clark",
       "position": "108",
@@ -2311,22 +2327,6 @@
       ],
       "status": "active",
       "salary": 5000
-    },
-    {
-      "id": "6825",
-      "name": "Patrick Rodgers",
-      "position": "147",
-      "total": 7,
-      "today": 7,
-      "thru": "F",
-      "rounds": [
-        77,
-        null,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 8500
     },
     {
       "id": "10488",
