@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 4,
-    "status": "in_progress"
+    "status": "completed"
   },
-  "last_updated": "2026-08-02T21:59:44.379586+00:00",
+  "last_updated": "2026-08-02T23:01:11.428101+00:00",
   "players": [
     {
       "id": "4425904",
@@ -41,36 +41,36 @@
       "salary": 15000
     },
     {
-      "id": "11253",
-      "name": "Rasmus H\u00f8jgaard",
-      "position": "3",
-      "total": -15,
-      "today": -3,
-      "thru": "17",
-      "rounds": [
-        69,
-        68,
-        61,
-        63
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "10058",
       "name": "Davis Riley",
-      "position": "4",
+      "position": "3",
       "total": -15,
       "today": 0,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         68,
         64,
         63,
-        66
+        70
       ],
       "status": "active",
       "salary": 9000
+    },
+    {
+      "id": "11253",
+      "name": "Rasmus H\u00f8jgaard",
+      "position": "4",
+      "total": -14,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        69,
+        68,
+        61,
+        68
+      ],
+      "status": "active",
+      "salary": 5000
     },
     {
       "id": "5860",
@@ -302,12 +302,12 @@
       "position": "19",
       "total": -11,
       "today": 3,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         65,
         67,
         64,
-        69
+        73
       ],
       "status": "active",
       "salary": 11000
