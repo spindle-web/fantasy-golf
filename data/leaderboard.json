@@ -6,7 +6,7 @@
     "current_round": 2,
     "status": "in_progress"
   },
-  "last_updated": "2026-10-03T14:26:07.535747+00:00",
+  "last_updated": "2026-10-03T15:01:59.662283+00:00",
   "players": [
     {
       "id": "11056",
@@ -1097,9 +1097,41 @@
       "salary": 8000
     },
     {
+      "id": "4699329",
+      "name": "Jesper Svensson",
+      "position": "69",
+      "total": -6,
+      "today": -3,
+      "thru": "17",
+      "rounds": [
+        68,
+        63,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "4358081",
+      "name": "Alejandro Tosti",
+      "position": "70",
+      "total": -6,
+      "today": -1,
+      "thru": "17",
+      "rounds": [
+        66,
+        65,
+        null,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "676",
       "name": "Lucas Glover",
-      "position": "69",
+      "position": "71",
       "total": -5,
       "today": -6,
       "thru": "F",
@@ -1115,7 +1147,7 @@
     {
       "id": "8910",
       "name": "Ben Silverman",
-      "position": "70",
+      "position": "72",
       "total": -5,
       "today": -4,
       "thru": "F",
@@ -1131,7 +1163,7 @@
     {
       "id": "11101",
       "name": "Max Greyserman",
-      "position": "71",
+      "position": "73",
       "total": -5,
       "today": -4,
       "thru": "F",
@@ -1147,7 +1179,7 @@
     {
       "id": "10548",
       "name": "Matt Wallace",
-      "position": "72",
+      "position": "74",
       "total": -5,
       "today": -4,
       "thru": "F",
@@ -1163,7 +1195,7 @@
     {
       "id": "9600",
       "name": "Paul Peterson",
-      "position": "73",
+      "position": "75",
       "total": -5,
       "today": -4,
       "thru": "F",
@@ -1179,7 +1211,7 @@
     {
       "id": "10048",
       "name": "Nick Hardy",
-      "position": "74",
+      "position": "76",
       "total": -5,
       "today": -3,
       "thru": "F",
@@ -1195,7 +1227,7 @@
     {
       "id": "9530",
       "name": "Maverick McNealy",
-      "position": "75",
+      "position": "77",
       "total": -5,
       "today": -3,
       "thru": "F",
@@ -1211,7 +1243,7 @@
     {
       "id": "4408318",
       "name": "Jeffrey Kang",
-      "position": "76",
+      "position": "78",
       "total": -5,
       "today": -3,
       "thru": "F",
@@ -1227,7 +1259,7 @@
     {
       "id": "11387",
       "name": "Hank Lebioda",
-      "position": "77",
+      "position": "79",
       "total": -5,
       "today": -1,
       "thru": "F",
@@ -1243,7 +1275,7 @@
     {
       "id": "9569",
       "name": "Tyler Duncan",
-      "position": "78",
+      "position": "80",
       "total": -5,
       "today": -1,
       "thru": "F",
@@ -1259,7 +1291,7 @@
     {
       "id": "10863",
       "name": "Cam Davis",
-      "position": "79",
+      "position": "81",
       "total": -5,
       "today": -1,
       "thru": "F",
@@ -1271,38 +1303,6 @@
       ],
       "status": "active",
       "salary": 9000
-    },
-    {
-      "id": "4699329",
-      "name": "Jesper Svensson",
-      "position": "80",
-      "total": -5,
-      "today": -2,
-      "thru": "16",
-      "rounds": [
-        68,
-        61,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "4358081",
-      "name": "Alejandro Tosti",
-      "position": "81",
-      "total": -5,
-      "today": 0,
-      "thru": "16",
-      "rounds": [
-        66,
-        63,
-        null,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
     },
     {
       "id": "4868733",
