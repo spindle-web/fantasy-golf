@@ -6,7 +6,7 @@
     "current_round": 3,
     "status": "between_rounds"
   },
-  "last_updated": "2026-10-10T20:01:01.100815+00:00",
+  "last_updated": "2026-10-10T23:29:32.686991+00:00",
   "players": [
     {
       "id": "4921329",
@@ -217,25 +217,9 @@
       "salary": 17000
     },
     {
-      "id": "11382",
-      "name": "Sungjae Im",
-      "position": "14",
-      "total": -9,
-      "today": -3,
-      "thru": "F",
-      "rounds": [
-        69,
-        67,
-        68,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
       "id": "8974",
       "name": "Michael Kim",
-      "position": "15",
+      "position": "14",
       "total": -9,
       "today": -3,
       "thru": "F",
@@ -247,6 +231,22 @@
       ],
       "status": "active",
       "salary": 9500
+    },
+    {
+      "id": "11382",
+      "name": "Sungjae Im",
+      "position": "15",
+      "total": -9,
+      "today": -3,
+      "thru": "F",
+      "rounds": [
+        69,
+        67,
+        68,
+        null
+      ],
+      "status": "active",
+      "salary": 17000
     },
     {
       "id": "4408320",
@@ -457,25 +457,9 @@
       "salary": 10000
     },
     {
-      "id": "5145590",
-      "name": "Yusaku Hosono",
-      "position": "29",
-      "total": -5,
-      "today": -4,
-      "thru": "F",
-      "rounds": [
-        72,
-        69,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "1651",
       "name": "Billy Horschel",
-      "position": "30",
+      "position": "29",
       "total": -5,
       "today": -4,
       "thru": "F",
@@ -489,25 +473,25 @@
       "salary": 9000
     },
     {
-      "id": "4404991",
-      "name": "Lee Hodges",
-      "position": "31",
+      "id": "5145590",
+      "name": "Yusaku Hosono",
+      "position": "30",
       "total": -5,
-      "today": -3,
+      "today": -4,
       "thru": "F",
       "rounds": [
+        72,
         69,
-        71,
-        68,
+        67,
         null
       ],
       "status": "active",
-      "salary": 8000
+      "salary": 5000
     },
     {
       "id": "10054",
       "name": "Denny McCarthy",
-      "position": "32",
+      "position": "31",
       "total": -5,
       "today": -3,
       "thru": "F",
@@ -521,9 +505,41 @@
       "salary": 17000
     },
     {
+      "id": "4404991",
+      "name": "Lee Hodges",
+      "position": "32",
+      "total": -5,
+      "today": -3,
+      "thru": "F",
+      "rounds": [
+        69,
+        71,
+        68,
+        null
+      ],
+      "status": "active",
+      "salary": 8000
+    },
+    {
+      "id": "5502",
+      "name": "Andrew Putnam",
+      "position": "33",
+      "total": -5,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        66,
+        73,
+        69,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "4671",
       "name": "John Parry",
-      "position": "33",
+      "position": "34",
       "total": -5,
       "today": -2,
       "thru": "F",
@@ -539,7 +555,7 @@
     {
       "id": "5860",
       "name": "Hideki Matsuyama",
-      "position": "34",
+      "position": "35",
       "total": -5,
       "today": -2,
       "thru": "F",
@@ -551,22 +567,6 @@
       ],
       "status": "active",
       "salary": 17500
-    },
-    {
-      "id": "5502",
-      "name": "Andrew Putnam",
-      "position": "35",
-      "total": -5,
-      "today": -2,
-      "thru": "F",
-      "rounds": [
-        66,
-        73,
-        69,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
     },
     {
       "id": "4699328",
@@ -601,25 +601,9 @@
       "salary": 5000
     },
     {
-      "id": "4858859",
-      "name": "Rasmus Neergaard-Petersen",
-      "position": "38",
-      "total": -4,
-      "today": -4,
-      "thru": "F",
-      "rounds": [
-        74,
-        68,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 18500
-    },
-    {
       "id": "4982182",
       "name": "Jackson Suber",
-      "position": "39",
+      "position": "38",
       "total": -4,
       "today": -4,
       "thru": "F",
@@ -631,6 +615,22 @@
       ],
       "status": "active",
       "salary": 5000
+    },
+    {
+      "id": "4858859",
+      "name": "Rasmus Neergaard-Petersen",
+      "position": "39",
+      "total": -4,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        74,
+        68,
+        67,
+        null
+      ],
+      "status": "active",
+      "salary": 18500
     },
     {
       "id": "10592",
@@ -825,25 +825,9 @@
       "salary": 5000
     },
     {
-      "id": "4602218",
-      "name": "Davis Thompson",
-      "position": "52",
-      "total": -1,
-      "today": 0,
-      "thru": "F",
-      "rounds": [
-        73,
-        68,
-        71,
-        null
-      ],
-      "status": "active",
-      "salary": 17500
-    },
-    {
       "id": "6845",
       "name": "Yoshinori Fujimoto",
-      "position": "53",
+      "position": "52",
       "total": -1,
       "today": 0,
       "thru": "F",
@@ -859,7 +843,7 @@
     {
       "id": "4587989",
       "name": "Chandler Phillips",
-      "position": "54",
+      "position": "53",
       "total": -1,
       "today": 0,
       "thru": "F",
@@ -871,6 +855,22 @@
       ],
       "status": "active",
       "salary": 5000
+    },
+    {
+      "id": "4602218",
+      "name": "Davis Thompson",
+      "position": "54",
+      "total": -1,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        73,
+        68,
+        71,
+        null
+      ],
+      "status": "active",
+      "salary": 17500
     },
     {
       "id": "4837368",
