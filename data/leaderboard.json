@@ -4,86 +4,38 @@
     "id": "011",
     "course": "",
     "current_round": 4,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-10-11T03:20:03.576170+00:00",
+  "last_updated": "2026-10-11T15:58:53.581081+00:00",
   "players": [
-    {
-      "id": "8906",
-      "name": "Keith Mitchell",
-      "position": "1",
-      "total": -17,
-      "today": -5,
-      "thru": "8",
-      "rounds": [
-        66,
-        65,
-        70,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
-      "id": "6937",
-      "name": "Stephan Jaeger",
-      "position": "2",
-      "total": -15,
-      "today": -3,
-      "thru": "8",
-      "rounds": [
-        69,
-        65,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 18000
-    },
     {
       "id": "4921329",
       "name": "Michael Brennan",
-      "position": "3",
-      "total": -15,
-      "today": -2,
-      "thru": "6",
+      "position": "1",
+      "total": -16,
+      "today": -3,
+      "thru": "F",
       "rounds": [
         68,
         67,
         65,
-        null
+        68
       ],
       "status": "active",
       "salary": 11000
     },
     {
-      "id": "10030",
-      "name": "Zach Bauchou",
-      "position": "4",
+      "id": "8906",
+      "name": "Keith Mitchell",
+      "position": "2",
       "total": -15,
-      "today": -2,
-      "thru": "6",
+      "today": -3,
+      "thru": "F",
       "rounds": [
-        69,
-        64,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "388",
-      "name": "Adam Scott",
-      "position": "5",
-      "total": -14,
-      "today": -2,
-      "thru": "6",
-      "rounds": [
-        69,
-        67,
+        66,
         65,
-        null
+        70,
+        68
       ],
       "status": "active",
       "salary": 17000
@@ -91,47 +43,31 @@
     {
       "id": "5054388",
       "name": "Jacob Bridgeman",
-      "position": "6",
-      "total": -14,
-      "today": -1,
-      "thru": "6",
+      "position": "3",
+      "total": -15,
+      "today": -2,
+      "thru": "F",
       "rounds": [
         63,
         68,
         69,
-        null
+        69
       ],
       "status": "active",
       "salary": 11500
     },
     {
-      "id": "4699328",
-      "name": "Ren Yonezawa",
-      "position": "7",
-      "total": -13,
-      "today": -8,
-      "thru": "14",
-      "rounds": [
-        68,
-        69,
-        71,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "10140",
       "name": "Xander Schauffele",
-      "position": "8",
+      "position": "4",
       "total": -13,
       "today": -4,
-      "thru": "9",
+      "thru": "F",
       "rounds": [
         70,
         69,
         65,
-        null
+        67
       ],
       "status": "active",
       "salary": 15000
@@ -139,31 +75,15 @@
     {
       "id": "1225",
       "name": "Brian Harman",
-      "position": "9",
-      "total": -12,
-      "today": -3,
-      "thru": "9",
+      "position": "5",
+      "total": -13,
+      "today": -4,
+      "thru": "F",
       "rounds": [
         69,
         68,
         67,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
-      "id": "11382",
-      "name": "Sungjae Im",
-      "position": "10",
-      "total": -12,
-      "today": -3,
-      "thru": "9",
-      "rounds": [
-        69,
-        67,
-        68,
-        null
+        67
       ],
       "status": "active",
       "salary": 17000
@@ -171,50 +91,130 @@
     {
       "id": "5076021",
       "name": "Ryan Gerard",
-      "position": "11",
-      "total": -12,
-      "today": -2,
-      "thru": "8",
+      "position": "6",
+      "total": -13,
+      "today": -3,
+      "thru": "F",
       "rounds": [
         68,
         69,
         66,
-        null
+        68
       ],
       "status": "active",
       "salary": 10000
     },
     {
+      "id": "9506",
+      "name": "Jordan Smith",
+      "position": "7",
+      "total": -13,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        64,
+        71,
+        66,
+        70
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "6937",
+      "name": "Stephan Jaeger",
+      "position": "8",
+      "total": -13,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        69,
+        65,
+        67,
+        70
+      ],
+      "status": "active",
+      "salary": 18000
+    },
+    {
+      "id": "4699328",
+      "name": "Ren Yonezawa",
+      "position": "9",
+      "total": -12,
+      "today": -7,
+      "thru": "F",
+      "rounds": [
+        68,
+        69,
+        71,
+        64
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "4410932",
       "name": "Min Woo Lee",
-      "position": "12",
-      "total": -11,
-      "today": -4,
-      "thru": "10",
+      "position": "10",
+      "total": -12,
+      "today": -5,
+      "thru": "F",
       "rounds": [
         67,
         67,
         72,
-        null
+        66
       ],
       "status": "active",
       "salary": 17000
     },
     {
-      "id": "6922",
-      "name": "Ben Kohles",
-      "position": "13",
-      "total": -11,
-      "today": -4,
-      "thru": "10",
+      "id": "11382",
+      "name": "Sungjae Im",
+      "position": "11",
+      "total": -12,
+      "today": -3,
+      "thru": "F",
       "rounds": [
-        71,
-        62,
-        73,
-        null
+        69,
+        67,
+        68,
+        68
+      ],
+      "status": "active",
+      "salary": 17000
+    },
+    {
+      "id": "10030",
+      "name": "Zach Bauchou",
+      "position": "12",
+      "total": -12,
+      "today": 1,
+      "thru": "F",
+      "rounds": [
+        69,
+        64,
+        67,
+        72
       ],
       "status": "active",
       "salary": 5000
+    },
+    {
+      "id": "5467",
+      "name": "Jordan Spieth",
+      "position": "13",
+      "total": -11,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        72,
+        66,
+        68,
+        67
+      ],
+      "status": "active",
+      "salary": 12500
     },
     {
       "id": "4408320",
@@ -222,12 +222,12 @@
       "position": "14",
       "total": -11,
       "today": -3,
-      "thru": "10",
+      "thru": "F",
       "rounds": [
         70,
         69,
         66,
-        null
+        68
       ],
       "status": "active",
       "salary": 5000
@@ -238,188 +238,92 @@
       "position": "15",
       "total": -11,
       "today": -1,
-      "thru": "9",
+      "thru": "F",
       "rounds": [
         65,
         68,
         70,
-        null
+        70
       ],
       "status": "active",
       "salary": 17000
     },
     {
-      "id": "9506",
-      "name": "Jordan Smith",
+      "id": "388",
+      "name": "Adam Scott",
       "position": "16",
       "total": -11,
       "today": 1,
-      "thru": "7",
-      "rounds": [
-        64,
-        71,
-        66,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "4848",
-      "name": "Justin Thomas",
-      "position": "17",
-      "total": -11,
-      "today": 1,
-      "thru": "7",
+      "thru": "F",
       "rounds": [
         69,
+        67,
         65,
-        67,
-        null
+        72
       ],
       "status": "active",
-      "salary": 14000
-    },
-    {
-      "id": "5860",
-      "name": "Hideki Matsuyama",
-      "position": "18",
-      "total": -10,
-      "today": -5,
-      "thru": "13",
-      "rounds": [
-        67,
-        72,
-        69,
-        null
-      ],
-      "status": "active",
-      "salary": 17500
-    },
-    {
-      "id": "4791222",
-      "name": "Mac Meissner",
-      "position": "19",
-      "total": -10,
-      "today": 0,
-      "thru": "9",
-      "rounds": [
-        65,
-        68,
-        70,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "4858859",
-      "name": "Rasmus Neergaard-Petersen",
-      "position": "20",
-      "total": -9,
-      "today": -5,
-      "thru": "14",
-      "rounds": [
-        74,
-        68,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 18500
-    },
-    {
-      "id": "4671",
-      "name": "John Parry",
-      "position": "21",
-      "total": -9,
-      "today": -4,
-      "thru": "13",
-      "rounds": [
-        68,
-        71,
-        69,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
+      "salary": 17000
     },
     {
       "id": "11456",
       "name": "Doug Ghim",
-      "position": "22",
-      "total": -9,
-      "today": -3,
-      "thru": "12",
+      "position": "17",
+      "total": -10,
+      "today": -4,
+      "thru": "F",
       "rounds": [
         69,
         68,
         70,
-        null
+        67
       ],
       "status": "active",
       "salary": 5000
-    },
-    {
-      "id": "5240165",
-      "name": "Kosuke Sunagawa",
-      "position": "23",
-      "total": -9,
-      "today": -2,
-      "thru": "10",
-      "rounds": [
-        69,
-        70,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "5467",
-      "name": "Jordan Spieth",
-      "position": "24",
-      "total": -9,
-      "today": -2,
-      "thru": "10",
-      "rounds": [
-        72,
-        66,
-        68,
-        null
-      ],
-      "status": "active",
-      "salary": 12500
     },
     {
       "id": "9243",
       "name": "Christiaan Bezuidenhout",
-      "position": "25",
-      "total": -9,
-      "today": -2,
-      "thru": "10",
+      "position": "18",
+      "total": -10,
+      "today": -3,
+      "thru": "F",
       "rounds": [
         68,
         68,
         70,
-        null
+        68
       ],
       "status": "active",
       "salary": 8000
     },
     {
+      "id": "6922",
+      "name": "Ben Kohles",
+      "position": "19",
+      "total": -10,
+      "today": -3,
+      "thru": "F",
+      "rounds": [
+        71,
+        62,
+        73,
+        68
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "8974",
       "name": "Michael Kim",
-      "position": "26",
-      "total": -9,
-      "today": 0,
-      "thru": "9",
+      "position": "20",
+      "total": -10,
+      "today": -1,
+      "thru": "F",
       "rounds": [
         68,
         68,
         68,
-        null
+        70
       ],
       "status": "active",
       "salary": 9500
@@ -427,130 +331,226 @@
     {
       "id": "1651",
       "name": "Billy Horschel",
-      "position": "27",
-      "total": -8,
-      "today": -3,
-      "thru": "14",
+      "position": "21",
+      "total": -9,
+      "today": -4,
+      "thru": "F",
       "rounds": [
         71,
         70,
         67,
-        null
+        67
       ],
       "status": "active",
       "salary": 9000
     },
     {
-      "id": "10054",
-      "name": "Denny McCarthy",
-      "position": "28",
+      "id": "5860",
+      "name": "Hideki Matsuyama",
+      "position": "22",
+      "total": -9,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        67,
+        72,
+        69,
+        67
+      ],
+      "status": "active",
+      "salary": 17500
+    },
+    {
+      "id": "4858859",
+      "name": "Rasmus Neergaard-Petersen",
+      "position": "23",
+      "total": -8,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        74,
+        68,
+        67,
+        67
+      ],
+      "status": "active",
+      "salary": 18500
+    },
+    {
+      "id": "4671",
+      "name": "John Parry",
+      "position": "24",
       "total": -8,
       "today": -3,
-      "thru": "13",
+      "thru": "F",
+      "rounds": [
+        68,
+        71,
+        69,
+        68
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "4410612",
+      "name": "Takumi Kanaya",
+      "position": "25",
+      "total": -8,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        70,
+        69,
+        68,
+        69
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "5240165",
+      "name": "Kosuke Sunagawa",
+      "position": "26",
+      "total": -8,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        69,
+        70,
+        67,
+        70
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "4791222",
+      "name": "Mac Meissner",
+      "position": "27",
+      "total": -8,
+      "today": 2,
+      "thru": "F",
+      "rounds": [
+        65,
+        68,
+        70,
+        73
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "4848",
+      "name": "Justin Thomas",
+      "position": "28",
+      "total": -8,
+      "today": 4,
+      "thru": "F",
+      "rounds": [
+        69,
+        65,
+        67,
+        75
+      ],
+      "status": "active",
+      "salary": 14000
+    },
+    {
+      "id": "4705834",
+      "name": "Tomohiro Ishizaka",
+      "position": "29",
+      "total": -7,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        70,
+        70,
+        70,
+        67
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "4691931",
+      "name": "Ricky Castillo",
+      "position": "30",
+      "total": -7,
+      "today": -3,
+      "thru": "F",
+      "rounds": [
+        65,
+        70,
+        74,
+        68
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "10054",
+      "name": "Denny McCarthy",
+      "position": "31",
+      "total": -7,
+      "today": -2,
+      "thru": "F",
       "rounds": [
         68,
         72,
         68,
-        null
+        69
       ],
       "status": "active",
       "salary": 17000
     },
     {
-      "id": "4404991",
-      "name": "Lee Hodges",
-      "position": "29",
-      "total": -8,
-      "today": -3,
-      "thru": "13",
-      "rounds": [
-        69,
-        71,
-        68,
-        null
-      ],
-      "status": "active",
-      "salary": 8000
-    },
-    {
       "id": "6825",
       "name": "Patrick Rodgers",
-      "position": "30",
-      "total": -8,
-      "today": -2,
-      "thru": "13",
+      "position": "32",
+      "total": -7,
+      "today": -1,
+      "thru": "F",
       "rounds": [
         73,
         69,
         65,
-        null
+        70
       ],
       "status": "active",
       "salary": 8500
     },
     {
-      "id": "4410612",
-      "name": "Takumi Kanaya",
-      "position": "31",
-      "total": -8,
-      "today": -2,
-      "thru": "10",
-      "rounds": [
-        70,
-        69,
-        68,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "5145590",
-      "name": "Yusaku Hosono",
-      "position": "32",
-      "total": -7,
-      "today": -2,
-      "thru": "14",
+      "id": "6845",
+      "name": "Yoshinori Fujimoto",
+      "position": "33",
+      "total": -6,
+      "today": -5,
+      "thru": "F",
       "rounds": [
         72,
         69,
-        67,
-        null
+        71,
+        66
       ],
       "status": "active",
       "salary": 5000
     },
     {
-      "id": "6011",
-      "name": "Beau Hossler",
-      "position": "33",
-      "total": -7,
-      "today": -1,
-      "thru": "10",
-      "rounds": [
-        70,
-        70,
-        67,
-        null
-      ],
-      "status": "active",
-      "salary": 7000
-    },
-    {
-      "id": "4858572",
-      "name": "Ryo Hisatsune",
+      "id": "5217048",
+      "name": "Johnny Keefer",
       "position": "34",
-      "total": -7,
-      "today": -1,
-      "thru": "10",
+      "total": -6,
+      "today": -4,
+      "thru": "F",
       "rounds": [
-        67,
-        71,
+        68,
         69,
-        null
+        74,
+        67
       ],
       "status": "active",
-      "salary": 8000
+      "salary": 5000
     },
     {
       "id": "10592",
@@ -558,12 +558,12 @@
       "position": "35",
       "total": -6,
       "today": -2,
-      "thru": "14",
+      "thru": "F",
       "rounds": [
         67,
         73,
         69,
-        null
+        69
       ],
       "status": "active",
       "salary": 17500
@@ -574,44 +574,60 @@
       "position": "36",
       "total": -6,
       "today": -2,
-      "thru": "14",
+      "thru": "F",
       "rounds": [
         67,
         69,
         73,
-        null
+        69
       ],
       "status": "active",
       "salary": 9500
     },
     {
-      "id": "4705834",
-      "name": "Tomohiro Ishizaka",
+      "id": "5145590",
+      "name": "Yusaku Hosono",
       "position": "37",
       "total": -6,
-      "today": -3,
-      "thru": "13",
+      "today": -1,
+      "thru": "F",
       "rounds": [
-        70,
-        70,
-        70,
-        null
+        72,
+        69,
+        67,
+        70
       ],
       "status": "active",
       "salary": 5000
     },
     {
-      "id": "4691931",
-      "name": "Ricky Castillo",
+      "id": "4404991",
+      "name": "Lee Hodges",
       "position": "38",
       "total": -6,
-      "today": -2,
-      "thru": "13",
+      "today": -1,
+      "thru": "F",
       "rounds": [
-        65,
-        70,
-        74,
-        null
+        69,
+        71,
+        68,
+        70
+      ],
+      "status": "active",
+      "salary": 8000
+    },
+    {
+      "id": "5502",
+      "name": "Andrew Putnam",
+      "position": "39",
+      "total": -6,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        66,
+        73,
+        69,
+        70
       ],
       "status": "active",
       "salary": 5000
@@ -619,143 +635,31 @@
     {
       "id": "4425904",
       "name": "Michael Thorbjornsen",
-      "position": "39",
+      "position": "40",
       "total": -6,
       "today": 0,
-      "thru": "12",
+      "thru": "F",
       "rounds": [
         66,
         70,
         71,
-        null
+        71
       ],
       "status": "active",
       "salary": 10000
     },
     {
-      "id": "3792",
-      "name": "Nick Taylor",
-      "position": "40",
-      "total": -5,
-      "today": -2,
-      "thru": "13",
-      "rounds": [
-        71,
-        67,
-        72,
-        null
-      ],
-      "status": "active",
-      "salary": 9500
-    },
-    {
-      "id": "5502",
-      "name": "Andrew Putnam",
-      "position": "41",
-      "total": -5,
-      "today": 0,
-      "thru": "13",
-      "rounds": [
-        66,
-        73,
-        69,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "4982182",
-      "name": "Jackson Suber",
-      "position": "42",
-      "total": -4,
-      "today": 0,
-      "thru": "14",
-      "rounds": [
-        72,
-        70,
-        67,
-        55
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "4351896",
-      "name": "Kristoffer Ventura",
-      "position": "43",
-      "total": -4,
-      "today": 1,
-      "thru": "14",
-      "rounds": [
-        66,
-        70,
-        72,
-        56
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "4513",
-      "name": "Keegan Bradley",
-      "position": "44",
-      "total": -4,
-      "today": 2,
-      "thru": "12",
-      "rounds": [
-        72,
-        69,
-        66,
-        null
-      ],
-      "status": "active",
-      "salary": 14000
-    },
-    {
-      "id": "10664",
-      "name": "Taylor Moore",
-      "position": "45",
-      "total": -3,
-      "today": 1,
-      "thru": "14",
-      "rounds": [
-        72,
-        65,
-        72,
-        56
-      ],
-      "status": "active",
-      "salary": 9000
-    },
-    {
       "id": "4594413",
       "name": "Jinichiro Kozuma",
-      "position": "46",
-      "total": -3,
-      "today": -1,
-      "thru": "12",
+      "position": "41",
+      "total": -5,
+      "today": -3,
+      "thru": "F",
       "rounds": [
         74,
         68,
         69,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "5217048",
-      "name": "Johnny Keefer",
-      "position": "47",
-      "total": -3,
-      "today": -1,
-      "thru": "12",
-      "rounds": [
-        68,
-        69,
-        74,
-        null
+        68
       ],
       "status": "active",
       "salary": 5000
@@ -763,95 +667,207 @@
     {
       "id": "2230",
       "name": "Tony Finau",
-      "position": "48",
-      "total": -2,
-      "today": 0,
-      "thru": "12",
+      "position": "42",
+      "total": -5,
+      "today": -3,
+      "thru": "F",
       "rounds": [
         71,
         68,
         72,
-        null
+        68
       ],
       "status": "active",
       "salary": 17000
     },
     {
-      "id": "10548",
-      "name": "Matt Wallace",
-      "position": "49",
-      "total": -2,
-      "today": 1,
-      "thru": "12",
+      "id": "3792",
+      "name": "Nick Taylor",
+      "position": "43",
+      "total": -5,
+      "today": -2,
+      "thru": "F",
       "rounds": [
+        71,
+        67,
+        72,
+        69
+      ],
+      "status": "active",
+      "salary": 9500
+    },
+    {
+      "id": "4982182",
+      "name": "Jackson Suber",
+      "position": "44",
+      "total": -5,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        72,
+        70,
+        67,
+        70
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "10664",
+      "name": "Taylor Moore",
+      "position": "45",
+      "total": -5,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        72,
+        65,
+        72,
+        70
+      ],
+      "status": "active",
+      "salary": 9000
+    },
+    {
+      "id": "4351896",
+      "name": "Kristoffer Ventura",
+      "position": "46",
+      "total": -5,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        66,
         70,
         72,
-        68,
-        null
+        71
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "4513",
+      "name": "Keegan Bradley",
+      "position": "47",
+      "total": -5,
+      "today": 1,
+      "thru": "F",
+      "rounds": [
+        72,
+        69,
+        66,
+        72
+      ],
+      "status": "active",
+      "salary": 14000
+    },
+    {
+      "id": "6011",
+      "name": "Beau Hossler",
+      "position": "48",
+      "total": -5,
+      "today": 1,
+      "thru": "F",
+      "rounds": [
+        70,
+        70,
+        67,
+        72
+      ],
+      "status": "active",
+      "salary": 7000
+    },
+    {
+      "id": "4858572",
+      "name": "Ryo Hisatsune",
+      "position": "49",
+      "total": -5,
+      "today": 1,
+      "thru": "F",
+      "rounds": [
+        67,
+        71,
+        69,
+        72
       ],
       "status": "active",
       "salary": 8000
     },
     {
-      "id": "4602218",
-      "name": "Davis Thompson",
+      "id": "4901368",
+      "name": "Matt McCarty",
       "position": "50",
-      "total": -2,
-      "today": -1,
-      "thru": "11",
+      "total": -4,
+      "today": -6,
+      "thru": "F",
       "rounds": [
-        73,
-        68,
-        71,
-        null
+        70,
+        70,
+        75,
+        65
       ],
       "status": "active",
-      "salary": 17500
+      "salary": 9000
     },
     {
       "id": "4699418",
       "name": "Keita Nakajima",
       "position": "51",
-      "total": -2,
-      "today": -1,
-      "thru": "10",
+      "total": -4,
+      "today": -3,
+      "thru": "F",
       "rounds": [
         69,
         74,
         69,
-        null
+        68
       ],
       "status": "active",
       "salary": 5000
     },
     {
-      "id": "6845",
-      "name": "Yoshinori Fujimoto",
+      "id": "4837368",
+      "name": "Pierceson Coody",
       "position": "52",
-      "total": -2,
-      "today": -1,
-      "thru": "10",
+      "total": -4,
+      "today": -3,
+      "thru": "F",
       "rounds": [
+        65,
+        75,
         72,
-        69,
-        71,
-        null
+        68
       ],
       "status": "active",
       "salary": 5000
     },
     {
-      "id": "4587989",
-      "name": "Chandler Phillips",
+      "id": "10548",
+      "name": "Matt Wallace",
       "position": "53",
-      "total": -1,
-      "today": 0,
-      "thru": "11",
+      "total": -4,
+      "today": -1,
+      "thru": "F",
       "rounds": [
         70,
-        71,
-        71,
-        null
+        72,
+        68,
+        70
+      ],
+      "status": "active",
+      "salary": 8000
+    },
+    {
+      "id": "4867363",
+      "name": "Aguri Iwasaki",
+      "position": "54",
+      "total": -3,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        74,
+        70,
+        70,
+        67
       ],
       "status": "active",
       "salary": 5000
@@ -859,15 +875,79 @@
     {
       "id": "9658",
       "name": "Taylor Pendrith",
-      "position": "54",
-      "total": -1,
-      "today": -2,
-      "thru": "10",
+      "position": "55",
+      "total": -3,
+      "today": -4,
+      "thru": "F",
       "rounds": [
         72,
         70,
         72,
-        null
+        67
+      ],
+      "status": "active",
+      "salary": 17000
+    },
+    {
+      "id": "4587989",
+      "name": "Chandler Phillips",
+      "position": "56",
+      "total": -3,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        70,
+        71,
+        71,
+        69
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "4602218",
+      "name": "Davis Thompson",
+      "position": "57",
+      "total": -3,
+      "today": -2,
+      "thru": "F",
+      "rounds": [
+        73,
+        68,
+        71,
+        69
+      ],
+      "status": "active",
+      "salary": 17500
+    },
+    {
+      "id": "6701",
+      "name": "David Lipsky",
+      "position": "58",
+      "total": -3,
+      "today": -1,
+      "thru": "F",
+      "rounds": [
+        66,
+        72,
+        73,
+        70
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "9530",
+      "name": "Maverick McNealy",
+      "position": "59",
+      "total": -2,
+      "today": -4,
+      "thru": "F",
+      "rounds": [
+        72,
+        73,
+        70,
+        67
       ],
       "status": "active",
       "salary": 17000
@@ -875,159 +955,63 @@
     {
       "id": "4349547",
       "name": "Kevin Yu",
-      "position": "55",
-      "total": -1,
-      "today": -1,
-      "thru": "10",
+      "position": "60",
+      "total": -2,
+      "today": -2,
+      "thru": "F",
       "rounds": [
         74,
         67,
         72,
-        null
+        69
       ],
       "status": "active",
       "salary": 8000
     },
     {
-      "id": "4837368",
-      "name": "Pierceson Coody",
-      "position": "56",
-      "total": 0,
-      "today": 1,
-      "thru": "12",
-      "rounds": [
-        65,
-        75,
-        72,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "6701",
-      "name": "David Lipsky",
-      "position": "57",
-      "total": 0,
-      "today": 2,
-      "thru": "12",
-      "rounds": [
-        66,
-        72,
-        73,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "11101",
-      "name": "Max Greyserman",
-      "position": "58",
-      "total": 0,
-      "today": -2,
-      "thru": "9",
-      "rounds": [
-        70,
-        71,
-        74,
-        null
-      ],
-      "status": "active",
-      "salary": 9500
-    },
-    {
-      "id": "4901368",
-      "name": "Matt McCarty",
-      "position": "59",
-      "total": 0,
-      "today": -2,
-      "thru": "9",
-      "rounds": [
-        70,
-        70,
-        75,
-        null
-      ],
-      "status": "active",
-      "salary": 9000
-    },
-    {
-      "id": "9530",
-      "name": "Maverick McNealy",
-      "position": "60",
-      "total": 2,
-      "today": 0,
-      "thru": "9",
-      "rounds": [
-        72,
-        73,
-        70,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
-      "id": "4867363",
-      "name": "Aguri Iwasaki",
-      "position": "61",
-      "total": 2,
-      "today": 1,
-      "thru": "9",
-      "rounds": [
-        74,
-        70,
-        70,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "10364",
       "name": "Kurt Kitayama",
-      "position": "62",
-      "total": 2,
-      "today": -2,
-      "thru": "8",
+      "position": "61",
+      "total": -1,
+      "today": -5,
+      "thru": "F",
       "rounds": [
         71,
         73,
         73,
-        null
+        66
       ],
       "status": "active",
       "salary": 10000
     },
     {
+      "id": "11101",
+      "name": "Max Greyserman",
+      "position": "62",
+      "total": -1,
+      "today": -3,
+      "thru": "F",
+      "rounds": [
+        70,
+        71,
+        74,
+        68
+      ],
+      "status": "active",
+      "salary": 9500
+    },
+    {
       "id": "9484",
       "name": "Alex Smalley",
       "position": "63",
-      "total": 3,
-      "today": 0,
-      "thru": "9",
+      "total": 1,
+      "today": -2,
+      "thru": "F",
       "rounds": [
         71,
         73,
         72,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "6734",
-      "name": "Sanghee Lee",
-      "position": "64",
-      "total": 3,
-      "today": 0,
-      "thru": "8",
-      "rounds": [
-        72,
-        73,
-        71,
-        null
+        69
       ],
       "status": "active",
       "salary": 5000
@@ -1035,63 +1019,31 @@
     {
       "id": "11119",
       "name": "Wyndham Clark",
-      "position": "65",
-      "total": 4,
-      "today": 1,
-      "thru": "9",
+      "position": "64",
+      "total": 1,
+      "today": -2,
+      "thru": "F",
       "rounds": [
         70,
         72,
         74,
-        null
+        69
       ],
       "status": "active",
       "salary": 17000
     },
     {
-      "id": "10980",
-      "name": "Sahith Theegala",
-      "position": "66",
-      "total": 5,
-      "today": 0,
-      "thru": "8",
+      "id": "6734",
+      "name": "Sanghee Lee",
+      "position": "65",
+      "total": 2,
+      "today": -1,
+      "thru": "F",
       "rounds": [
-        74,
-        71,
+        72,
         73,
-        null
-      ],
-      "status": "active",
-      "salary": 17000
-    },
-    {
-      "id": "3827",
-      "name": "Hiroshi Iwata",
-      "position": "67",
-      "total": 6,
-      "today": 2,
-      "thru": "8",
-      "rounds": [
-        68,
-        72,
-        77,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
-      "id": "5455776",
-      "name": "Koshin Nagasaki",
-      "position": "68",
-      "total": 7,
-      "today": 3,
-      "thru": "8",
-      "rounds": [
-        72,
-        76,
-        69,
-        null
+        71,
+        70
       ],
       "status": "active",
       "salary": 5000
@@ -1099,50 +1051,98 @@
     {
       "id": "4426182",
       "name": "Steven Fisk",
-      "position": "69",
-      "total": 7,
-      "today": 0,
-      "thru": "7",
+      "position": "66",
+      "total": 3,
+      "today": -4,
+      "thru": "F",
       "rounds": [
         74,
         76,
         70,
-        null
+        67
       ],
       "status": "active",
       "salary": 5000
     },
     {
-      "id": "3702",
-      "name": "Rickie Fowler",
-      "position": "70",
-      "total": 8,
-      "today": 4,
-      "thru": "8",
+      "id": "3827",
+      "name": "Hiroshi Iwata",
+      "position": "67",
+      "total": 4,
+      "today": 0,
+      "thru": "F",
       "rounds": [
+        68,
+        72,
+        77,
+        71
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
+      "id": "10980",
+      "name": "Sahith Theegala",
+      "position": "68",
+      "total": 5,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        74,
+        71,
         73,
-        72,
-        72,
-        null
+        71
       ],
       "status": "active",
       "salary": 17000
     },
     {
+      "id": "5455776",
+      "name": "Koshin Nagasaki",
+      "position": "69",
+      "total": 6,
+      "today": 2,
+      "thru": "F",
+      "rounds": [
+        72,
+        76,
+        69,
+        73
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "6086",
       "name": "Tom Hoge",
-      "position": "71",
-      "total": 8,
-      "today": 1,
-      "thru": "7",
+      "position": "70",
+      "total": 7,
+      "today": 0,
+      "thru": "F",
       "rounds": [
         81,
         71,
         68,
-        null
+        71
       ],
       "status": "active",
       "salary": 8500
+    },
+    {
+      "id": "3702",
+      "name": "Rickie Fowler",
+      "position": "71",
+      "total": 9,
+      "today": 5,
+      "thru": "F",
+      "rounds": [
+        73,
+        72,
+        72,
+        76
+      ],
+      "status": "active",
+      "salary": 17000
     },
     {
       "id": "5080439",
@@ -1150,12 +1150,12 @@
       "position": "72",
       "total": 11,
       "today": 3,
-      "thru": "7",
+      "thru": "F",
       "rounds": [
         77,
         66,
         78,
-        null
+        74
       ],
       "status": "active",
       "salary": 10000
