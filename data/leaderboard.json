@@ -4,9 +4,9 @@
     "id": "011",
     "course": "",
     "current_round": 3,
-    "status": "in_progress"
+    "status": "between_rounds"
   },
-  "last_updated": "2026-10-31T22:51:01.258903+00:00",
+  "last_updated": "2026-11-01T01:48:40.601829+00:00",
   "players": [
     {
       "id": "11332",
@@ -14,20 +14,36 @@
       "position": "1",
       "total": -23,
       "today": -9,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         61,
-        58,
+        62,
         null
       ],
       "status": "active",
       "salary": 17000
     },
     {
+      "id": "10596",
+      "name": "Matthieu Pavon",
+      "position": "2",
+      "total": -17,
+      "today": -6,
+      "thru": "F",
+      "rounds": [
+        65,
+        66,
+        65,
+        null
+      ],
+      "status": "active",
+      "salary": 7500
+    },
+    {
       "id": "11456",
       "name": "Doug Ghim",
-      "position": "2",
+      "position": "3",
       "total": -16,
       "today": -7,
       "thru": "F",
@@ -39,22 +55,6 @@
       ],
       "status": "active",
       "salary": 5000
-    },
-    {
-      "id": "10596",
-      "name": "Matthieu Pavon",
-      "position": "3",
-      "total": -16,
-      "today": -5,
-      "thru": "17",
-      "rounds": [
-        65,
-        66,
-        62,
-        null
-      ],
-      "status": "active",
-      "salary": 7500
     },
     {
       "id": "4837368",
@@ -126,11 +126,11 @@
       "position": "8",
       "total": -14,
       "today": -3,
-      "thru": "17",
+      "thru": "F",
       "rounds": [
         67,
         64,
-        64,
+        68,
         null
       ],
       "status": "active",
