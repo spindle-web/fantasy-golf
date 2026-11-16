@@ -6,7 +6,7 @@
     "current_round": 3,
     "status": "in_progress"
   },
-  "last_updated": "2026-11-15T22:02:33.253099+00:00",
+  "last_updated": "2026-11-16T01:56:06.064865+00:00",
   "players": [
     {
       "id": "11183",
@@ -697,25 +697,9 @@
       "salary": 5000
     },
     {
-      "id": "6999",
-      "name": "Nicholas Lindheim",
-      "position": "44",
-      "total": -6,
-      "today": 0,
-      "thru": "F",
-      "rounds": [
-        67,
-        71,
-        72,
-        null
-      ],
-      "status": "active",
-      "salary": 5000
-    },
-    {
       "id": "9221",
       "name": "Haotong Li",
-      "position": "45",
+      "position": "44",
       "total": -6,
       "today": 1,
       "thru": "F",
@@ -729,9 +713,25 @@
       "salary": 5000
     },
     {
+      "id": "6999",
+      "name": "Nicholas Lindheim",
+      "position": "117",
+      "total": -6,
+      "today": 0,
+      "thru": "F",
+      "rounds": [
+        67,
+        71,
+        72,
+        null
+      ],
+      "status": "active",
+      "salary": 5000
+    },
+    {
       "id": "9569",
       "name": "Tyler Duncan",
-      "position": "46",
+      "position": "45",
       "total": -5,
       "today": -1,
       "thru": "F",
@@ -747,7 +747,7 @@
     {
       "id": "4901368",
       "name": "Matt McCarty",
-      "position": "47",
+      "position": "46",
       "total": -5,
       "today": -1,
       "thru": "F",
@@ -763,7 +763,7 @@
     {
       "id": "4589406",
       "name": "Isaiah Salinda",
-      "position": "48",
+      "position": "47",
       "total": -5,
       "today": 0,
       "thru": "F",
@@ -779,7 +779,7 @@
     {
       "id": "4618114",
       "name": "Chandler Blanchet",
-      "position": "49",
+      "position": "48",
       "total": -5,
       "today": 0,
       "thru": "F",
@@ -795,7 +795,7 @@
     {
       "id": "4638",
       "name": "Ben Martin",
-      "position": "50",
+      "position": "49",
       "total": -5,
       "today": 1,
       "thru": "F",
@@ -811,7 +811,7 @@
     {
       "id": "9143",
       "name": "Mark Hubbard",
-      "position": "51",
+      "position": "50",
       "total": -5,
       "today": 2,
       "thru": "F",
@@ -827,7 +827,7 @@
     {
       "id": "1651",
       "name": "Billy Horschel",
-      "position": "52",
+      "position": "51",
       "total": -4,
       "today": 0,
       "thru": "F",
@@ -843,7 +843,7 @@
     {
       "id": "4587989",
       "name": "Chandler Phillips",
-      "position": "53",
+      "position": "52",
       "total": -4,
       "today": 1,
       "thru": "F",
@@ -859,7 +859,7 @@
     {
       "id": "9144",
       "name": "Justin Lower",
-      "position": "54",
+      "position": "53",
       "total": -4,
       "today": 1,
       "thru": "F",
@@ -875,7 +875,7 @@
     {
       "id": "5113338",
       "name": "Davis Chatfield",
-      "position": "55",
+      "position": "54",
       "total": -4,
       "today": 1,
       "thru": "F",
@@ -891,7 +891,7 @@
     {
       "id": "10030",
       "name": "Zach Bauchou",
-      "position": "56",
+      "position": "55",
       "total": -4,
       "today": 5,
       "thru": "F",
@@ -907,7 +907,7 @@
     {
       "id": "5139663",
       "name": "Gordon Sargent",
-      "position": "57",
+      "position": "56",
       "total": -3,
       "today": 3,
       "thru": "F",
@@ -923,7 +923,7 @@
     {
       "id": "4699329",
       "name": "Jesper Svensson",
-      "position": "58",
+      "position": "57",
       "total": -3,
       "today": 4,
       "thru": "F",
@@ -939,7 +939,7 @@
     {
       "id": "11383",
       "name": "Max McGreevy",
-      "position": "59",
+      "position": "58",
       "total": -3,
       "today": 4,
       "thru": "F",
@@ -955,7 +955,7 @@
     {
       "id": "11387",
       "name": "Hank Lebioda",
-      "position": "60",
+      "position": "59",
       "total": -2,
       "today": 2,
       "thru": "F",
@@ -971,7 +971,7 @@
     {
       "id": "4585549",
       "name": "Marco Penge",
-      "position": "61",
+      "position": "60",
       "total": -2,
       "today": 3,
       "thru": "F",
@@ -987,7 +987,7 @@
     {
       "id": "10577",
       "name": "Aaron Wise",
-      "position": "62",
+      "position": "61",
       "total": -2,
       "today": 5,
       "thru": "F",
@@ -1035,7 +1035,7 @@
     {
       "id": "3980",
       "name": "Patton Kizzire",
-      "position": "63",
+      "position": "62",
       "total": 0,
       "today": 4,
       "thru": "F",
@@ -1051,7 +1051,7 @@
     {
       "id": "6701",
       "name": "David Lipsky",
-      "position": "64",
+      "position": "63",
       "total": 0,
       "today": 5,
       "thru": "F",
@@ -1067,7 +1067,7 @@
     {
       "id": "7120",
       "name": "Marcelo Rozo",
-      "position": "65",
+      "position": "64",
       "total": 0,
       "today": 7,
       "thru": "F",
@@ -1099,7 +1099,7 @@
     {
       "id": "4671",
       "name": "John Parry",
-      "position": "66",
+      "position": "65",
       "total": 2,
       "today": 6,
       "thru": "F",
@@ -1115,7 +1115,7 @@
     {
       "id": "5076025",
       "name": "William Mouw",
-      "position": "67",
+      "position": "66",
       "total": 2,
       "today": 6,
       "thru": "F",
@@ -1131,7 +1131,7 @@
     {
       "id": "4691931",
       "name": "Ricky Castillo",
-      "position": "68",
+      "position": "67",
       "total": -3,
       "today": -5,
       "thru": "F",
@@ -1147,7 +1147,7 @@
     {
       "id": "9127",
       "name": "Adam Svensson",
-      "position": "69",
+      "position": "68",
       "total": -3,
       "today": -4,
       "thru": "F",
@@ -1163,7 +1163,7 @@
     {
       "id": "9243",
       "name": "Christiaan Bezuidenhout",
-      "position": "70",
+      "position": "69",
       "total": -3,
       "today": -2,
       "thru": "F",
@@ -1179,7 +1179,7 @@
     {
       "id": "5692",
       "name": "Peter Malnati",
-      "position": "71",
+      "position": "70",
       "total": -3,
       "today": -2,
       "thru": "F",
@@ -1195,7 +1195,7 @@
     {
       "id": "4350033",
       "name": "Rikuya Hoshino",
-      "position": "72",
+      "position": "71",
       "total": -3,
       "today": -2,
       "thru": "F",
@@ -1211,7 +1211,7 @@
     {
       "id": "9600",
       "name": "Paul Peterson",
-      "position": "73",
+      "position": "72",
       "total": -3,
       "today": -2,
       "thru": "F",
@@ -1227,7 +1227,7 @@
     {
       "id": "5502",
       "name": "Andrew Putnam",
-      "position": "74",
+      "position": "73",
       "total": -3,
       "today": -2,
       "thru": "F",
@@ -1243,7 +1243,7 @@
     {
       "id": "4602218",
       "name": "Davis Thompson",
-      "position": "75",
+      "position": "74",
       "total": -3,
       "today": -2,
       "thru": "F",
@@ -1259,7 +1259,7 @@
     {
       "id": "5214987",
       "name": "Cole Sherwood",
-      "position": "76",
+      "position": "75",
       "total": -3,
       "today": -1,
       "thru": "F",
@@ -1275,7 +1275,7 @@
     {
       "id": "11385",
       "name": "Rico Hoey",
-      "position": "77",
+      "position": "76",
       "total": -2,
       "today": -4,
       "thru": "F",
@@ -1291,7 +1291,7 @@
     {
       "id": "4358083",
       "name": "Patrick Fishburn",
-      "position": "78",
+      "position": "77",
       "total": -2,
       "today": -3,
       "thru": "F",
@@ -1307,7 +1307,7 @@
     {
       "id": "9658",
       "name": "Taylor Pendrith",
-      "position": "79",
+      "position": "78",
       "total": -2,
       "today": -2,
       "thru": "F",
@@ -1323,7 +1323,7 @@
     {
       "id": "5215039",
       "name": "Luke Clanton",
-      "position": "80",
+      "position": "79",
       "total": -2,
       "today": -2,
       "thru": "F",
@@ -1339,7 +1339,7 @@
     {
       "id": "6931",
       "name": "Mackenzie Hughes",
-      "position": "81",
+      "position": "80",
       "total": -2,
       "today": 0,
       "thru": "F",
@@ -1355,7 +1355,7 @@
     {
       "id": "5150294",
       "name": "David Ford",
-      "position": "82",
+      "position": "81",
       "total": -2,
       "today": 1,
       "thru": "F",
@@ -1371,7 +1371,7 @@
     {
       "id": "10372",
       "name": "Adam Schenk",
-      "position": "83",
+      "position": "82",
       "total": -2,
       "today": 2,
       "thru": "F",
@@ -1387,7 +1387,7 @@
     {
       "id": "6937",
       "name": "Stephan Jaeger",
-      "position": "84",
+      "position": "83",
       "total": -1,
       "today": -3,
       "thru": "F",
@@ -1403,7 +1403,7 @@
     {
       "id": "4982182",
       "name": "Jackson Suber",
-      "position": "85",
+      "position": "84",
       "total": -1,
       "today": -2,
       "thru": "F",
@@ -1419,7 +1419,7 @@
     {
       "id": "4358081",
       "name": "Alejandro Tosti",
-      "position": "86",
+      "position": "85",
       "total": -1,
       "today": -2,
       "thru": "F",
@@ -1435,7 +1435,7 @@
     {
       "id": "9025",
       "name": "Daniel Berger",
-      "position": "87",
+      "position": "86",
       "total": -1,
       "today": 0,
       "thru": "F",
@@ -1451,7 +1451,7 @@
     {
       "id": "10664",
       "name": "Taylor Moore",
-      "position": "88",
+      "position": "87",
       "total": -1,
       "today": 0,
       "thru": "F",
@@ -1467,7 +1467,7 @@
     {
       "id": "4832046",
       "name": "Nick Dunlap",
-      "position": "89",
+      "position": "88",
       "total": -1,
       "today": 3,
       "thru": "F",
@@ -1483,7 +1483,7 @@
     {
       "id": "3792",
       "name": "Nick Taylor",
-      "position": "90",
+      "position": "89",
       "total": 0,
       "today": -5,
       "thru": "F",
@@ -1499,7 +1499,7 @@
     {
       "id": "4868733",
       "name": "Joe Highsmith",
-      "position": "91",
+      "position": "90",
       "total": 0,
       "today": -4,
       "thru": "F",
@@ -1515,7 +1515,7 @@
     {
       "id": "5075548",
       "name": "Kensei Hirata",
-      "position": "92",
+      "position": "91",
       "total": 0,
       "today": -2,
       "thru": "F",
@@ -1531,7 +1531,7 @@
     {
       "id": "10793",
       "name": "Thomas Rosenmueller",
-      "position": "93",
+      "position": "92",
       "total": 0,
       "today": -2,
       "thru": "F",
@@ -1547,7 +1547,7 @@
     {
       "id": "6825",
       "name": "Patrick Rodgers",
-      "position": "94",
+      "position": "93",
       "total": 0,
       "today": -1,
       "thru": "F",
@@ -1563,7 +1563,7 @@
     {
       "id": "10522",
       "name": "Eric Cole",
-      "position": "95",
+      "position": "94",
       "total": 0,
       "today": 0,
       "thru": "F",
@@ -1579,7 +1579,7 @@
     {
       "id": "5215013",
       "name": "Jackson Koivun",
-      "position": "96",
+      "position": "95",
       "total": 0,
       "today": 2,
       "thru": "F",
@@ -1595,7 +1595,7 @@
     {
       "id": "10596",
       "name": "Matthieu Pavon",
-      "position": "97",
+      "position": "96",
       "total": 0,
       "today": 2,
       "thru": "F",
@@ -1611,7 +1611,7 @@
     {
       "id": "10048",
       "name": "Nick Hardy",
-      "position": "98",
+      "position": "97",
       "total": 0,
       "today": 3,
       "thru": "F",
@@ -1627,7 +1627,7 @@
     {
       "id": "10990",
       "name": "Jimmy Stanger",
-      "position": "99",
+      "position": "98",
       "total": 0,
       "today": 6,
       "thru": "F",
@@ -1643,7 +1643,7 @@
     {
       "id": "5351630",
       "name": "William Sides",
-      "position": "100",
+      "position": "99",
       "total": 1,
       "today": -3,
       "thru": "F",
@@ -1659,7 +1659,7 @@
     {
       "id": "4408319",
       "name": "Danny Walker",
-      "position": "101",
+      "position": "100",
       "total": 1,
       "today": -1,
       "thru": "F",
@@ -1675,7 +1675,7 @@
     {
       "id": "4410612",
       "name": "Takumi Kanaya",
-      "position": "102",
+      "position": "101",
       "total": 1,
       "today": -1,
       "thru": "F",
@@ -1691,7 +1691,7 @@
     {
       "id": "676",
       "name": "Lucas Glover",
-      "position": "103",
+      "position": "102",
       "total": 1,
       "today": 0,
       "thru": "F",
@@ -1707,7 +1707,7 @@
     {
       "id": "11332",
       "name": "Andrew Novak",
-      "position": "104",
+      "position": "103",
       "total": 1,
       "today": 1,
       "thru": "F",
@@ -1723,7 +1723,7 @@
     {
       "id": "10481",
       "name": "Alvaro Ortiz",
-      "position": "105",
+      "position": "104",
       "total": 1,
       "today": 1,
       "thru": "F",
@@ -1739,7 +1739,7 @@
     {
       "id": "4408320",
       "name": "Kevin Roy",
-      "position": "106",
+      "position": "105",
       "total": 1,
       "today": 3,
       "thru": "F",
@@ -1755,7 +1755,7 @@
     {
       "id": "257",
       "name": "Matt Kuchar",
-      "position": "107",
+      "position": "106",
       "total": 2,
       "today": 1,
       "thru": "F",
@@ -1771,7 +1771,7 @@
     {
       "id": "3449",
       "name": "Chris Kirk",
-      "position": "108",
+      "position": "107",
       "total": 2,
       "today": 1,
       "thru": "F",
@@ -1787,7 +1787,7 @@
     {
       "id": "5076011",
       "name": "Adrien Dumont de Chassart",
-      "position": "109",
+      "position": "108",
       "total": 3,
       "today": 2,
       "thru": "F",
@@ -1803,7 +1803,7 @@
     {
       "id": "3257",
       "name": "David Skinns",
-      "position": "110",
+      "position": "109",
       "total": 3,
       "today": 3,
       "thru": "F",
@@ -1819,7 +1819,7 @@
     {
       "id": "5289828",
       "name": "Frankie Harris",
-      "position": "111",
+      "position": "110",
       "total": 4,
       "today": 0,
       "thru": "F",
@@ -1835,7 +1835,7 @@
     {
       "id": "4375977",
       "name": "Pontus Nyholm",
-      "position": "112",
+      "position": "111",
       "total": 4,
       "today": 0,
       "thru": "F",
@@ -1851,7 +1851,7 @@
     {
       "id": "6962",
       "name": "Adrien Saddier",
-      "position": "113",
+      "position": "112",
       "total": 4,
       "today": 1,
       "thru": "F",
@@ -1867,7 +1867,7 @@
     {
       "id": "10058",
       "name": "Davis Riley",
-      "position": "114",
+      "position": "113",
       "total": 4,
       "today": 2,
       "thru": "F",
@@ -1883,7 +1883,7 @@
     {
       "id": "10863",
       "name": "Cam Davis",
-      "position": "115",
+      "position": "114",
       "total": 4,
       "today": 4,
       "thru": "F",
@@ -1899,7 +1899,7 @@
     {
       "id": "3688",
       "name": "Michael Thompson",
-      "position": "116",
+      "position": "115",
       "total": 8,
       "today": 6,
       "thru": "F",
@@ -1915,7 +1915,7 @@
     {
       "id": "11022",
       "name": "Casey Russell",
-      "position": "117",
+      "position": "116",
       "total": 24,
       "today": 12,
       "thru": "F",
